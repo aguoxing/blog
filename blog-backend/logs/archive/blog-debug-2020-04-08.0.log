@@ -1,0 +1,107 @@
+2020-04-08 10:11:15.828 DEBUG [main]cn.codexing.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-08 10:24:55.169 DEBUG [main]cn.codexing.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-08 10:51:48.903 DEBUG [main]cn.codexing.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-08 10:51:53.996 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.ArticleMapper.queryPageCondition.debug:143 -==>  Preparing: SELECT COUNT(1) FROM article 
+2020-04-08 10:51:54.012 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.ArticleMapper.queryPageCondition.debug:143 -==> Parameters: 
+2020-04-08 10:51:54.026 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.ArticleMapper.queryPageCondition.debug:143 -==>  Preparing: select * from article LIMIT ?,? 
+2020-04-08 10:51:54.028 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.ArticleMapper.queryPageCondition.debug:143 -==> Parameters: 0(Long), 10(Long)
+2020-04-08 10:51:54.033 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.ArticleMapper.queryPageCondition.debug:143 -<==      Total: 1
+2020-04-08 10:52:26.758 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.queryPageCondition.debug:143 -==>  Preparing: SELECT COUNT(1) FROM article 
+2020-04-08 10:52:26.759 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.queryPageCondition.debug:143 -==> Parameters: 
+2020-04-08 10:52:26.762 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.queryPageCondition.debug:143 -==>  Preparing: select * from article LIMIT ?,? 
+2020-04-08 10:52:26.763 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.queryPageCondition.debug:143 -==> Parameters: 0(Long), 10(Long)
+2020-04-08 10:52:26.765 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.queryPageCondition.debug:143 -<==      Total: 1
+2020-04-08 10:54:10.449 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.ArticleMapper.queryPageCondition.debug:143 -==>  Preparing: SELECT COUNT(1) FROM article 
+2020-04-08 10:54:10.451 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.ArticleMapper.queryPageCondition.debug:143 -==> Parameters: 
+2020-04-08 10:54:10.453 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.ArticleMapper.queryPageCondition.debug:143 -==>  Preparing: select * from article LIMIT ?,? 
+2020-04-08 10:54:10.459 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.ArticleMapper.queryPageCondition.debug:143 -==> Parameters: 0(Long), 10(Long)
+2020-04-08 10:54:10.465 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.ArticleMapper.queryPageCondition.debug:143 -<==      Total: 2
+2020-04-08 10:54:24.983 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.ArticleMapper.queryPageCondition.debug:143 -==>  Preparing: SELECT COUNT(1) FROM article 
+2020-04-08 10:54:24.984 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.ArticleMapper.queryPageCondition.debug:143 -==> Parameters: 
+2020-04-08 10:54:24.990 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.ArticleMapper.queryPageCondition.debug:143 -==>  Preparing: select * from article LIMIT ?,? 
+2020-04-08 10:54:24.991 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.ArticleMapper.queryPageCondition.debug:143 -==> Parameters: 0(Long), 10(Long)
+2020-04-08 10:54:24.994 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.ArticleMapper.queryPageCondition.debug:143 -<==      Total: 2
+2020-04-08 10:55:22.606 DEBUG [http-nio-8088-exec-8]cn.codexing.blog.mapper.ArticleMapper.queryPageCondition.debug:143 -==>  Preparing: SELECT COUNT(1) FROM article 
+2020-04-08 10:55:22.607 DEBUG [http-nio-8088-exec-8]cn.codexing.blog.mapper.ArticleMapper.queryPageCondition.debug:143 -==> Parameters: 
+2020-04-08 10:55:22.608 DEBUG [http-nio-8088-exec-8]cn.codexing.blog.mapper.ArticleMapper.queryPageCondition.debug:143 -==>  Preparing: select * from article LIMIT ?,? 
+2020-04-08 10:55:22.609 DEBUG [http-nio-8088-exec-8]cn.codexing.blog.mapper.ArticleMapper.queryPageCondition.debug:143 -==> Parameters: 0(Long), 10(Long)
+2020-04-08 10:55:22.612 DEBUG [http-nio-8088-exec-8]cn.codexing.blog.mapper.ArticleMapper.queryPageCondition.debug:143 -<==      Total: 2
+2020-04-08 10:57:00.612 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.ArticleMapper.queryPageCondition.debug:143 -==>  Preparing: SELECT COUNT(1) FROM article 
+2020-04-08 10:57:00.614 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.ArticleMapper.queryPageCondition.debug:143 -==> Parameters: 
+2020-04-08 10:57:00.616 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.ArticleMapper.queryPageCondition.debug:143 -==>  Preparing: select * from article LIMIT ?,? 
+2020-04-08 10:57:00.616 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.ArticleMapper.queryPageCondition.debug:143 -==> Parameters: 0(Long), 10(Long)
+2020-04-08 10:57:00.619 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.ArticleMapper.queryPageCondition.debug:143 -<==      Total: 2
+2020-04-08 10:57:19.169 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.ArticleMapper.queryPageCondition.debug:143 -==>  Preparing: SELECT COUNT(1) FROM article 
+2020-04-08 10:57:19.170 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.ArticleMapper.queryPageCondition.debug:143 -==> Parameters: 
+2020-04-08 10:57:19.172 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.ArticleMapper.queryPageCondition.debug:143 -==>  Preparing: select * from article LIMIT ?,? 
+2020-04-08 10:57:19.173 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.ArticleMapper.queryPageCondition.debug:143 -==> Parameters: 0(Long), 10(Long)
+2020-04-08 10:57:19.175 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.ArticleMapper.queryPageCondition.debug:143 -<==      Total: 2
+2020-04-08 11:14:04.360 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.ArticleMapper.queryPageCondition.debug:143 -==>  Preparing: SELECT COUNT(1) FROM article 
+2020-04-08 11:14:04.362 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.ArticleMapper.queryPageCondition.debug:143 -==> Parameters: 
+2020-04-08 11:14:04.364 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.ArticleMapper.queryPageCondition.debug:143 -==>  Preparing: select * from article LIMIT ?,? 
+2020-04-08 11:14:04.366 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.ArticleMapper.queryPageCondition.debug:143 -==> Parameters: 0(Long), 10(Long)
+2020-04-08 11:14:04.369 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.ArticleMapper.queryPageCondition.debug:143 -<==      Total: 2
+2020-04-08 11:16:08.112 DEBUG [main]cn.codexing.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-08 11:16:15.443 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.queryPageCondition.debug:143 -==>  Preparing: SELECT COUNT(1) FROM article 
+2020-04-08 11:16:15.457 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.queryPageCondition.debug:143 -==> Parameters: 
+2020-04-08 11:16:15.469 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.queryPageCondition.debug:143 -==>  Preparing: select * from article LIMIT ?,? 
+2020-04-08 11:16:15.470 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.queryPageCondition.debug:143 -==> Parameters: 0(Long), 10(Long)
+2020-04-08 11:16:15.475 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.queryPageCondition.debug:143 -<==      Total: 2
+2020-04-08 11:17:05.805 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.ArticleMapper.queryPageCondition.debug:143 -==>  Preparing: SELECT COUNT(1) FROM article WHERE isRecommend = true 
+2020-04-08 11:17:05.806 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.ArticleMapper.queryPageCondition.debug:143 -==> Parameters: 
+2020-04-08 11:18:45.429 DEBUG [main]cn.codexing.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-08 11:18:52.090 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.queryPageCondition.debug:143 -==>  Preparing: SELECT COUNT(1) FROM article WHERE is_recommend = true 
+2020-04-08 11:18:52.104 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.queryPageCondition.debug:143 -==> Parameters: 
+2020-04-08 11:18:52.117 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.queryPageCondition.debug:143 -==>  Preparing: select * from article WHERE is_recommend = true order by is_top desc,is_commend desc LIMIT ?,? 
+2020-04-08 11:18:52.119 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.queryPageCondition.debug:143 -==> Parameters: 0(Long), 10(Long)
+2020-04-08 11:19:07.015 DEBUG [main]cn.codexing.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-08 11:19:11.705 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.queryPageCondition.debug:143 -==>  Preparing: SELECT COUNT(1) FROM article WHERE is_recommend = true 
+2020-04-08 11:19:11.724 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.queryPageCondition.debug:143 -==> Parameters: 
+2020-04-08 11:19:11.738 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.queryPageCondition.debug:143 -==>  Preparing: select * from article WHERE is_recommend = true order by is_top desc,is_recommend desc LIMIT ?,? 
+2020-04-08 11:19:11.739 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.queryPageCondition.debug:143 -==> Parameters: 0(Long), 10(Long)
+2020-04-08 11:19:11.746 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.queryPageCondition.debug:143 -<==      Total: 1
+2020-04-08 11:19:35.092 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.ArticleMapper.queryPageCondition.debug:143 -==>  Preparing: SELECT COUNT(1) FROM article 
+2020-04-08 11:19:35.093 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.ArticleMapper.queryPageCondition.debug:143 -==> Parameters: 
+2020-04-08 11:19:35.095 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.ArticleMapper.queryPageCondition.debug:143 -==>  Preparing: select * from article LIMIT ?,? 
+2020-04-08 11:19:35.096 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.ArticleMapper.queryPageCondition.debug:143 -==> Parameters: 0(Long), 10(Long)
+2020-04-08 11:19:35.103 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.ArticleMapper.queryPageCondition.debug:143 -<==      Total: 2
+2020-04-08 11:24:46.694 DEBUG [main]cn.codexing.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-08 11:24:53.443 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.queryPageCondition.debug:143 -==>  Preparing: SELECT COUNT(1) FROM article 
+2020-04-08 11:24:53.458 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.queryPageCondition.debug:143 -==> Parameters: 
+2020-04-08 11:24:53.471 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.queryPageCondition.debug:143 -==>  Preparing: select * from article LIMIT ?,? 
+2020-04-08 11:24:53.473 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.queryPageCondition.debug:143 -==> Parameters: 0(Long), 1(Long)
+2020-04-08 11:24:53.479 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.queryPageCondition.debug:143 -<==      Total: 1
+2020-04-08 11:59:49.144 DEBUG [main]cn.codexing.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-08 12:00:24.444 DEBUG [main]cn.codexing.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-08 12:00:36.825 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.queryPageCondition.debug:143 -==>  Preparing: SELECT COUNT(1) FROM article 
+2020-04-08 12:00:36.840 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.queryPageCondition.debug:143 -==> Parameters: 
+2020-04-08 12:00:36.855 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.queryPageCondition.debug:143 -==>  Preparing: select * from article LIMIT ?,? 
+2020-04-08 12:00:36.856 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.queryPageCondition.debug:143 -==> Parameters: 0(Long), 10(Long)
+2020-04-08 12:00:36.862 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.queryPageCondition.debug:143 -<==      Total: 2
+2020-04-08 12:01:34.838 DEBUG [main]cn.codexing.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-08 12:01:42.188 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.queryPageCondition.debug:143 -==>  Preparing: SELECT COUNT(1) FROM article 
+2020-04-08 12:01:42.204 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.queryPageCondition.debug:143 -==> Parameters: 
+2020-04-08 12:01:42.219 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.queryPageCondition.debug:143 -==>  Preparing: select * from article LIMIT ?,? 
+2020-04-08 12:01:42.220 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.queryPageCondition.debug:143 -==> Parameters: 0(Long), 10(Long)
+2020-04-08 12:01:42.227 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.queryPageCondition.debug:143 -<==      Total: 2
+2020-04-08 13:09:31.054 DEBUG [main]cn.codexing.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-08 13:47:52.402 DEBUG [main]cn.codexing.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-08 13:48:32.632 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==>  Preparing: SELECT COUNT(1) FROM article WHERE deleted = 0 
+2020-04-08 13:48:32.645 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==> Parameters: 
+2020-04-08 13:49:33.358 DEBUG [main]cn.codexing.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-08 13:49:41.819 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==>  Preparing: SELECT COUNT(1) FROM article WHERE is_deleted = 0 
+2020-04-08 13:49:41.832 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==> Parameters: 
+2020-04-08 13:49:41.845 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==>  Preparing: select id,title,sumary,cover,views,comment_count,like_count,is_top,is_recommend,create_time,is_deleted from article WHERE is_deleted=0 LIMIT ?,? 
+2020-04-08 13:49:41.846 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==> Parameters: 0(Long), 10(Long)
+2020-04-08 13:50:02.424 DEBUG [main]cn.codexing.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-08 13:50:11.809 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==>  Preparing: SELECT COUNT(1) FROM article WHERE is_deleted = 0 
+2020-04-08 13:50:11.823 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==> Parameters: 
+2020-04-08 13:50:11.835 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==>  Preparing: select id,title,summary,cover,views,comment_count,like_count,is_top,is_recommend,create_time,is_deleted from article WHERE is_deleted=0 LIMIT ?,? 
+2020-04-08 13:50:11.836 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==> Parameters: 0(Long), 10(Long)
+2020-04-08 13:50:11.840 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -<==      Total: 2
+2020-04-08 14:23:41.744 DEBUG [main]cn.codexing.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-08 14:24:47.545 DEBUG [main]cn.codexing.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-08 14:25:49.573 DEBUG [main]cn.codexing.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-08 14:26:13.634 DEBUG [main]cn.codexing.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-08 20:38:01.433 DEBUG [main]cn.codexing.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-08 20:38:23.705 DEBUG [main]cn.codexing.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE

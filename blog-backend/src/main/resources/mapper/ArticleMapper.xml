@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.codexing.blog.mapper.ArticleMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="cn.codexing.blog.entity.Article">
+        <id column="id" property="id"/>
+        <result column="author" property="author"/>
+        <result column="title" property="title"/>
+        <result column="content" property="content"/>
+        <result column="summary" property="summary"/>
+        <result column="cover" property="cover"/>
+        <result column="views" property="views"/>
+        <result column="comment_count" property="commentCount"/>
+        <result column="like_count" property="likeCount"/>
+        <result column="top" property="top"/>
+        <result column="recommend" property="recommend"/>
+        <result column="create_time" property="createTime"/>
+        <result column="update_time" property="updateTime"/>
+        <result column="enable" property="enable"/>
+        <result column="deleted" property="deleted"/>
+        <result column="version" property="version"/>
+    </resultMap>
+
+    <resultMap id="articleVo" type="cn.codexing.blog.vo.ArticleVO" extends="BaseResultMap">
+        <association property="category" column="id" select="cn.codexing.blog.mapper.CategoryMapper.getByArticleId"/>
+        <association property="tagList" column="id" select="cn.codexing.blog.mapper.TagMapper.listByArticleId"/>
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="back">
+        id,author,title,content,summary,cover,
+        views,comment_count,like_count,top,
+        recommend,create_time,update_time,enable,deleted,version
+    </sql>
+
+    <select id="getByPage" parameterType="cn.codexing.blog.common.util.PageUtils" resultMap="articleVo">
+        SELECT
+        id,author,title,content,summary,cover,
+        views,comment_count,like_count,top,
+        recommend,create_time,update_time,enable
+        FROM article
+        <where>
+            <if test="blog.params.title!=null and blog.params.title!=''">
+                and title like CONCAT('%',#{blog.params.title},'%')
+            </if>
+            <if test="blog.params.recommend!=null and blog.params.recommend!=''">
+                and recommend = #{blog.params.recommend}
+            </if>
+            <if test="blog.params.enable!=null and blog.params.enable!=''">
+                and enable = #{blog.params.enable}
+            </if>
+            and deleted=0
+        </where>
+        <if test="blog.sortColumn!=null and blog.sortColumn!=''">
+            order by top desc, ${blog.sortColumn} desc
+        </if>
+    </select>
+
+    <select id="getArticleVoById" parameterType="java.lang.String" resultMap="articleVo">
+        SELECT
+            id,
+            author,
+            title,
+            content,
+            summary,
+            cover,
+            views,
+            comment_count,
+            like_count,
+            top,
+            recommend,
+            enable,
+            create_time,
+            update_time
+        FROM
+            article
+        WHERE
+            id = #{id}
+            AND deleted = 0
+    </select>
+
+    <select id="getReCommendList" resultMap="articleVo">
+        SELECT
+            id,
+            title,
+            create_time,
+            like_count
+        FROM
+            article
+        WHERE
+            deleted = 0
+            AND recommend = 1
+            AND enable = 1
+        ORDER BY
+            ( views + like_count ) DESC
+            LIMIT 5
+    </select>
+
+    <select id="findGroupYear" resultType="java.lang.String">
+        SELECT DATE_FORMAT(create_time,'%Y') AS YEAR FROM article GROUP BY YEAR ORDER BY YEAR DESC
+    </select>
+
+    <select id="findByYear" resultMap="BaseResultMap" parameterType="java.lang.String">
+        SELECT id,title,create_time FROM article WHERE DATE_FORMAT(create_time,'%Y') = #{year} and enable=1 order by create_time desc
+    </select>
+
+    <update id="deleteById">
+        update article set deleted=1 where id=#{id}
+    </update>
+
+    <update id="updateCommentTotal">
+        UPDATE article SET comment_count = comment_count + 1 WHERE id = #{article_id};
+    </update>
+
+    <update id="updateReadTotal">
+        UPDATE article SET views = views + 1 WHERE id = #{article_id};
+    </update>
+
+    <update id="updateLikeTotal">
+        UPDATE article SET like_count = like_count + 1 WHERE id = #{article_id};
+    </update>
+
+
+
+    <select id="getArticleCountByTagId" resultType="java.lang.String">
+        select count(*) as articleCount from article a left join article_tag att on a.id=att.article_id
+        <where>
+            <if test="tagId!=null">
+                and att.tag_id = #{tagId}
+            </if>
+            AND a.enable = 1
+            AND a.deleted = 0
+        </where>
+    </select>
+
+    <select id="getArticleCountByTypeId" resultType="java.lang.String">
+        select count(*) as articleCount from article a left join article_category ac on a.id=ac.article_id
+        <where>
+            <if test="categoryId!=null">
+                and ac.category_id = #{categoryId}
+            </if>
+            AND a.enable = 1
+            AND a.deleted = 0
+        </where>
+    </select>
+
+</mapper>

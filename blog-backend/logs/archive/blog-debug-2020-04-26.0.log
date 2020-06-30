@@ -1,0 +1,363 @@
+2020-04-26 12:10:49.981 DEBUG [main]cn.codexing.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-26 12:10:53.860 DEBUG [main]cn.codexing.blog.common.filter.JwtAuthenticationFilter.init:242 -Filter 'jwtAuthenticationFilter' configured for use
+2020-04-26 12:10:53.860 DEBUG [main]cn.codexing.blog.common.filter.ImageCodeFilter.init:242 -Filter 'imageCodeFilter' configured for use
+2020-04-26 12:10:53.861 DEBUG [main]cn.codexing.blog.common.filter.JwtAuthenticationFilter.init:242 -Filter 'authenticationTokenFilterBean' configured for use
+2020-04-26 17:45:24.928 DEBUG [main]cn.codexing.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-26 17:45:30.000 DEBUG [main]cn.codexing.blog.common.filter.JwtAuthenticationFilter.init:242 -Filter 'jwtAuthenticationFilter' configured for use
+2020-04-26 17:45:30.001 DEBUG [main]cn.codexing.blog.common.filter.ImageCodeFilter.init:242 -Filter 'imageCodeFilter' configured for use
+2020-04-26 17:45:30.002 DEBUG [main]cn.codexing.blog.common.filter.JwtAuthenticationFilter.init:242 -Filter 'authenticationTokenFilterBean' configured for use
+2020-04-26 17:46:32.918 DEBUG [main]cn.codexing.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-26 17:46:37.281 DEBUG [main]cn.codexing.blog.common.filter.JwtAuthenticationFilter.init:242 -Filter 'jwtAuthenticationFilter' configured for use
+2020-04-26 17:46:37.282 DEBUG [main]cn.codexing.blog.common.filter.ImageCodeFilter.init:242 -Filter 'imageCodeFilter' configured for use
+2020-04-26 17:46:37.283 DEBUG [main]cn.codexing.blog.common.filter.JwtAuthenticationFilter.init:242 -Filter 'authenticationTokenFilterBean' configured for use
+2020-04-26 17:46:47.748 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.SysUserMapper.getUserInfo.debug:143 -==>  Preparing: select id,username,avatar,email,tel,birthday,gender,user_create_time from sys_user where id=? 
+2020-04-26 17:46:47.763 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.SysUserMapper.getUserInfo.debug:143 -==> Parameters: null
+2020-04-26 17:46:47.823 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.SysUserMapper.getUserInfo.debug:143 -<==      Total: 0
+2020-04-26 17:46:47.930 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.SysUserMapper.insert.debug:143 -==>  Preparing: INSERT INTO sys_user ( ip, username, password, email ) VALUES ( ?, ?, ?, ? ) 
+2020-04-26 17:46:47.931 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.SysUserMapper.insert.debug:143 -==> Parameters: 0:0:0:0:0:0:0:1(String), admin(String), $2a$10$Ze4.ZT2fGm1a.tn42Q1e5ex7K9IBBtKyZ3tR06sJmaxH5NkL2RcbC(String), 2933575030@qq.com(String)
+2020-04-26 17:46:48.026 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.SysUserMapper.insert.debug:143 -<==    Updates: 1
+2020-04-26 17:46:48.046 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.SysLogMapper.insert.debug:143 -==>  Preparing: INSERT INTO sys_log ( url, params, status, method, used_time, result, ip ) VALUES ( ?, ?, ?, ?, ?, ?, ? ) 
+2020-04-26 17:46:48.047 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.SysLogMapper.insert.debug:143 -==> Parameters: /user/register(String), [SysUser(id=null, ip=null, username=admin, password=godforwar, avatar=null, email=2933575030@qq.com, tel=null, birthday=null, age=null, gender=null, userCreateTime=null, isEnable=null, isDeleted=null), SecurityContextHolderAwareRequestWrapper[ org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequest@75bc0175]](String), 1(Integer), POST(String), 1235(Long), {"code":20000,"msg":"注册成功"}(String), 0:0:0:0:0:0:0:1(String)
+2020-04-26 17:46:48.142 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.SysLogMapper.insert.debug:143 -<==    Updates: 1
+2020-04-26 18:15:18.321 DEBUG [main]cn.codexing.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-26 18:15:22.318 DEBUG [main]cn.codexing.blog.common.filter.JwtAuthenticationFilter.init:242 -Filter 'jwtAuthenticationFilter' configured for use
+2020-04-26 18:15:22.319 DEBUG [main]cn.codexing.blog.common.filter.ImageCodeFilter.init:242 -Filter 'imageCodeFilter' configured for use
+2020-04-26 18:15:22.319 DEBUG [main]cn.codexing.blog.common.filter.JwtAuthenticationFilter.init:242 -Filter 'authenticationTokenFilterBean' configured for use
+2020-04-26 18:15:46.716 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==>  Preparing: SELECT COUNT(1) FROM article WHERE is_deleted = 0 
+2020-04-26 18:15:46.732 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==> Parameters: 
+2020-04-26 18:15:46.808 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.SysLogMapper.insert.debug:143 -==>  Preparing: INSERT INTO sys_log ( url, params, status, method, used_time, result, ip ) VALUES ( ?, ?, ?, ?, ?, ?, ? ) 
+2020-04-26 18:15:46.809 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.SysLogMapper.insert.debug:143 -==> Parameters: /article/list(String), [PageUtils(totalCount=0, pageSize=10, totalPage=0, currPage=1, list=null, params={}, sortColumn=null)](String), 1(Integer), POST(String), 2031(Long), {"code":20000,"data":{"currPage":1,"list":[],"pageSize":10,"params":{},"totalCount":0,"totalPage":0},"msg":"操作成功"}(String), 0:0:0:0:0:0:0:1(String)
+2020-04-26 18:15:46.901 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.SysLogMapper.insert.debug:143 -<==    Updates: 1
+2020-04-26 18:22:06.020 DEBUG [main]cn.codexing.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-26 18:22:09.908 DEBUG [main]cn.codexing.blog.common.filter.JwtAuthenticationFilter.init:242 -Filter 'jwtAuthenticationFilter' configured for use
+2020-04-26 18:22:09.909 DEBUG [main]cn.codexing.blog.common.filter.ImageCodeFilter.init:242 -Filter 'imageCodeFilter' configured for use
+2020-04-26 18:22:09.910 DEBUG [main]cn.codexing.blog.common.filter.JwtAuthenticationFilter.init:242 -Filter 'authenticationTokenFilterBean' configured for use
+2020-04-26 18:22:23.069 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==>  Preparing: SELECT COUNT(1) FROM article WHERE is_deleted = 0 
+2020-04-26 18:22:23.087 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==> Parameters: 
+2020-04-26 18:22:23.167 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.SysLogMapper.insert.debug:143 -==>  Preparing: INSERT INTO sys_log ( url, params, status, method, used_time, result, ip ) VALUES ( ?, ?, ?, ?, ?, ?, ? ) 
+2020-04-26 18:22:23.168 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.SysLogMapper.insert.debug:143 -==> Parameters: /article/list(String), [PageUtils(totalCount=0, pageSize=10, totalPage=0, currPage=1, list=null, params={}, sortColumn=null)](String), 1(Integer), POST(String), 1002(Long), {"code":20000,"data":{"currPage":1,"list":[],"pageSize":10,"params":{},"totalCount":0,"totalPage":0},"msg":"操作成功"}(String), 0:0:0:0:0:0:0:1(String)
+2020-04-26 18:22:23.261 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.SysLogMapper.insert.debug:143 -<==    Updates: 1
+2020-04-26 18:22:37.776 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.SysUserMapper.getByUsername.debug:143 -==>  Preparing: select id,username,avatar,password from sys_user where username=? 
+2020-04-26 18:22:37.777 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.SysUserMapper.getByUsername.debug:143 -==> Parameters: admin(String)
+2020-04-26 18:22:37.826 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.SysUserMapper.getByUsername.debug:143 -<==      Total: 1
+2020-04-26 18:22:37.828 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.SysRoleMapper.listRoleByUserId.debug:143 -==>  Preparing: SELECT r.id, r.NAME FROM sys_role r INNER JOIN sys_user_role sur ON sur.role_id = r.id WHERE sur.user_id = ? 
+2020-04-26 18:22:37.829 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.SysRoleMapper.listRoleByUserId.debug:143 -==> Parameters: 1(Integer)
+2020-04-26 18:22:37.873 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.SysRoleMapper.listRoleByUserId.debug:143 -<==      Total: 0
+2020-04-26 19:01:21.669 DEBUG [main]cn.codexing.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-26 19:01:25.857 DEBUG [main]cn.codexing.blog.common.filter.JwtAuthenticationFilter.init:242 -Filter 'jwtAuthenticationFilter' configured for use
+2020-04-26 19:01:25.857 DEBUG [main]cn.codexing.blog.common.filter.ImageCodeFilter.init:242 -Filter 'imageCodeFilter' configured for use
+2020-04-26 19:01:25.858 DEBUG [main]cn.codexing.blog.common.filter.JwtAuthenticationFilter.init:242 -Filter 'authenticationTokenFilterBean' configured for use
+2020-04-26 19:02:58.850 DEBUG [main]cn.codexing.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-26 19:03:03.810 DEBUG [main]cn.codexing.blog.common.filter.JwtAuthenticationFilter.init:242 -Filter 'jwtAuthenticationFilter' configured for use
+2020-04-26 19:03:03.810 DEBUG [main]cn.codexing.blog.common.filter.ImageCodeFilter.init:242 -Filter 'imageCodeFilter' configured for use
+2020-04-26 19:03:03.811 DEBUG [main]cn.codexing.blog.common.filter.JwtAuthenticationFilter.init:242 -Filter 'authenticationTokenFilterBean' configured for use
+2020-04-26 19:06:20.457 DEBUG [main]cn.codexing.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-26 19:06:28.570 DEBUG [main]cn.codexing.blog.common.filter.JwtAuthenticationFilter.init:242 -Filter 'jwtAuthenticationFilter' configured for use
+2020-04-26 19:06:28.570 DEBUG [main]cn.codexing.blog.common.filter.ImageCodeFilter.init:242 -Filter 'imageCodeFilter' configured for use
+2020-04-26 19:06:28.571 DEBUG [main]cn.codexing.blog.common.filter.JwtAuthenticationFilter.init:242 -Filter 'authenticationTokenFilterBean' configured for use
+2020-04-26 19:07:33.317 DEBUG [main]cn.codexing.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-26 19:07:37.804 DEBUG [main]cn.codexing.blog.common.filter.JwtAuthenticationFilter.init:242 -Filter 'jwtAuthenticationFilter' configured for use
+2020-04-26 19:07:37.805 DEBUG [main]cn.codexing.blog.common.filter.ImageCodeFilter.init:242 -Filter 'imageCodeFilter' configured for use
+2020-04-26 19:07:37.805 DEBUG [main]cn.codexing.blog.common.filter.JwtAuthenticationFilter.init:242 -Filter 'authenticationTokenFilterBean' configured for use
+2020-04-26 19:08:53.867 DEBUG [main]cn.codexing.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-26 19:08:57.680 DEBUG [main]cn.codexing.blog.common.filter.JwtAuthenticationFilter.init:242 -Filter 'jwtAuthenticationFilter' configured for use
+2020-04-26 19:08:57.681 DEBUG [main]cn.codexing.blog.common.filter.ImageCodeFilter.init:242 -Filter 'imageCodeFilter' configured for use
+2020-04-26 19:08:57.681 DEBUG [main]cn.codexing.blog.common.filter.JwtAuthenticationFilter.init:242 -Filter 'authenticationTokenFilterBean' configured for use
+2020-04-26 19:10:42.315 DEBUG [main]cn.codexing.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-26 19:10:46.728 DEBUG [main]cn.codexing.blog.common.filter.JwtAuthenticationFilter.init:242 -Filter 'jwtAuthenticationFilter' configured for use
+2020-04-26 19:10:46.728 DEBUG [main]cn.codexing.blog.common.filter.ImageCodeFilter.init:242 -Filter 'imageCodeFilter' configured for use
+2020-04-26 19:10:46.729 DEBUG [main]cn.codexing.blog.common.filter.JwtAuthenticationFilter.init:242 -Filter 'authenticationTokenFilterBean' configured for use
+2020-04-26 19:11:03.780 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==>  Preparing: SELECT COUNT(1) FROM article WHERE is_deleted = 0 
+2020-04-26 19:11:03.803 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==> Parameters: 
+2020-04-26 19:11:03.889 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.SysLogMapper.insert.debug:143 -==>  Preparing: INSERT INTO sys_log ( url, params, status, method, used_time, result, ip ) VALUES ( ?, ?, ?, ?, ?, ?, ? ) 
+2020-04-26 19:11:03.891 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.SysLogMapper.insert.debug:143 -==> Parameters: /article/list(String), [PageUtils(totalCount=0, pageSize=10, totalPage=0, currPage=1, list=null, params={}, sortColumn=null)](String), 1(Integer), POST(String), 1051(Long), {"code":20000,"data":{"currPage":1,"list":[],"pageSize":10,"params":{},"totalCount":0,"totalPage":0},"msg":"操作成功"}(String), 0:0:0:0:0:0:0:1(String)
+2020-04-26 19:11:03.987 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.SysLogMapper.insert.debug:143 -<==    Updates: 1
+2020-04-26 19:26:20.866 DEBUG [main]cn.codexing.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-26 19:26:25.418 DEBUG [main]cn.codexing.blog.common.filter.JwtAuthenticationFilter.init:242 -Filter 'jwtAuthenticationFilter' configured for use
+2020-04-26 19:26:25.419 DEBUG [main]cn.codexing.blog.common.filter.ImageCodeFilter.init:242 -Filter 'imageCodeFilter' configured for use
+2020-04-26 19:26:25.419 DEBUG [main]cn.codexing.blog.common.filter.JwtAuthenticationFilter.init:242 -Filter 'authenticationTokenFilterBean' configured for use
+2020-04-26 21:17:35.820 DEBUG [main]cn.codexing.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-26 21:17:40.846 DEBUG [main]cn.codexing.blog.common.filter.JwtAuthenticationFilter.init:242 -Filter 'jwtAuthenticationFilter' configured for use
+2020-04-26 21:17:40.847 DEBUG [main]cn.codexing.blog.common.filter.ImageCodeFilter.init:242 -Filter 'imageCodeFilter' configured for use
+2020-04-26 21:17:40.848 DEBUG [main]cn.codexing.blog.common.filter.JwtAuthenticationFilter.init:242 -Filter 'authenticationTokenFilterBean' configured for use
+2020-04-26 21:19:23.439 DEBUG [main]cn.codexing.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-26 21:19:27.628 DEBUG [main]cn.codexing.blog.common.filter.JwtAuthenticationFilter.init:242 -Filter 'jwtAuthenticationFilter' configured for use
+2020-04-26 21:19:27.629 DEBUG [main]cn.codexing.blog.common.filter.ImageCodeFilter.init:242 -Filter 'imageCodeFilter' configured for use
+2020-04-26 21:19:27.630 DEBUG [main]cn.codexing.blog.common.filter.JwtAuthenticationFilter.init:242 -Filter 'authenticationTokenFilterBean' configured for use
+2020-04-26 21:39:34.065 DEBUG [main]cn.codexing.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-26 21:39:38.313 DEBUG [main]cn.codexing.blog.common.filter.JwtAuthenticationFilter.init:242 -Filter 'jwtAuthenticationFilter' configured for use
+2020-04-26 21:39:38.314 DEBUG [main]cn.codexing.blog.common.filter.ImageCodeFilter.init:242 -Filter 'imageCodeFilter' configured for use
+2020-04-26 21:39:38.316 DEBUG [main]cn.codexing.blog.common.filter.JwtAuthenticationFilter.init:242 -Filter 'authenticationTokenFilterBean' configured for use
+2020-04-26 21:39:56.788 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==>  Preparing: SELECT COUNT(1) FROM article WHERE is_deleted = 0 
+2020-04-26 21:39:56.808 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==> Parameters: 
+2020-04-26 21:39:56.872 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==>  Preparing: SELECT id,author,title,content,summary,cover, views,comment_count,like_count,is_top, is_recommend,create_time,update_time,is_enable FROM article WHERE is_deleted=0 LIMIT ?,? 
+2020-04-26 21:39:56.873 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==> Parameters: 0(Long), 10(Long)
+2020-04-26 21:39:56.928 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.CategoryMapper.getByArticleId.debug:143 -====>  Preparing: select c.id,c.category_name from category c left join article_category ac on c.id=ac.category_id WHERE ac.article_id = ? AND c.is_enable = 1 AND c.is_deleted = 0 
+2020-04-26 21:39:56.929 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.CategoryMapper.getByArticleId.debug:143 -====> Parameters: 1(String)
+2020-04-26 21:39:56.974 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.CategoryMapper.getByArticleId.debug:143 -<====      Total: 0
+2020-04-26 21:39:56.976 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.TagMapper.listByArticleId.debug:143 -====>  Preparing: select t.id,t.name from tag t left join article_tag att on t.id=att.tag_id WHERE att.article_id = ? AND t.is_enable = 1 AND t.is_deleted = 0 
+2020-04-26 21:39:56.976 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.TagMapper.listByArticleId.debug:143 -====> Parameters: 1(String)
+2020-04-26 21:39:57.024 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.TagMapper.listByArticleId.debug:143 -<====      Total: 0
+2020-04-26 21:39:57.029 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -<==      Total: 1
+2020-04-26 21:39:57.072 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.SysLogMapper.insert.debug:143 -==>  Preparing: INSERT INTO sys_log ( url, params, status, method, used_time, result, ip ) VALUES ( ?, ?, ?, ?, ?, ?, ? ) 
+2020-04-26 21:39:57.074 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.SysLogMapper.insert.debug:143 -==> Parameters: /article/list(String), [PageUtils(totalCount=0, pageSize=10, totalPage=0, currPage=1, list=null, params={}, sortColumn=null)](String), 1(Integer), POST(String), 1268(Long), {"code":20000,"data":{"currPage":1,"list":[{"author":"1","commentCount":0,"content":"1","createTime":"2020-04-26 12:05:28","id":"1","isEnable":true,"isRecommend":false,"isTop":false,"likeCount":0,"summary":"1","tagList":[],"title":"1","updateTime":"2020-04-26 12:05:28","views":4}],"pageSize":10,"params":{},"totalCount":1,"totalPage":1},"msg":"操作成功"}(String), 0:0:0:0:0:0:0:1(String)
+2020-04-26 21:39:57.184 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.SysLogMapper.insert.debug:143 -<==    Updates: 1
+2020-04-26 22:38:00.714 DEBUG [main]cn.codexing.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-26 22:38:05.851 DEBUG [main]cn.codexing.blog.common.filter.JwtAuthenticationFilter.init:242 -Filter 'jwtAuthenticationFilter' configured for use
+2020-04-26 22:38:05.852 DEBUG [main]cn.codexing.blog.common.filter.ImageCodeFilter.init:242 -Filter 'imageCodeFilter' configured for use
+2020-04-26 22:38:05.853 DEBUG [main]cn.codexing.blog.common.filter.JwtAuthenticationFilter.init:242 -Filter 'authenticationTokenFilterBean' configured for use
+2020-04-26 22:47:57.976 DEBUG [main]cn.codexing.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-26 22:48:03.945 DEBUG [main]cn.codexing.blog.common.filter.JwtAuthenticationFilter.init:242 -Filter 'jwtAuthenticationFilter' configured for use
+2020-04-26 22:48:03.945 DEBUG [main]cn.codexing.blog.common.filter.ImageCodeFilter.init:242 -Filter 'imageCodeFilter' configured for use
+2020-04-26 22:48:03.946 DEBUG [main]cn.codexing.blog.common.filter.JwtAuthenticationFilter.init:242 -Filter 'authenticationTokenFilterBean' configured for use
+2020-04-26 22:51:21.469 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.SysUserMapper.getByUsername.debug:143 -==>  Preparing: select id,username,avatar,password from sys_user where username=? 
+2020-04-26 22:51:21.495 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.SysUserMapper.getByUsername.debug:143 -==> Parameters: admin(String)
+2020-04-26 22:51:21.560 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.SysUserMapper.getByUsername.debug:143 -<==      Total: 1
+2020-04-26 22:51:21.562 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.SysRoleMapper.listRoleByUserId.debug:143 -==>  Preparing: SELECT r.id, r.NAME FROM sys_role r INNER JOIN sys_user_role sur ON sur.role_id = r.id WHERE sur.user_id = ? 
+2020-04-26 22:51:21.563 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.SysRoleMapper.listRoleByUserId.debug:143 -==> Parameters: 3(Integer)
+2020-04-26 22:51:21.610 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.SysRoleMapper.listRoleByUserId.debug:143 -<==      Total: 0
+2020-04-26 22:51:22.818 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.SysUserMapper.getByUsername.debug:143 -==>  Preparing: select id,username,avatar,password from sys_user where username=? 
+2020-04-26 22:51:22.818 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.SysUserMapper.getByUsername.debug:143 -==> Parameters: admin(String)
+2020-04-26 22:51:22.865 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.SysUserMapper.getByUsername.debug:143 -<==      Total: 1
+2020-04-26 22:51:22.866 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.SysRoleMapper.listRoleByUserId.debug:143 -==>  Preparing: SELECT r.id, r.NAME FROM sys_role r INNER JOIN sys_user_role sur ON sur.role_id = r.id WHERE sur.user_id = ? 
+2020-04-26 22:51:22.867 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.SysRoleMapper.listRoleByUserId.debug:143 -==> Parameters: 3(Integer)
+2020-04-26 22:51:22.913 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.SysRoleMapper.listRoleByUserId.debug:143 -<==      Total: 0
+2020-04-26 22:51:23.009 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.SysUserMapper.getByUsername.debug:143 -==>  Preparing: select id,username,avatar,password from sys_user where username=? 
+2020-04-26 22:51:23.010 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.SysUserMapper.getByUsername.debug:143 -==> Parameters: admin(String)
+2020-04-26 22:51:23.057 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.SysUserMapper.getByUsername.debug:143 -<==      Total: 1
+2020-04-26 22:51:23.059 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.SysRoleMapper.listRoleByUserId.debug:143 -==>  Preparing: SELECT r.id, r.NAME FROM sys_role r INNER JOIN sys_user_role sur ON sur.role_id = r.id WHERE sur.user_id = ? 
+2020-04-26 22:51:23.059 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.SysRoleMapper.listRoleByUserId.debug:143 -==> Parameters: 3(Integer)
+2020-04-26 22:51:23.105 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.SysRoleMapper.listRoleByUserId.debug:143 -<==      Total: 0
+2020-04-26 22:51:23.164 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.SysLogMapper.insert.debug:143 -==>  Preparing: INSERT INTO sys_log ( url, params, status, method, used_time, result, ip ) VALUES ( ?, ?, ?, ?, ?, ?, ? ) 
+2020-04-26 22:51:23.166 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.SysLogMapper.insert.debug:143 -==> Parameters: /user/info(String), [](String), 1(Integer), GET(String), 9(Long), {"code":20000,"data":{"accountNonExpired":true,"accountNonLocked":true,"authorities":[],"credentialsNonExpired":true,"enabled":true,"id":3,"password":"[HIDE]","username":"admin"},"msg":"操作成功"}(String), 127.0.0.1(String)
+2020-04-26 22:51:23.262 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.SysLogMapper.insert.debug:143 -<==    Updates: 1
+2020-04-26 22:51:24.345 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.SysUserMapper.getByUsername.debug:143 -==>  Preparing: select id,username,avatar,password from sys_user where username=? 
+2020-04-26 22:51:24.345 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.SysUserMapper.getByUsername.debug:143 -==> Parameters: admin(String)
+2020-04-26 22:51:24.398 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.SysUserMapper.getByUsername.debug:143 -<==      Total: 1
+2020-04-26 22:51:24.399 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.SysUserMapper.getByUsername.debug:143 -==>  Preparing: select id,username,avatar,password from sys_user where username=? 
+2020-04-26 22:51:24.400 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.SysUserMapper.getByUsername.debug:143 -==> Parameters: admin(String)
+2020-04-26 22:51:24.445 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.SysUserMapper.getByUsername.debug:143 -<==      Total: 1
+2020-04-26 22:51:24.446 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.SysRoleMapper.listRoleByUserId.debug:143 -==>  Preparing: SELECT r.id, r.NAME FROM sys_role r INNER JOIN sys_user_role sur ON sur.role_id = r.id WHERE sur.user_id = ? 
+2020-04-26 22:51:24.447 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.SysRoleMapper.listRoleByUserId.debug:143 -==> Parameters: 3(Integer)
+2020-04-26 22:51:24.511 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.SysRoleMapper.listRoleByUserId.debug:143 -<==      Total: 0
+2020-04-26 22:51:24.512 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.SysRoleMapper.listRoleByUserId.debug:143 -==>  Preparing: SELECT r.id, r.NAME FROM sys_role r INNER JOIN sys_user_role sur ON sur.role_id = r.id WHERE sur.user_id = ? 
+2020-04-26 22:51:24.513 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.SysRoleMapper.listRoleByUserId.debug:143 -==> Parameters: 3(Integer)
+2020-04-26 22:51:24.563 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.SysRoleMapper.listRoleByUserId.debug:143 -<==      Total: 0
+2020-04-26 22:51:24.608 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.SysUserMapper.getByUsername.debug:143 -==>  Preparing: select id,username,avatar,password from sys_user where username=? 
+2020-04-26 22:51:24.609 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.SysUserMapper.getByUsername.debug:143 -==> Parameters: admin(String)
+2020-04-26 22:51:24.655 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.SysUserMapper.getByUsername.debug:143 -<==      Total: 1
+2020-04-26 22:51:24.657 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.SysRoleMapper.listRoleByUserId.debug:143 -==>  Preparing: SELECT r.id, r.NAME FROM sys_role r INNER JOIN sys_user_role sur ON sur.role_id = r.id WHERE sur.user_id = ? 
+2020-04-26 22:51:24.658 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.SysRoleMapper.listRoleByUserId.debug:143 -==> Parameters: 3(Integer)
+2020-04-26 22:51:24.708 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.SysRoleMapper.listRoleByUserId.debug:143 -<==      Total: 0
+2020-04-26 22:51:24.710 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.SysUserMapper.getByUsername.debug:143 -==>  Preparing: select id,username,avatar,password from sys_user where username=? 
+2020-04-26 22:51:24.711 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.SysUserMapper.getByUsername.debug:143 -==> Parameters: admin(String)
+2020-04-26 22:51:24.758 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.SysUserMapper.getByUsername.debug:143 -<==      Total: 1
+2020-04-26 22:51:24.759 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.SysRoleMapper.listRoleByUserId.debug:143 -==>  Preparing: SELECT r.id, r.NAME FROM sys_role r INNER JOIN sys_user_role sur ON sur.role_id = r.id WHERE sur.user_id = ? 
+2020-04-26 22:51:24.760 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.SysRoleMapper.listRoleByUserId.debug:143 -==> Parameters: 3(Integer)
+2020-04-26 22:51:24.808 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.SysRoleMapper.listRoleByUserId.debug:143 -<==      Total: 0
+2020-04-26 22:51:24.849 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.TagMapper.getByPage.debug:143 -==>  Preparing: SELECT COUNT(1) FROM tag WHERE is_deleted = 0 
+2020-04-26 22:51:24.851 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.TagMapper.getByPage.debug:143 -==> Parameters: 
+2020-04-26 22:51:24.881 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.CategoryMapper.getByPage.debug:143 -==>  Preparing: SELECT COUNT(1) FROM category WHERE is_deleted = 0 
+2020-04-26 22:51:24.882 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.CategoryMapper.getByPage.debug:143 -==> Parameters: 
+2020-04-26 22:51:24.902 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.TagMapper.getByPage.debug:143 -==>  Preparing: select id,name,is_enable from tag WHERE is_deleted = 0 LIMIT ?,? 
+2020-04-26 22:51:24.903 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.TagMapper.getByPage.debug:143 -==> Parameters: 0(Long), 20(Long)
+2020-04-26 22:51:24.927 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.CategoryMapper.getByPage.debug:143 -==>  Preparing: select id,category_name,is_enable from category WHERE is_deleted = 0 LIMIT ?,? 
+2020-04-26 22:51:24.928 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.CategoryMapper.getByPage.debug:143 -==> Parameters: 0(Long), 20(Long)
+2020-04-26 22:51:24.953 DEBUG [http-nio-8088-exec-5]c.c.blog.mapper.ArticleMapper.getArticleCountByTagId.debug:143 -====>  Preparing: select count(*) as articleCount from article a left join article_tag att on a.id=att.article_id WHERE att.tag_id = ? AND a.is_enable = 1 AND a.is_deleted = 0 
+2020-04-26 22:51:24.953 DEBUG [http-nio-8088-exec-5]c.c.blog.mapper.ArticleMapper.getArticleCountByTagId.debug:143 -====> Parameters: 1(Integer)
+2020-04-26 22:51:24.973 DEBUG [http-nio-8088-exec-6]c.c.blog.mapper.ArticleMapper.getArticleCountByTypeId.debug:143 -====>  Preparing: select count(*) as articleCount from article a left join article_category ac on a.id=ac.article_id WHERE ac.category_id = ? AND a.is_enable = 1 AND a.is_deleted = 0 
+2020-04-26 22:51:24.974 DEBUG [http-nio-8088-exec-6]c.c.blog.mapper.ArticleMapper.getArticleCountByTypeId.debug:143 -====> Parameters: 1(Integer)
+2020-04-26 22:51:25.000 DEBUG [http-nio-8088-exec-5]c.c.blog.mapper.ArticleMapper.getArticleCountByTagId.debug:143 -<====      Total: 1
+2020-04-26 22:51:25.001 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.TagMapper.getByPage.debug:143 -<==      Total: 1
+2020-04-26 22:51:25.012 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.SysLogMapper.insert.debug:143 -==>  Preparing: INSERT INTO sys_log ( url, params, status, method, used_time, result, ip ) VALUES ( ?, ?, ?, ?, ?, ?, ? ) 
+2020-04-26 22:51:25.014 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.SysLogMapper.insert.debug:143 -==> Parameters: /tag/list(String), [PageUtils(totalCount=0, pageSize=20, totalPage=0, currPage=1, list=[], params={}, sortColumn=)](String), 1(Integer), POST(String), 258(Long), {"code":20000,"data":{"currPage":1,"list":[{"articleCount":"1","id":1,"isEnable":true,"name":"test"}],"pageSize":20,"params":{},"totalCount":1,"totalPage":1},"msg":"操作成功"}(String), 127.0.0.1(String)
+2020-04-26 22:51:25.020 DEBUG [http-nio-8088-exec-6]c.c.blog.mapper.ArticleMapper.getArticleCountByTypeId.debug:143 -<====      Total: 1
+2020-04-26 22:51:25.022 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.CategoryMapper.getByPage.debug:143 -<==      Total: 1
+2020-04-26 22:51:25.027 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.SysLogMapper.insert.debug:143 -==>  Preparing: INSERT INTO sys_log ( url, params, status, method, used_time, result, ip ) VALUES ( ?, ?, ?, ?, ?, ?, ? ) 
+2020-04-26 22:51:25.028 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.SysLogMapper.insert.debug:143 -==> Parameters: /category/list(String), [PageUtils(totalCount=0, pageSize=20, totalPage=0, currPage=1, list=[], params={}, sortColumn=)](String), 1(Integer), POST(String), 210(Long), {"code":20000,"data":{"currPage":1,"list":[{"articleCount":"1","categoryName":"test","id":1,"isEnable":true}],"pageSize":20,"params":{},"totalCount":1,"totalPage":1},"msg":"操作成功"}(String), 127.0.0.1(String)
+2020-04-26 22:51:25.109 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.SysLogMapper.insert.debug:143 -<==    Updates: 1
+2020-04-26 22:51:25.384 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.SysLogMapper.insert.debug:143 -<==    Updates: 1
+2020-04-26 22:51:26.648 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.SysUserMapper.getByUsername.debug:143 -==>  Preparing: select id,username,avatar,password from sys_user where username=? 
+2020-04-26 22:51:26.648 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.SysUserMapper.getByUsername.debug:143 -==> Parameters: admin(String)
+2020-04-26 22:51:26.692 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.SysUserMapper.getByUsername.debug:143 -<==      Total: 1
+2020-04-26 22:51:26.694 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.SysRoleMapper.listRoleByUserId.debug:143 -==>  Preparing: SELECT r.id, r.NAME FROM sys_role r INNER JOIN sys_user_role sur ON sur.role_id = r.id WHERE sur.user_id = ? 
+2020-04-26 22:51:26.694 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.SysRoleMapper.listRoleByUserId.debug:143 -==> Parameters: 3(Integer)
+2020-04-26 22:51:26.741 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.SysRoleMapper.listRoleByUserId.debug:143 -<==      Total: 0
+2020-04-26 22:51:26.831 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.SysUserMapper.getByUsername.debug:143 -==>  Preparing: select id,username,avatar,password from sys_user where username=? 
+2020-04-26 22:51:26.832 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.SysUserMapper.getByUsername.debug:143 -==> Parameters: admin(String)
+2020-04-26 22:51:26.875 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.SysUserMapper.getByUsername.debug:143 -<==      Total: 1
+2020-04-26 22:51:26.877 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.SysRoleMapper.listRoleByUserId.debug:143 -==>  Preparing: SELECT r.id, r.NAME FROM sys_role r INNER JOIN sys_user_role sur ON sur.role_id = r.id WHERE sur.user_id = ? 
+2020-04-26 22:51:26.878 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.SysRoleMapper.listRoleByUserId.debug:143 -==> Parameters: 3(Integer)
+2020-04-26 22:51:26.921 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.SysRoleMapper.listRoleByUserId.debug:143 -<==      Total: 0
+2020-04-26 22:51:26.940 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==>  Preparing: SELECT COUNT(1) FROM article WHERE is_deleted = 0 
+2020-04-26 22:51:26.941 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==> Parameters: 
+2020-04-26 22:51:26.991 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==>  Preparing: SELECT id,author,title,content,summary,cover, views,comment_count,like_count,is_top, is_recommend,create_time,update_time,is_enable FROM article WHERE is_deleted=0 order by is_top desc, create_time desc LIMIT ?,? 
+2020-04-26 22:51:26.991 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==> Parameters: 0(Long), 10(Long)
+2020-04-26 22:51:27.305 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.CategoryMapper.getByArticleId.debug:143 -====>  Preparing: select c.id,c.category_name from category c left join article_category ac on c.id=ac.category_id WHERE ac.article_id = ? AND c.is_enable = 1 AND c.is_deleted = 0 
+2020-04-26 22:51:27.306 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.CategoryMapper.getByArticleId.debug:143 -====> Parameters: 1(String)
+2020-04-26 22:51:27.351 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.CategoryMapper.getByArticleId.debug:143 -<====      Total: 1
+2020-04-26 22:51:27.353 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.TagMapper.listByArticleId.debug:143 -====>  Preparing: select t.id,t.name from tag t left join article_tag att on t.id=att.tag_id WHERE att.article_id = ? AND t.is_enable = 1 AND t.is_deleted = 0 
+2020-04-26 22:51:27.353 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.TagMapper.listByArticleId.debug:143 -====> Parameters: 1(String)
+2020-04-26 22:51:27.398 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.TagMapper.listByArticleId.debug:143 -<====      Total: 1
+2020-04-26 22:51:27.404 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -<==      Total: 1
+2020-04-26 22:51:27.421 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.SysLogMapper.insert.debug:143 -==>  Preparing: INSERT INTO sys_log ( url, params, status, method, used_time, result, ip ) VALUES ( ?, ?, ?, ?, ?, ?, ? ) 
+2020-04-26 22:51:27.422 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.SysLogMapper.insert.debug:143 -==> Parameters: /article/list(String), [PageUtils(totalCount=0, pageSize=10, totalPage=0, currPage=1, list=[], params={}, sortColumn=create_time)](String), 1(Integer), POST(String), 481(Long), {"code":20000,"data":{"currPage":1,"list":[{"author":"1","category":{"categoryName":"test","id":1},"commentCount":0,"content":"1","createTime":"2020-04-26 12:05:28","id":"1","isEnable":true,"isRecommend":true,"isTop":false,"likeCount":0,"summary":"1","tagList":[{"id":1,"name":"test"}],"title":"1","updateTime":"2020-04-26 12:05:28","views":10}],"pageSize":10,"params":{},"totalCount":1,"totalPage":1},"msg":"操作成功"}(String), 127.0.0.1(String)
+2020-04-26 22:51:27.520 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.SysLogMapper.insert.debug:143 -<==    Updates: 1
+2020-04-26 22:51:30.054 DEBUG [http-nio-8088-exec-8]cn.codexing.blog.mapper.SysUserMapper.getByUsername.debug:143 -==>  Preparing: select id,username,avatar,password from sys_user where username=? 
+2020-04-26 22:51:30.054 DEBUG [http-nio-8088-exec-8]cn.codexing.blog.mapper.SysUserMapper.getByUsername.debug:143 -==> Parameters: admin(String)
+2020-04-26 22:51:30.104 DEBUG [http-nio-8088-exec-8]cn.codexing.blog.mapper.SysUserMapper.getByUsername.debug:143 -<==      Total: 1
+2020-04-26 22:51:30.105 DEBUG [http-nio-8088-exec-8]cn.codexing.blog.mapper.SysRoleMapper.listRoleByUserId.debug:143 -==>  Preparing: SELECT r.id, r.NAME FROM sys_role r INNER JOIN sys_user_role sur ON sur.role_id = r.id WHERE sur.user_id = ? 
+2020-04-26 22:51:30.106 DEBUG [http-nio-8088-exec-8]cn.codexing.blog.mapper.SysRoleMapper.listRoleByUserId.debug:143 -==> Parameters: 3(Integer)
+2020-04-26 22:51:30.154 DEBUG [http-nio-8088-exec-8]cn.codexing.blog.mapper.SysRoleMapper.listRoleByUserId.debug:143 -<==      Total: 0
+2020-04-26 22:51:30.246 DEBUG [http-nio-8088-exec-8]cn.codexing.blog.mapper.SysUserMapper.getByUsername.debug:143 -==>  Preparing: select id,username,avatar,password from sys_user where username=? 
+2020-04-26 22:51:30.246 DEBUG [http-nio-8088-exec-8]cn.codexing.blog.mapper.SysUserMapper.getByUsername.debug:143 -==> Parameters: admin(String)
+2020-04-26 22:51:30.290 DEBUG [http-nio-8088-exec-8]cn.codexing.blog.mapper.SysUserMapper.getByUsername.debug:143 -<==      Total: 1
+2020-04-26 22:51:30.292 DEBUG [http-nio-8088-exec-8]cn.codexing.blog.mapper.SysRoleMapper.listRoleByUserId.debug:143 -==>  Preparing: SELECT r.id, r.NAME FROM sys_role r INNER JOIN sys_user_role sur ON sur.role_id = r.id WHERE sur.user_id = ? 
+2020-04-26 22:51:30.293 DEBUG [http-nio-8088-exec-8]cn.codexing.blog.mapper.SysRoleMapper.listRoleByUserId.debug:143 -==> Parameters: 3(Integer)
+2020-04-26 22:51:30.336 DEBUG [http-nio-8088-exec-8]cn.codexing.blog.mapper.SysRoleMapper.listRoleByUserId.debug:143 -<==      Total: 0
+2020-04-26 22:51:30.343 DEBUG [http-nio-8088-exec-8]cn.codexing.blog.mapper.CategoryMapper.getByPage.debug:143 -==>  Preparing: SELECT COUNT(1) FROM category WHERE is_deleted = 0 
+2020-04-26 22:51:30.344 DEBUG [http-nio-8088-exec-8]cn.codexing.blog.mapper.CategoryMapper.getByPage.debug:143 -==> Parameters: 
+2020-04-26 22:51:30.388 DEBUG [http-nio-8088-exec-8]cn.codexing.blog.mapper.CategoryMapper.getByPage.debug:143 -==>  Preparing: select id,category_name,is_enable from category WHERE is_deleted = 0 LIMIT ?,? 
+2020-04-26 22:51:30.389 DEBUG [http-nio-8088-exec-8]cn.codexing.blog.mapper.CategoryMapper.getByPage.debug:143 -==> Parameters: 0(Long), 10(Long)
+2020-04-26 22:51:30.434 DEBUG [http-nio-8088-exec-8]c.c.blog.mapper.ArticleMapper.getArticleCountByTypeId.debug:143 -====>  Preparing: select count(*) as articleCount from article a left join article_category ac on a.id=ac.article_id WHERE ac.category_id = ? AND a.is_enable = 1 AND a.is_deleted = 0 
+2020-04-26 22:51:30.436 DEBUG [http-nio-8088-exec-8]c.c.blog.mapper.ArticleMapper.getArticleCountByTypeId.debug:143 -====> Parameters: 1(Integer)
+2020-04-26 22:51:30.481 DEBUG [http-nio-8088-exec-8]c.c.blog.mapper.ArticleMapper.getArticleCountByTypeId.debug:143 -<====      Total: 1
+2020-04-26 22:51:30.482 DEBUG [http-nio-8088-exec-8]cn.codexing.blog.mapper.CategoryMapper.getByPage.debug:143 -<==      Total: 1
+2020-04-26 22:51:30.484 DEBUG [http-nio-8088-exec-8]cn.codexing.blog.mapper.SysLogMapper.insert.debug:143 -==>  Preparing: INSERT INTO sys_log ( url, params, status, method, used_time, result, ip ) VALUES ( ?, ?, ?, ?, ?, ?, ? ) 
+2020-04-26 22:51:30.485 DEBUG [http-nio-8088-exec-8]cn.codexing.blog.mapper.SysLogMapper.insert.debug:143 -==> Parameters: /category/list(String), [PageUtils(totalCount=0, pageSize=10, totalPage=0, currPage=1, list=[], params={}, sortColumn=)](String), 1(Integer), POST(String), 145(Long), {"code":20000,"data":{"currPage":1,"list":[{"articleCount":"1","categoryName":"test","id":1,"isEnable":true}],"pageSize":10,"params":{},"totalCount":1,"totalPage":1},"msg":"操作成功"}(String), 127.0.0.1(String)
+2020-04-26 22:51:30.582 DEBUG [http-nio-8088-exec-8]cn.codexing.blog.mapper.SysLogMapper.insert.debug:143 -<==    Updates: 1
+2020-04-26 22:51:40.694 DEBUG [http-nio-8088-exec-9]cn.codexing.blog.mapper.SysUserMapper.getByUsername.debug:143 -==>  Preparing: select id,username,avatar,password from sys_user where username=? 
+2020-04-26 22:51:40.695 DEBUG [http-nio-8088-exec-9]cn.codexing.blog.mapper.SysUserMapper.getByUsername.debug:143 -==> Parameters: admin(String)
+2020-04-26 22:51:40.738 DEBUG [http-nio-8088-exec-9]cn.codexing.blog.mapper.SysUserMapper.getByUsername.debug:143 -<==      Total: 1
+2020-04-26 22:51:40.740 DEBUG [http-nio-8088-exec-9]cn.codexing.blog.mapper.SysRoleMapper.listRoleByUserId.debug:143 -==>  Preparing: SELECT r.id, r.NAME FROM sys_role r INNER JOIN sys_user_role sur ON sur.role_id = r.id WHERE sur.user_id = ? 
+2020-04-26 22:51:40.741 DEBUG [http-nio-8088-exec-9]cn.codexing.blog.mapper.SysRoleMapper.listRoleByUserId.debug:143 -==> Parameters: 3(Integer)
+2020-04-26 22:51:40.785 DEBUG [http-nio-8088-exec-9]cn.codexing.blog.mapper.SysRoleMapper.listRoleByUserId.debug:143 -<==      Total: 0
+2020-04-26 22:51:40.871 DEBUG [http-nio-8088-exec-9]cn.codexing.blog.mapper.SysUserMapper.getByUsername.debug:143 -==>  Preparing: select id,username,avatar,password from sys_user where username=? 
+2020-04-26 22:51:40.872 DEBUG [http-nio-8088-exec-9]cn.codexing.blog.mapper.SysUserMapper.getByUsername.debug:143 -==> Parameters: admin(String)
+2020-04-26 22:51:40.916 DEBUG [http-nio-8088-exec-9]cn.codexing.blog.mapper.SysUserMapper.getByUsername.debug:143 -<==      Total: 1
+2020-04-26 22:51:40.917 DEBUG [http-nio-8088-exec-9]cn.codexing.blog.mapper.SysRoleMapper.listRoleByUserId.debug:143 -==>  Preparing: SELECT r.id, r.NAME FROM sys_role r INNER JOIN sys_user_role sur ON sur.role_id = r.id WHERE sur.user_id = ? 
+2020-04-26 22:51:40.917 DEBUG [http-nio-8088-exec-9]cn.codexing.blog.mapper.SysRoleMapper.listRoleByUserId.debug:143 -==> Parameters: 3(Integer)
+2020-04-26 22:51:40.962 DEBUG [http-nio-8088-exec-9]cn.codexing.blog.mapper.SysRoleMapper.listRoleByUserId.debug:143 -<==      Total: 0
+2020-04-26 22:51:40.982 DEBUG [http-nio-8088-exec-9]cn.codexing.blog.mapper.FriendLinkMapper.selectList.debug:143 -==>  Preparing: SELECT id,nickname,url,is_enable FROM friend_link 
+2020-04-26 22:51:40.983 DEBUG [http-nio-8088-exec-9]cn.codexing.blog.mapper.FriendLinkMapper.selectList.debug:143 -==> Parameters: 
+2020-04-26 22:51:41.029 DEBUG [http-nio-8088-exec-9]cn.codexing.blog.mapper.FriendLinkMapper.selectList.debug:143 -<==      Total: 1
+2020-04-26 22:51:41.034 DEBUG [http-nio-8088-exec-9]cn.codexing.blog.mapper.SysLogMapper.insert.debug:143 -==>  Preparing: INSERT INTO sys_log ( url, params, status, method, used_time, result, ip ) VALUES ( ?, ?, ?, ?, ?, ?, ? ) 
+2020-04-26 22:51:41.035 DEBUG [http-nio-8088-exec-9]cn.codexing.blog.mapper.SysLogMapper.insert.debug:143 -==> Parameters: /link/list(String), [](String), 1(Integer), GET(String), 67(Long), {"code":20000,"data":[{"id":4,"isEnable":true,"nickname":"asdm","url":"http://asdsad.cn"}],"msg":"操作成功"}(String), 127.0.0.1(String)
+2020-04-26 22:51:41.123 DEBUG [http-nio-8088-exec-9]cn.codexing.blog.mapper.SysLogMapper.insert.debug:143 -<==    Updates: 1
+2020-04-26 22:51:49.263 DEBUG [http-nio-8088-exec-10]cn.codexing.blog.mapper.SysUserMapper.getByUsername.debug:143 -==>  Preparing: select id,username,avatar,password from sys_user where username=? 
+2020-04-26 22:51:49.263 DEBUG [http-nio-8088-exec-10]cn.codexing.blog.mapper.SysUserMapper.getByUsername.debug:143 -==> Parameters: admin(String)
+2020-04-26 22:51:49.310 DEBUG [http-nio-8088-exec-10]cn.codexing.blog.mapper.SysUserMapper.getByUsername.debug:143 -<==      Total: 1
+2020-04-26 22:51:49.311 DEBUG [http-nio-8088-exec-10]cn.codexing.blog.mapper.SysRoleMapper.listRoleByUserId.debug:143 -==>  Preparing: SELECT r.id, r.NAME FROM sys_role r INNER JOIN sys_user_role sur ON sur.role_id = r.id WHERE sur.user_id = ? 
+2020-04-26 22:51:49.311 DEBUG [http-nio-8088-exec-10]cn.codexing.blog.mapper.SysRoleMapper.listRoleByUserId.debug:143 -==> Parameters: 3(Integer)
+2020-04-26 22:51:49.355 DEBUG [http-nio-8088-exec-10]cn.codexing.blog.mapper.SysRoleMapper.listRoleByUserId.debug:143 -<==      Total: 0
+2020-04-26 22:52:34.573 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.SysUserMapper.getByUsername.debug:143 -==>  Preparing: select id,username,avatar,password from sys_user where username=? 
+2020-04-26 22:52:34.574 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.SysUserMapper.getByUsername.debug:143 -==> Parameters: admin(String)
+2020-04-26 22:52:34.618 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.SysUserMapper.getByUsername.debug:143 -<==      Total: 1
+2020-04-26 22:52:34.619 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.SysRoleMapper.listRoleByUserId.debug:143 -==>  Preparing: SELECT r.id, r.NAME FROM sys_role r INNER JOIN sys_user_role sur ON sur.role_id = r.id WHERE sur.user_id = ? 
+2020-04-26 22:52:34.620 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.SysRoleMapper.listRoleByUserId.debug:143 -==> Parameters: 3(Integer)
+2020-04-26 22:52:34.665 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.SysRoleMapper.listRoleByUserId.debug:143 -<==      Total: 0
+2020-04-26 22:52:34.759 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.SysUserMapper.getByUsername.debug:143 -==>  Preparing: select id,username,avatar,password from sys_user where username=? 
+2020-04-26 22:52:34.760 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.SysUserMapper.getByUsername.debug:143 -==> Parameters: admin(String)
+2020-04-26 22:52:35.068 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.SysUserMapper.getByUsername.debug:143 -<==      Total: 1
+2020-04-26 22:52:35.069 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.SysRoleMapper.listRoleByUserId.debug:143 -==>  Preparing: SELECT r.id, r.NAME FROM sys_role r INNER JOIN sys_user_role sur ON sur.role_id = r.id WHERE sur.user_id = ? 
+2020-04-26 22:52:35.069 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.SysRoleMapper.listRoleByUserId.debug:143 -==> Parameters: 3(Integer)
+2020-04-26 22:52:35.121 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.SysRoleMapper.listRoleByUserId.debug:143 -<==      Total: 0
+2020-04-26 22:52:35.125 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.SysLogMapper.insert.debug:143 -==>  Preparing: INSERT INTO sys_log ( url, params, status, method, used_time, result, ip ) VALUES ( ?, ?, ?, ?, ?, ?, ? ) 
+2020-04-26 22:52:35.125 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.SysLogMapper.insert.debug:143 -==> Parameters: /user/info(String), [](String), 1(Integer), GET(String), 1(Long), {"code":20000,"data":{"accountNonExpired":true,"accountNonLocked":true,"authorities":[],"credentialsNonExpired":true,"enabled":true,"id":3,"password":"[HIDE]","username":"admin"},"msg":"操作成功"}(String), 127.0.0.1(String)
+2020-04-26 22:52:35.485 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.SysLogMapper.insert.debug:143 -<==    Updates: 1
+2020-04-26 22:52:35.772 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.SysUserMapper.getByUsername.debug:143 -==>  Preparing: select id,username,avatar,password from sys_user where username=? 
+2020-04-26 22:52:35.773 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.SysUserMapper.getByUsername.debug:143 -==> Parameters: admin(String)
+2020-04-26 22:52:35.820 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.SysUserMapper.getByUsername.debug:143 -<==      Total: 1
+2020-04-26 22:52:35.822 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.SysRoleMapper.listRoleByUserId.debug:143 -==>  Preparing: SELECT r.id, r.NAME FROM sys_role r INNER JOIN sys_user_role sur ON sur.role_id = r.id WHERE sur.user_id = ? 
+2020-04-26 22:52:35.822 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.SysRoleMapper.listRoleByUserId.debug:143 -==> Parameters: 3(Integer)
+2020-04-26 22:52:35.869 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.SysUserMapper.getByUsername.debug:143 -==>  Preparing: select id,username,avatar,password from sys_user where username=? 
+2020-04-26 22:52:35.869 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.SysRoleMapper.listRoleByUserId.debug:143 -<==      Total: 0
+2020-04-26 22:52:35.869 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.SysUserMapper.getByUsername.debug:143 -==> Parameters: admin(String)
+2020-04-26 22:52:35.922 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.SysUserMapper.getByUsername.debug:143 -<==      Total: 1
+2020-04-26 22:52:35.924 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.SysRoleMapper.listRoleByUserId.debug:143 -==>  Preparing: SELECT r.id, r.NAME FROM sys_role r INNER JOIN sys_user_role sur ON sur.role_id = r.id WHERE sur.user_id = ? 
+2020-04-26 22:52:35.925 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.SysRoleMapper.listRoleByUserId.debug:143 -==> Parameters: 3(Integer)
+2020-04-26 22:52:35.964 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.SysUserMapper.getByUsername.debug:143 -==>  Preparing: select id,username,avatar,password from sys_user where username=? 
+2020-04-26 22:52:35.965 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.SysUserMapper.getByUsername.debug:143 -==> Parameters: admin(String)
+2020-04-26 22:52:35.980 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.SysRoleMapper.listRoleByUserId.debug:143 -<==      Total: 0
+2020-04-26 22:52:36.010 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.SysUserMapper.getByUsername.debug:143 -<==      Total: 1
+2020-04-26 22:52:36.011 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.SysRoleMapper.listRoleByUserId.debug:143 -==>  Preparing: SELECT r.id, r.NAME FROM sys_role r INNER JOIN sys_user_role sur ON sur.role_id = r.id WHERE sur.user_id = ? 
+2020-04-26 22:52:36.011 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.SysRoleMapper.listRoleByUserId.debug:143 -==> Parameters: 3(Integer)
+2020-04-26 22:52:36.056 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.SysRoleMapper.listRoleByUserId.debug:143 -<==      Total: 0
+2020-04-26 22:52:36.061 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.CategoryMapper.getByPage.debug:143 -==>  Preparing: SELECT COUNT(1) FROM category WHERE is_deleted = 0 
+2020-04-26 22:52:36.061 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.CategoryMapper.getByPage.debug:143 -==> Parameters: 
+2020-04-26 22:52:36.097 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.SysUserMapper.getByUsername.debug:143 -==>  Preparing: select id,username,avatar,password from sys_user where username=? 
+2020-04-26 22:52:36.098 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.SysUserMapper.getByUsername.debug:143 -==> Parameters: admin(String)
+2020-04-26 22:52:36.110 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.CategoryMapper.getByPage.debug:143 -==>  Preparing: select id,category_name,is_enable from category WHERE is_deleted = 0 LIMIT ?,? 
+2020-04-26 22:52:36.111 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.CategoryMapper.getByPage.debug:143 -==> Parameters: 0(Long), 20(Long)
+2020-04-26 22:52:36.148 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.SysUserMapper.getByUsername.debug:143 -<==      Total: 1
+2020-04-26 22:52:36.149 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.SysUserMapper.getByUsername.debug:143 -==>  Preparing: select id,username,avatar,password from sys_user where username=? 
+2020-04-26 22:52:36.149 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.SysUserMapper.getByUsername.debug:143 -==> Parameters: admin(String)
+2020-04-26 22:52:36.158 DEBUG [http-nio-8088-exec-3]c.c.blog.mapper.ArticleMapper.getArticleCountByTypeId.debug:143 -====>  Preparing: select count(*) as articleCount from article a left join article_category ac on a.id=ac.article_id WHERE ac.category_id = ? AND a.is_enable = 1 AND a.is_deleted = 0 
+2020-04-26 22:52:36.159 DEBUG [http-nio-8088-exec-3]c.c.blog.mapper.ArticleMapper.getArticleCountByTypeId.debug:143 -====> Parameters: 1(Integer)
+2020-04-26 22:52:36.196 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.SysUserMapper.getByUsername.debug:143 -<==      Total: 1
+2020-04-26 22:52:36.197 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.SysRoleMapper.listRoleByUserId.debug:143 -==>  Preparing: SELECT r.id, r.NAME FROM sys_role r INNER JOIN sys_user_role sur ON sur.role_id = r.id WHERE sur.user_id = ? 
+2020-04-26 22:52:36.197 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.SysRoleMapper.listRoleByUserId.debug:143 -==> Parameters: 3(Integer)
+2020-04-26 22:52:36.206 DEBUG [http-nio-8088-exec-3]c.c.blog.mapper.ArticleMapper.getArticleCountByTypeId.debug:143 -<====      Total: 1
+2020-04-26 22:52:36.206 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.CategoryMapper.getByPage.debug:143 -<==      Total: 1
+2020-04-26 22:52:36.207 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.SysRoleMapper.listRoleByUserId.debug:143 -==>  Preparing: SELECT r.id, r.NAME FROM sys_role r INNER JOIN sys_user_role sur ON sur.role_id = r.id WHERE sur.user_id = ? 
+2020-04-26 22:52:36.208 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.SysRoleMapper.listRoleByUserId.debug:143 -==> Parameters: 3(Integer)
+2020-04-26 22:52:36.260 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.SysRoleMapper.listRoleByUserId.debug:143 -<==      Total: 0
+2020-04-26 22:52:36.260 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.SysRoleMapper.listRoleByUserId.debug:143 -<==      Total: 0
+2020-04-26 22:52:36.262 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.SysLogMapper.insert.debug:143 -==>  Preparing: INSERT INTO sys_log ( url, params, status, method, used_time, result, ip ) VALUES ( ?, ?, ?, ?, ?, ?, ? ) 
+2020-04-26 22:52:36.264 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.SysLogMapper.insert.debug:143 -==> Parameters: /category/list(String), [PageUtils(totalCount=0, pageSize=20, totalPage=0, currPage=1, list=[], params={}, sortColumn=)](String), 1(Integer), POST(String), 150(Long), {"code":20000,"data":{"currPage":1,"list":[{"articleCount":"1","categoryName":"test","id":1,"isEnable":true}],"pageSize":20,"params":{},"totalCount":1,"totalPage":1},"msg":"操作成功"}(String), 127.0.0.1(String)
+2020-04-26 22:52:36.266 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.TagMapper.getByPage.debug:143 -==>  Preparing: SELECT COUNT(1) FROM tag WHERE is_deleted = 0 
+2020-04-26 22:52:36.266 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.TagMapper.getByPage.debug:143 -==> Parameters: 
+2020-04-26 22:52:36.321 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.TagMapper.getByPage.debug:143 -==>  Preparing: select id,name,is_enable from tag WHERE is_deleted = 0 LIMIT ?,? 
+2020-04-26 22:52:36.322 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.TagMapper.getByPage.debug:143 -==> Parameters: 0(Long), 20(Long)
+2020-04-26 22:52:36.370 DEBUG [http-nio-8088-exec-2]c.c.blog.mapper.ArticleMapper.getArticleCountByTagId.debug:143 -====>  Preparing: select count(*) as articleCount from article a left join article_tag att on a.id=att.article_id WHERE att.tag_id = ? AND a.is_enable = 1 AND a.is_deleted = 0 
+2020-04-26 22:52:36.371 DEBUG [http-nio-8088-exec-2]c.c.blog.mapper.ArticleMapper.getArticleCountByTagId.debug:143 -====> Parameters: 1(Integer)
+2020-04-26 22:52:36.373 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.SysLogMapper.insert.debug:143 -<==    Updates: 1
+2020-04-26 22:52:36.374 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.SysUserMapper.getByUsername.debug:143 -==>  Preparing: select id,username,avatar,password from sys_user where username=? 
+2020-04-26 22:52:36.375 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.SysUserMapper.getByUsername.debug:143 -==> Parameters: admin(String)
+2020-04-26 22:52:36.417 DEBUG [http-nio-8088-exec-2]c.c.blog.mapper.ArticleMapper.getArticleCountByTagId.debug:143 -<====      Total: 1
+2020-04-26 22:52:36.417 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.TagMapper.getByPage.debug:143 -<==      Total: 1
+2020-04-26 22:52:36.420 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.SysLogMapper.insert.debug:143 -==>  Preparing: INSERT INTO sys_log ( url, params, status, method, used_time, result, ip ) VALUES ( ?, ?, ?, ?, ?, ?, ? ) 
+2020-04-26 22:52:36.421 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.SysLogMapper.insert.debug:143 -==> Parameters: /tag/list(String), [PageUtils(totalCount=0, pageSize=20, totalPage=0, currPage=1, list=[], params={}, sortColumn=)](String), 1(Integer), POST(String), 156(Long), {"code":20000,"data":{"currPage":1,"list":[{"articleCount":"1","id":1,"isEnable":true,"name":"test"}],"pageSize":20,"params":{},"totalCount":1,"totalPage":1},"msg":"操作成功"}(String), 127.0.0.1(String)
+2020-04-26 22:52:36.423 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.SysUserMapper.getByUsername.debug:143 -<==      Total: 1
+2020-04-26 22:52:36.424 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.SysRoleMapper.listRoleByUserId.debug:143 -==>  Preparing: SELECT r.id, r.NAME FROM sys_role r INNER JOIN sys_user_role sur ON sur.role_id = r.id WHERE sur.user_id = ? 
+2020-04-26 22:52:36.424 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.SysRoleMapper.listRoleByUserId.debug:143 -==> Parameters: 3(Integer)
+2020-04-26 22:52:36.472 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.SysRoleMapper.listRoleByUserId.debug:143 -<==      Total: 0
+2020-04-26 22:52:36.475 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.FriendLinkMapper.selectList.debug:143 -==>  Preparing: SELECT id,nickname,url,is_enable FROM friend_link 
+2020-04-26 22:52:36.476 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.FriendLinkMapper.selectList.debug:143 -==> Parameters: 
+2020-04-26 22:52:36.519 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.SysLogMapper.insert.debug:143 -<==    Updates: 1
+2020-04-26 22:52:36.526 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.FriendLinkMapper.selectList.debug:143 -<==      Total: 1
+2020-04-26 22:52:36.528 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.SysLogMapper.insert.debug:143 -==>  Preparing: INSERT INTO sys_log ( url, params, status, method, used_time, result, ip ) VALUES ( ?, ?, ?, ?, ?, ?, ? ) 
+2020-04-26 22:52:36.529 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.SysLogMapper.insert.debug:143 -==> Parameters: /link/list(String), [](String), 1(Integer), GET(String), 54(Long), {"code":20000,"data":[{"id":4,"isEnable":true,"nickname":"asdm","url":"http://asdsad.cn"}],"msg":"操作成功"}(String), 127.0.0.1(String)
+2020-04-26 22:52:36.647 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.SysLogMapper.insert.debug:143 -<==    Updates: 1
+2020-04-26 22:52:38.993 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.SysUserMapper.getByUsername.debug:143 -==>  Preparing: select id,username,avatar,password from sys_user where username=? 
+2020-04-26 22:52:38.993 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.SysUserMapper.getByUsername.debug:143 -==> Parameters: admin(String)
+2020-04-26 22:52:39.047 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.SysUserMapper.getByUsername.debug:143 -<==      Total: 1
+2020-04-26 22:52:39.048 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.SysRoleMapper.listRoleByUserId.debug:143 -==>  Preparing: SELECT r.id, r.NAME FROM sys_role r INNER JOIN sys_user_role sur ON sur.role_id = r.id WHERE sur.user_id = ? 
+2020-04-26 22:52:39.048 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.SysRoleMapper.listRoleByUserId.debug:143 -==> Parameters: 3(Integer)
+2020-04-26 22:52:39.101 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.SysRoleMapper.listRoleByUserId.debug:143 -<==      Total: 0
+2020-04-26 22:52:39.196 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.SysUserMapper.getByUsername.debug:143 -==>  Preparing: select id,username,avatar,password from sys_user where username=? 
+2020-04-26 22:52:39.197 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.SysUserMapper.getByUsername.debug:143 -==> Parameters: admin(String)
+2020-04-26 22:52:39.251 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.SysUserMapper.getByUsername.debug:143 -<==      Total: 1
+2020-04-26 22:52:39.252 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.SysRoleMapper.listRoleByUserId.debug:143 -==>  Preparing: SELECT r.id, r.NAME FROM sys_role r INNER JOIN sys_user_role sur ON sur.role_id = r.id WHERE sur.user_id = ? 
+2020-04-26 22:52:39.253 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.SysRoleMapper.listRoleByUserId.debug:143 -==> Parameters: 3(Integer)
+2020-04-26 22:52:39.309 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.SysRoleMapper.listRoleByUserId.debug:143 -<==      Total: 0
+2020-04-26 22:52:39.313 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==>  Preparing: SELECT COUNT(1) FROM article WHERE is_deleted = 0 
+2020-04-26 22:52:39.313 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==> Parameters: 
+2020-04-26 22:52:39.367 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==>  Preparing: SELECT id,author,title,content,summary,cover, views,comment_count,like_count,is_top, is_recommend,create_time,update_time,is_enable FROM article WHERE is_deleted=0 order by is_top desc, create_time desc LIMIT ?,? 
+2020-04-26 22:52:39.368 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==> Parameters: 0(Long), 10(Long)
+2020-04-26 22:52:39.424 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.CategoryMapper.getByArticleId.debug:143 -====>  Preparing: select c.id,c.category_name from category c left join article_category ac on c.id=ac.category_id WHERE ac.article_id = ? AND c.is_enable = 1 AND c.is_deleted = 0 
+2020-04-26 22:52:39.425 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.CategoryMapper.getByArticleId.debug:143 -====> Parameters: 1(String)
+2020-04-26 22:52:39.487 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.CategoryMapper.getByArticleId.debug:143 -<====      Total: 1
+2020-04-26 22:52:39.488 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.TagMapper.listByArticleId.debug:143 -====>  Preparing: select t.id,t.name from tag t left join article_tag att on t.id=att.tag_id WHERE att.article_id = ? AND t.is_enable = 1 AND t.is_deleted = 0 
+2020-04-26 22:52:39.489 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.TagMapper.listByArticleId.debug:143 -====> Parameters: 1(String)
+2020-04-26 22:52:39.543 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.TagMapper.listByArticleId.debug:143 -<====      Total: 1
+2020-04-26 22:52:39.544 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -<==      Total: 1
+2020-04-26 22:52:39.546 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.SysLogMapper.insert.debug:143 -==>  Preparing: INSERT INTO sys_log ( url, params, status, method, used_time, result, ip ) VALUES ( ?, ?, ?, ?, ?, ?, ? ) 
+2020-04-26 22:52:39.547 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.SysLogMapper.insert.debug:143 -==> Parameters: /article/list(String), [PageUtils(totalCount=0, pageSize=10, totalPage=0, currPage=1, list=[], params={}, sortColumn=create_time)](String), 1(Integer), POST(String), 234(Long), {"code":20000,"data":{"currPage":1,"list":[{"author":"1","category":{"categoryName":"test","id":1},"commentCount":0,"content":"1","createTime":"2020-04-26 12:05:28","id":"1","isEnable":true,"isRecommend":true,"isTop":false,"likeCount":0,"summary":"1","tagList":[{"id":1,"name":"test"}],"title":"1","updateTime":"2020-04-26 12:05:28","views":10}],"pageSize":10,"params":{},"totalCount":1,"totalPage":1},"msg":"操作成功"}(String), 127.0.0.1(String)
+2020-04-26 22:52:39.655 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.SysLogMapper.insert.debug:143 -<==    Updates: 1
+2020-04-26 22:52:46.153 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.SysUserMapper.getByUsername.debug:143 -==>  Preparing: select id,username,avatar,password from sys_user where username=? 
+2020-04-26 22:52:46.153 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.SysUserMapper.getByUsername.debug:143 -==> Parameters: admin(String)
+2020-04-26 22:52:46.202 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.SysUserMapper.getByUsername.debug:143 -<==      Total: 1
+2020-04-26 22:52:46.203 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.SysRoleMapper.listRoleByUserId.debug:143 -==>  Preparing: SELECT r.id, r.NAME FROM sys_role r INNER JOIN sys_user_role sur ON sur.role_id = r.id WHERE sur.user_id = ? 
+2020-04-26 22:52:46.204 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.SysRoleMapper.listRoleByUserId.debug:143 -==> Parameters: 3(Integer)
+2020-04-26 22:52:46.254 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.SysRoleMapper.listRoleByUserId.debug:143 -<==      Total: 0

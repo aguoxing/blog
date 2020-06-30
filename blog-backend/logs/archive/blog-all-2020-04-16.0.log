@@ -1,0 +1,897 @@
+2020-04-16 13:26:14.230 INFO  [main]org.springframework.core.KotlinDetector.<clinit>:57 -Kotlin reflection implementation not found at runtime, related features won't be available.
+2020-04-16 13:26:15.178 INFO  [main]cn.codexing.blog.BlogApplication.logStarting:55 -Starting BlogApplication on DESKTOP-0EBHI2S with PID 13920 (E:\2020\myblog2.0\blog-backend\target\classes started by GuoXing in E:\2020\myblog2.0\blog-backend)
+2020-04-16 13:26:15.180 DEBUG [main]cn.codexing.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-16 13:26:15.199 INFO  [main]cn.codexing.blog.BlogApplication.logStartupProfileInfo:655 -The following profiles are active: dev
+2020-04-16 13:26:15.382 WARN  [background-preinit]o.s.http.converter.json.Jackson2ObjectMapperBuilder.warn:127 -For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-04-16 13:26:18.023 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:92 -Tomcat initialized with port(s): 8088 (http)
+2020-04-16 13:26:18.023 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8088"]
+2020-04-16 13:26:18.023 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-04-16 13:26:18.023 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-16 13:26:18.123 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-04-16 13:26:18.123 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 2759 ms
+2020-04-16 13:26:18.771 WARN  [main]com.baomidou.mybatisplus.core.injector.AbstractMethod.addMappedStatement:307 -[cn.codexing.blog.mapper.ArticleMapper.deleteById] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.DeleteById]
+2020-04-16 13:26:19.804 INFO  [main]s.d.s.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods:69 -Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-16 13:26:19.906 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:181 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-16 13:26:20.118 INFO  [main]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:160 -Context refreshed
+2020-04-16 13:26:20.134 INFO  [main]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:163 -Found 1 custom documentation plugin(s)
+2020-04-16 13:26:20.178 INFO  [main]s.d.spring.web.scanners.ApiListingReferenceScanner.scan:41 -Scanning for api listing references
+2020-04-16 13:26:20.395 INFO  [main]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: getByIdUsingGET_1
+2020-04-16 13:26:20.405 INFO  [main]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: getByIdUsingGET_2
+2020-04-16 13:26:20.420 INFO  [main]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: getByIdUsingGET_3
+2020-04-16 13:26:20.436 INFO  [main]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: getByIdUsingGET_4
+2020-04-16 13:26:20.588 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8088"]
+2020-04-16 13:26:20.784 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 8088 (http) with context path ''
+2020-04-16 13:26:20.784 INFO  [main]cn.codexing.blog.BlogApplication.logStarted:61 -Started BlogApplication in 6.394 seconds (JVM running for 8.661)
+2020-04-16 13:26:46.717 INFO  [http-nio-8088-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-16 13:26:46.718 INFO  [http-nio-8088-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-04-16 13:26:46.727 INFO  [http-nio-8088-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 9 ms
+2020-04-16 15:16:43.048 INFO  [main]org.springframework.core.KotlinDetector.<clinit>:57 -Kotlin reflection implementation not found at runtime, related features won't be available.
+2020-04-16 15:16:44.209 INFO  [main]cn.codexing.blog.BlogApplication.logStarting:55 -Starting BlogApplication on DESKTOP-0EBHI2S with PID 12820 (E:\2020\myblog2.0\blog-backend\target\classes started by GuoXing in E:\2020\myblog2.0\blog-backend)
+2020-04-16 15:16:44.210 DEBUG [main]cn.codexing.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-16 15:16:44.211 INFO  [main]cn.codexing.blog.BlogApplication.logStartupProfileInfo:655 -The following profiles are active: dev
+2020-04-16 15:16:44.404 WARN  [background-preinit]o.s.http.converter.json.Jackson2ObjectMapperBuilder.warn:127 -For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-04-16 15:16:46.541 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:92 -Tomcat initialized with port(s): 8088 (http)
+2020-04-16 15:16:46.551 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8088"]
+2020-04-16 15:16:46.552 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-04-16 15:16:46.553 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-16 15:16:46.693 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-04-16 15:16:46.694 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 2292 ms
+2020-04-16 15:16:47.349 WARN  [main]com.baomidou.mybatisplus.core.injector.AbstractMethod.addMappedStatement:307 -[cn.codexing.blog.mapper.ArticleMapper.deleteById] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.DeleteById]
+2020-04-16 15:16:48.459 INFO  [main]s.d.s.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods:69 -Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-16 15:16:48.545 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:181 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-16 15:16:48.777 INFO  [main]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:160 -Context refreshed
+2020-04-16 15:16:48.795 INFO  [main]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:163 -Found 1 custom documentation plugin(s)
+2020-04-16 15:16:48.826 INFO  [main]s.d.spring.web.scanners.ApiListingReferenceScanner.scan:41 -Scanning for api listing references
+2020-04-16 15:16:49.040 INFO  [main]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: getByIdUsingGET_1
+2020-04-16 15:16:49.049 INFO  [main]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: getByIdUsingGET_2
+2020-04-16 15:16:49.062 INFO  [main]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: getByIdUsingGET_3
+2020-04-16 15:16:49.076 INFO  [main]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: getByIdUsingGET_4
+2020-04-16 15:16:49.112 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8088"]
+2020-04-16 15:16:49.133 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 8088 (http) with context path ''
+2020-04-16 15:16:49.137 INFO  [main]cn.codexing.blog.BlogApplication.logStarted:61 -Started BlogApplication in 5.918 seconds (JVM running for 8.718)
+2020-04-16 15:16:49.342 INFO  [http-nio-8088-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-16 15:16:49.346 INFO  [http-nio-8088-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-04-16 15:16:49.355 INFO  [http-nio-8088-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 9 ms
+2020-04-16 15:16:49.384 WARN  [http-nio-8088-exec-1]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:199 -Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2020-04-16 15:18:26.695 WARN  [http-nio-8088-exec-2]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:199 -Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2020-04-16 15:18:43.653 INFO  [http-nio-8088-exec-3]com.alibaba.druid.pool.DruidDataSource.init:1003 -{dataSource-1} inited
+2020-04-16 15:18:43.898 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category 
+2020-04-16 15:18:43.916 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 15:18:43.962 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -<==      Total: 2
+2020-04-16 15:19:13.191 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category 
+2020-04-16 15:19:13.192 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 15:19:13.194 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -<==      Total: 2
+2020-04-16 15:19:54.513 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category 
+2020-04-16 15:19:54.517 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 15:19:54.519 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -<==      Total: 2
+2020-04-16 15:20:31.472 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category 
+2020-04-16 15:20:31.473 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 15:20:31.476 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -<==      Total: 2
+2020-04-16 15:22:01.558 DEBUG [http-nio-8088-exec-9]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category 
+2020-04-16 15:22:01.559 DEBUG [http-nio-8088-exec-9]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 15:22:01.561 DEBUG [http-nio-8088-exec-9]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -<==      Total: 2
+2020-04-16 15:22:32.496 DEBUG [http-nio-8088-exec-10]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category 
+2020-04-16 15:22:32.499 DEBUG [http-nio-8088-exec-10]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 15:22:32.503 DEBUG [http-nio-8088-exec-10]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -<==      Total: 2
+2020-04-16 15:22:36.043 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category 
+2020-04-16 15:22:36.045 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 15:22:36.047 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -<==      Total: 2
+2020-04-16 15:23:01.994 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category 
+2020-04-16 15:23:01.996 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 15:23:01.998 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -<==      Total: 2
+2020-04-16 15:23:11.301 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category 
+2020-04-16 15:23:11.306 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 15:23:11.321 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -<==      Total: 2
+2020-04-16 15:23:50.375 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category 
+2020-04-16 15:23:50.377 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 15:23:50.379 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -<==      Total: 2
+2020-04-16 15:25:49.019 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category 
+2020-04-16 15:25:49.021 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 15:25:49.024 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -<==      Total: 2
+2020-04-16 15:26:52.447 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category 
+2020-04-16 15:26:52.449 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 15:26:52.451 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -<==      Total: 2
+2020-04-16 15:27:35.241 INFO  [main]org.springframework.core.KotlinDetector.<clinit>:57 -Kotlin reflection implementation not found at runtime, related features won't be available.
+2020-04-16 15:27:35.948 INFO  [main]cn.codexing.blog.BlogApplication.logStarting:55 -Starting BlogApplication on DESKTOP-0EBHI2S with PID 18428 (E:\2020\myblog2.0\blog-backend\target\classes started by GuoXing in E:\2020\myblog2.0\blog-backend)
+2020-04-16 15:27:35.949 DEBUG [main]cn.codexing.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-16 15:27:35.950 INFO  [main]cn.codexing.blog.BlogApplication.logStartupProfileInfo:655 -The following profiles are active: dev
+2020-04-16 15:27:36.193 WARN  [background-preinit]o.s.http.converter.json.Jackson2ObjectMapperBuilder.warn:127 -For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-04-16 15:27:37.573 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:92 -Tomcat initialized with port(s): 8088 (http)
+2020-04-16 15:27:37.581 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8088"]
+2020-04-16 15:27:37.582 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-04-16 15:27:37.582 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-16 15:27:37.678 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-04-16 15:27:37.678 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1659 ms
+2020-04-16 15:27:38.207 WARN  [main]com.baomidou.mybatisplus.core.injector.AbstractMethod.addMappedStatement:307 -[cn.codexing.blog.mapper.ArticleMapper.deleteById] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.DeleteById]
+2020-04-16 15:27:39.137 INFO  [main]s.d.s.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods:69 -Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-16 15:27:39.215 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:181 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-16 15:27:39.407 INFO  [main]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:160 -Context refreshed
+2020-04-16 15:27:39.422 INFO  [main]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:163 -Found 1 custom documentation plugin(s)
+2020-04-16 15:27:39.449 INFO  [main]s.d.spring.web.scanners.ApiListingReferenceScanner.scan:41 -Scanning for api listing references
+2020-04-16 15:27:39.653 INFO  [main]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: getByIdUsingGET_1
+2020-04-16 15:27:39.662 INFO  [main]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: getByIdUsingGET_2
+2020-04-16 15:27:39.676 INFO  [main]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: getByIdUsingGET_3
+2020-04-16 15:27:39.690 INFO  [main]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: getByIdUsingGET_4
+2020-04-16 15:27:39.724 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8088"]
+2020-04-16 15:27:39.757 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 8088 (http) with context path ''
+2020-04-16 15:27:39.760 INFO  [main]cn.codexing.blog.BlogApplication.logStarted:61 -Started BlogApplication in 4.449 seconds (JVM running for 5.798)
+2020-04-16 15:27:47.688 INFO  [http-nio-8088-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-16 15:27:47.689 INFO  [http-nio-8088-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-04-16 15:27:47.695 INFO  [http-nio-8088-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 6 ms
+2020-04-16 15:27:47.810 INFO  [http-nio-8088-exec-1]com.alibaba.druid.pool.DruidDataSource.init:1003 -{dataSource-1} inited
+2020-04-16 15:27:47.989 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category 
+2020-04-16 15:27:48.003 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 15:27:48.017 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -<==      Total: 2
+2020-04-16 15:28:04.213 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category 
+2020-04-16 15:28:04.216 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 15:28:04.220 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -<==      Total: 2
+2020-04-16 15:31:14.132 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 15:31:14.133 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 15:31:14.145 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 15:31:18.025 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category 
+2020-04-16 15:31:18.026 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 15:31:18.027 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -<==      Total: 2
+2020-04-16 15:31:20.594 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 15:31:20.595 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 15:31:20.597 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 15:31:43.172 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category 
+2020-04-16 15:31:43.174 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 15:31:43.178 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -<==      Total: 2
+2020-04-16 15:34:47.181 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 15:34:47.182 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 15:34:47.184 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 15:35:41.213 DEBUG [http-nio-8088-exec-8]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 15:35:41.215 DEBUG [http-nio-8088-exec-8]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 15:35:41.217 DEBUG [http-nio-8088-exec-8]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 15:36:01.798 DEBUG [http-nio-8088-exec-9]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 15:36:01.799 DEBUG [http-nio-8088-exec-9]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 15:36:01.801 DEBUG [http-nio-8088-exec-9]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 15:36:53.441 DEBUG [http-nio-8088-exec-10]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 15:36:53.443 DEBUG [http-nio-8088-exec-10]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 15:36:53.459 DEBUG [http-nio-8088-exec-10]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 15:36:56.134 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category 
+2020-04-16 15:36:56.134 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 15:36:56.136 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -<==      Total: 2
+2020-04-16 15:38:25.067 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 15:38:25.068 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 15:38:25.071 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 15:38:28.330 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category 
+2020-04-16 15:38:28.331 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 15:38:28.333 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -<==      Total: 2
+2020-04-16 15:38:29.925 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 15:38:29.928 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 15:38:29.934 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 15:39:35.504 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category 
+2020-04-16 15:39:35.506 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 15:39:35.508 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -<==      Total: 2
+2020-04-16 15:39:37.432 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 15:39:37.434 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 15:39:37.437 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 15:39:45.199 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 15:39:45.200 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 15:39:45.202 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 15:40:10.777 DEBUG [http-nio-8088-exec-8]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 15:40:10.778 DEBUG [http-nio-8088-exec-8]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 15:40:10.779 DEBUG [http-nio-8088-exec-8]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 15:40:12.604 DEBUG [http-nio-8088-exec-9]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 15:40:12.608 DEBUG [http-nio-8088-exec-9]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 15:40:12.610 DEBUG [http-nio-8088-exec-9]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 15:40:14.493 DEBUG [http-nio-8088-exec-10]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category 
+2020-04-16 15:40:14.495 DEBUG [http-nio-8088-exec-10]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 15:40:14.498 DEBUG [http-nio-8088-exec-10]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -<==      Total: 2
+2020-04-16 15:40:15.971 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 15:40:15.972 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 15:40:15.973 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 15:40:37.207 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category 
+2020-04-16 15:40:37.209 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 15:40:37.212 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -<==      Total: 2
+2020-04-16 15:40:38.428 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 15:40:38.430 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 15:40:38.432 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 15:41:54.573 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category 
+2020-04-16 15:41:54.574 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 15:41:54.575 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -<==      Total: 2
+2020-04-16 15:41:55.791 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 15:41:55.791 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 15:41:55.792 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 15:42:36.994 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category 
+2020-04-16 15:42:36.995 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 15:42:36.997 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -<==      Total: 2
+2020-04-16 15:42:40.269 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 15:42:40.270 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 15:42:40.272 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 15:43:01.759 DEBUG [http-nio-8088-exec-8]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 15:43:01.760 DEBUG [http-nio-8088-exec-8]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 15:43:01.761 DEBUG [http-nio-8088-exec-8]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 15:43:05.476 DEBUG [http-nio-8088-exec-9]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category 
+2020-04-16 15:43:05.477 DEBUG [http-nio-8088-exec-9]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 15:43:05.478 DEBUG [http-nio-8088-exec-9]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -<==      Total: 2
+2020-04-16 15:43:06.941 DEBUG [http-nio-8088-exec-10]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 15:43:06.942 DEBUG [http-nio-8088-exec-10]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 15:43:06.943 DEBUG [http-nio-8088-exec-10]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 15:45:28.249 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 15:45:28.250 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 15:45:28.251 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 15:45:29.957 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category 
+2020-04-16 15:45:29.959 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 15:45:29.962 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -<==      Total: 2
+2020-04-16 15:45:31.207 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 15:45:31.208 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 15:45:31.209 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 15:45:53.416 INFO  [main]org.springframework.core.KotlinDetector.<clinit>:57 -Kotlin reflection implementation not found at runtime, related features won't be available.
+2020-04-16 15:45:54.222 INFO  [main]cn.codexing.blog.BlogApplication.logStarting:55 -Starting BlogApplication on DESKTOP-0EBHI2S with PID 8268 (E:\2020\myblog2.0\blog-backend\target\classes started by GuoXing in E:\2020\myblog2.0\blog-backend)
+2020-04-16 15:45:54.223 DEBUG [main]cn.codexing.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-16 15:45:54.224 INFO  [main]cn.codexing.blog.BlogApplication.logStartupProfileInfo:655 -The following profiles are active: dev
+2020-04-16 15:45:54.399 WARN  [background-preinit]o.s.http.converter.json.Jackson2ObjectMapperBuilder.warn:127 -For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-04-16 15:45:56.309 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:92 -Tomcat initialized with port(s): 8088 (http)
+2020-04-16 15:45:56.320 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8088"]
+2020-04-16 15:45:56.321 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-04-16 15:45:56.322 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-16 15:45:56.435 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-04-16 15:45:56.436 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 2099 ms
+2020-04-16 15:45:56.946 WARN  [main]com.baomidou.mybatisplus.core.injector.AbstractMethod.addMappedStatement:307 -[cn.codexing.blog.mapper.ArticleMapper.deleteById] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.DeleteById]
+2020-04-16 15:45:58.025 INFO  [main]s.d.s.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods:69 -Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-16 15:45:58.111 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:181 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-16 15:45:58.305 INFO  [main]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:160 -Context refreshed
+2020-04-16 15:45:58.321 INFO  [main]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:163 -Found 1 custom documentation plugin(s)
+2020-04-16 15:45:58.351 INFO  [main]s.d.spring.web.scanners.ApiListingReferenceScanner.scan:41 -Scanning for api listing references
+2020-04-16 15:45:58.559 INFO  [main]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: getByIdUsingGET_1
+2020-04-16 15:45:58.569 INFO  [main]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: getByIdUsingGET_2
+2020-04-16 15:45:58.583 INFO  [main]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: getByIdUsingGET_3
+2020-04-16 15:45:58.602 INFO  [main]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: getByIdUsingGET_4
+2020-04-16 15:45:58.649 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8088"]
+2020-04-16 15:45:58.672 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 8088 (http) with context path ''
+2020-04-16 15:45:58.675 INFO  [main]cn.codexing.blog.BlogApplication.logStarted:61 -Started BlogApplication in 5.186 seconds (JVM running for 6.718)
+2020-04-16 15:46:27.712 INFO  [http-nio-8088-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-16 15:46:27.713 INFO  [http-nio-8088-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-04-16 15:46:27.722 INFO  [http-nio-8088-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 9 ms
+2020-04-16 15:46:27.863 INFO  [http-nio-8088-exec-1]com.alibaba.druid.pool.DruidDataSource.init:1003 -{dataSource-1} inited
+2020-04-16 15:46:28.032 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 15:46:28.047 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 15:46:28.060 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 15:46:30.065 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category 
+2020-04-16 15:46:30.067 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 15:46:30.072 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -<==      Total: 2
+2020-04-16 15:46:32.072 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 15:46:32.073 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 15:46:32.075 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 15:46:39.407 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 15:46:39.408 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 15:46:39.410 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 15:47:14.564 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 15:47:14.566 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 15:47:14.569 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 15:47:17.296 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category 
+2020-04-16 15:47:17.297 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 15:47:17.299 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -<==      Total: 2
+2020-04-16 15:47:19.341 DEBUG [http-nio-8088-exec-9]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 15:47:19.342 DEBUG [http-nio-8088-exec-9]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 15:47:19.344 DEBUG [http-nio-8088-exec-9]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 15:55:14.238 DEBUG [http-nio-8088-exec-10]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 15:55:14.240 DEBUG [http-nio-8088-exec-10]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 15:55:14.244 DEBUG [http-nio-8088-exec-10]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 15:55:31.240 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 15:55:31.241 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 15:55:31.243 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 15:56:04.442 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 15:56:04.443 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 15:56:04.445 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 15:56:31.300 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 15:56:31.301 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 15:56:31.302 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 15:57:15.133 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 15:57:15.135 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 15:57:15.136 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 15:58:47.711 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 15:58:47.712 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 15:58:47.714 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 15:58:55.398 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 15:58:55.399 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 15:58:55.402 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 16:02:07.592 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 16:02:07.594 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 16:02:07.598 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 16:02:08.302 DEBUG [http-nio-8088-exec-9]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 16:02:08.304 DEBUG [http-nio-8088-exec-9]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 16:02:08.307 DEBUG [http-nio-8088-exec-9]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 16:02:16.671 DEBUG [http-nio-8088-exec-8]cn.codexing.blog.mapper.TagMapper.deleteById.debug:143 -==>  Preparing: DELETE FROM tag WHERE id=? 
+2020-04-16 16:02:16.677 DEBUG [http-nio-8088-exec-8]cn.codexing.blog.mapper.TagMapper.deleteById.debug:143 -==> Parameters: 1249918441775739000(Long)
+2020-04-16 16:02:16.696 DEBUG [http-nio-8088-exec-8]cn.codexing.blog.mapper.TagMapper.deleteById.debug:143 -<==    Updates: 0
+2020-04-16 16:02:20.080 DEBUG [http-nio-8088-exec-10]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 16:02:20.082 DEBUG [http-nio-8088-exec-10]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 16:02:20.084 DEBUG [http-nio-8088-exec-10]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 16:03:22.899 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.TagMapper.deleteById.debug:143 -==>  Preparing: DELETE FROM tag WHERE id=? 
+2020-04-16 16:03:22.900 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.TagMapper.deleteById.debug:143 -==> Parameters: 1249918441775739000(Long)
+2020-04-16 16:03:22.901 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.TagMapper.deleteById.debug:143 -<==    Updates: 0
+2020-04-16 16:03:25.001 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 16:03:25.004 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 16:03:25.006 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 16:04:45.230 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 16:04:45.231 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 16:04:45.232 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 16:04:49.523 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.TagMapper.deleteById.debug:143 -==>  Preparing: DELETE FROM tag WHERE id=? 
+2020-04-16 16:04:49.524 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.TagMapper.deleteById.debug:143 -==> Parameters: 1249918441775739000(Long)
+2020-04-16 16:04:49.528 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.TagMapper.deleteById.debug:143 -<==    Updates: 0
+2020-04-16 16:04:51.626 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 16:04:51.627 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 16:04:51.628 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 16:05:07.486 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 16:05:07.487 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 16:05:07.489 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 16:13:44.863 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category 
+2020-04-16 16:13:44.863 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 16:13:44.865 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -<==      Total: 2
+2020-04-16 16:18:03.621 WARN  [http-nio-8088-exec-9]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:199 -Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public cn.codexing.blog.common.Result<cn.codexing.blog.common.util.PageUtils<cn.codexing.blog.vo.ArticleVO>> cn.codexing.blog.controller.ArticleController.getByPage(cn.codexing.blog.common.util.PageUtils<cn.codexing.blog.vo.ArticleVO>)]
+2020-04-16 16:18:53.253 WARN  [http-nio-8088-exec-8]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:199 -Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public cn.codexing.blog.common.Result<cn.codexing.blog.common.util.PageUtils<cn.codexing.blog.vo.ArticleVO>> cn.codexing.blog.controller.ArticleController.getByPage(cn.codexing.blog.common.util.PageUtils<cn.codexing.blog.vo.ArticleVO>)]
+2020-04-16 16:20:25.261 WARN  [http-nio-8088-exec-10]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:199 -Resolved [org.springframework.http.converter.HttpMessageNotReadableException: I/O error while reading input message; nested exception is org.apache.catalina.connector.ClientAbortException: java.io.EOFException]
+2020-04-16 16:20:28.192 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==>  Preparing: SELECT COUNT(1) FROM article WHERE is_deleted = 0 
+2020-04-16 16:20:28.193 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==> Parameters: 
+2020-04-16 16:20:28.212 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==>  Preparing: SELECT id,author,title,summary,cover,views,comment_count,like_count,create_time FROM article WHERE is_deleted=0 LIMIT ?,? 
+2020-04-16 16:20:28.213 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==> Parameters: 0(Long), 2(Long)
+2020-04-16 16:20:28.221 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -<==      Total: 2
+2020-04-16 16:20:28.224 DEBUG [http-nio-8088-exec-2]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -==>  Preparing: SELECT c.id, c.category_name FROM category c LEFT JOIN article_category ac ON c.id = ac.category_id WHERE ac.article_id =? 
+2020-04-16 16:20:28.224 DEBUG [http-nio-8088-exec-2]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -==> Parameters: 1(Long)
+2020-04-16 16:20:28.232 DEBUG [http-nio-8088-exec-2]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -<==      Total: 1
+2020-04-16 16:20:28.236 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -==>  Preparing: SELECT t.id, t.name FROM tag t LEFT JOIN article_tag art ON t.id = art.tag_id WHERE art.article_id=? 
+2020-04-16 16:20:28.237 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -==> Parameters: 1(Long)
+2020-04-16 16:20:28.240 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -<==      Total: 1
+2020-04-16 16:20:28.242 DEBUG [http-nio-8088-exec-2]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -==>  Preparing: SELECT c.id, c.category_name FROM category c LEFT JOIN article_category ac ON c.id = ac.category_id WHERE ac.article_id =? 
+2020-04-16 16:20:28.242 DEBUG [http-nio-8088-exec-2]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -==> Parameters: 2(Long)
+2020-04-16 16:20:28.243 DEBUG [http-nio-8088-exec-2]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -<==      Total: 0
+2020-04-16 16:20:28.245 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -==>  Preparing: SELECT t.id, t.name FROM tag t LEFT JOIN article_tag art ON t.id = art.tag_id WHERE art.article_id=? 
+2020-04-16 16:20:28.245 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -==> Parameters: 2(Long)
+2020-04-16 16:20:28.246 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -<==      Total: 1
+2020-04-16 16:22:05.441 WARN  [http-nio-8088-exec-4]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:199 -Resolved [org.springframework.http.converter.HttpMessageNotReadableException: I/O error while reading input message; nested exception is org.apache.catalina.connector.ClientAbortException: java.io.EOFException]
+2020-04-16 16:22:37.331 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category 
+2020-04-16 16:22:37.332 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 16:22:37.333 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -<==      Total: 2
+2020-04-16 16:22:44.478 WARN  [http-nio-8088-exec-6]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:199 -Resolved [org.springframework.http.converter.HttpMessageNotReadableException: I/O error while reading input message; nested exception is org.apache.catalina.connector.ClientAbortException: java.io.EOFException]
+2020-04-16 16:23:31.823 WARN  [http-nio-8088-exec-7]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:199 -Resolved [org.springframework.http.converter.HttpMessageNotReadableException: I/O error while reading input message; nested exception is org.apache.catalina.connector.ClientAbortException: java.io.EOFException]
+2020-04-16 16:25:02.509 WARN  [http-nio-8088-exec-9]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:199 -Resolved [org.springframework.http.converter.HttpMessageNotReadableException: I/O error while reading input message; nested exception is org.apache.catalina.connector.ClientAbortException: java.io.EOFException]
+2020-04-16 16:25:07.990 WARN  [http-nio-8088-exec-8]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:199 -Resolved [org.springframework.http.converter.HttpMessageNotReadableException: I/O error while reading input message; nested exception is org.apache.catalina.connector.ClientAbortException: java.io.EOFException]
+2020-04-16 16:26:45.482 WARN  [http-nio-8088-exec-10]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:199 -Resolved [org.springframework.http.converter.HttpMessageNotReadableException: I/O error while reading input message; nested exception is org.apache.catalina.connector.ClientAbortException: java.io.EOFException]
+2020-04-16 16:30:29.638 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==>  Preparing: SELECT COUNT(1) FROM article WHERE is_deleted = 0 
+2020-04-16 16:30:29.639 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==> Parameters: 
+2020-04-16 16:30:29.641 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==>  Preparing: SELECT id,author,title,summary,cover,views,comment_count,like_count,create_time FROM article WHERE is_deleted=0 LIMIT ?,? 
+2020-04-16 16:30:29.642 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==> Parameters: 0(Long), 2(Long)
+2020-04-16 16:30:29.645 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -<==      Total: 2
+2020-04-16 16:30:29.647 DEBUG [http-nio-8088-exec-2]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -==>  Preparing: SELECT c.id, c.category_name FROM category c LEFT JOIN article_category ac ON c.id = ac.category_id WHERE ac.article_id =? 
+2020-04-16 16:30:29.648 DEBUG [http-nio-8088-exec-2]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -==> Parameters: 1(Long)
+2020-04-16 16:30:29.649 DEBUG [http-nio-8088-exec-2]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -<==      Total: 1
+2020-04-16 16:30:29.652 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -==>  Preparing: SELECT t.id, t.name FROM tag t LEFT JOIN article_tag art ON t.id = art.tag_id WHERE art.article_id=? 
+2020-04-16 16:30:29.653 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -==> Parameters: 1(Long)
+2020-04-16 16:30:29.654 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -<==      Total: 1
+2020-04-16 16:30:29.656 DEBUG [http-nio-8088-exec-2]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -==>  Preparing: SELECT c.id, c.category_name FROM category c LEFT JOIN article_category ac ON c.id = ac.category_id WHERE ac.article_id =? 
+2020-04-16 16:30:29.656 DEBUG [http-nio-8088-exec-2]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -==> Parameters: 2(Long)
+2020-04-16 16:30:29.658 DEBUG [http-nio-8088-exec-2]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -<==      Total: 0
+2020-04-16 16:30:29.660 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -==>  Preparing: SELECT t.id, t.name FROM tag t LEFT JOIN article_tag art ON t.id = art.tag_id WHERE art.article_id=? 
+2020-04-16 16:30:29.661 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -==> Parameters: 2(Long)
+2020-04-16 16:30:29.662 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -<==      Total: 1
+2020-04-16 16:31:32.337 WARN  [http-nio-8088-exec-4]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:199 -Resolved [org.springframework.http.converter.HttpMessageNotReadableException: I/O error while reading input message; nested exception is org.apache.catalina.connector.ClientAbortException: java.io.EOFException]
+2020-04-16 16:31:38.048 WARN  [http-nio-8088-exec-5]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:199 -Resolved [org.springframework.http.converter.HttpMessageNotReadableException: I/O error while reading input message; nested exception is org.apache.catalina.connector.ClientAbortException: java.io.EOFException]
+2020-04-16 16:32:01.905 WARN  [http-nio-8088-exec-6]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:199 -Resolved [org.springframework.http.converter.HttpMessageNotReadableException: I/O error while reading input message; nested exception is org.apache.catalina.connector.ClientAbortException: java.io.EOFException]
+2020-04-16 16:32:04.487 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category 
+2020-04-16 16:32:04.487 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 16:32:04.489 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -<==      Total: 2
+2020-04-16 16:37:35.630 DEBUG [http-nio-8088-exec-9]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 16:37:35.631 DEBUG [http-nio-8088-exec-9]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 16:37:35.633 DEBUG [http-nio-8088-exec-9]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 16:38:26.840 DEBUG [http-nio-8088-exec-8]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 16:38:26.840 DEBUG [http-nio-8088-exec-8]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 16:38:26.842 DEBUG [http-nio-8088-exec-8]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 16:38:41.756 DEBUG [http-nio-8088-exec-10]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 16:38:41.757 DEBUG [http-nio-8088-exec-10]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 16:38:41.759 DEBUG [http-nio-8088-exec-10]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 16:40:51.352 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 16:40:51.355 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 16:40:51.359 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 16:41:08.429 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category 
+2020-04-16 16:41:08.431 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 16:41:08.437 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -<==      Total: 2
+2020-04-16 16:41:30.795 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category 
+2020-04-16 16:41:30.798 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 16:41:30.800 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -<==      Total: 2
+2020-04-16 16:41:55.085 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category 
+2020-04-16 16:41:55.086 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 16:41:55.088 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -<==      Total: 2
+2020-04-16 16:41:57.054 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 16:41:57.056 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 16:41:57.057 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 16:42:00.558 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category 
+2020-04-16 16:42:00.559 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 16:42:00.560 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -<==      Total: 2
+2020-04-16 16:42:00.819 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 16:42:00.820 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 16:42:00.821 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 17:00:15.843 WARN  [http-nio-8088-exec-9]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:199 -Resolved [org.springframework.http.converter.HttpMessageNotReadableException: I/O error while reading input message; nested exception is org.apache.catalina.connector.ClientAbortException: java.io.EOFException]
+2020-04-16 17:00:31.367 WARN  [http-nio-8088-exec-8]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:199 -Resolved [org.springframework.http.converter.HttpMessageNotReadableException: I/O error while reading input message; nested exception is org.apache.catalina.connector.ClientAbortException: java.io.EOFException]
+2020-04-16 17:01:06.529 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category 
+2020-04-16 17:01:06.530 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 17:01:06.531 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -<==      Total: 2
+2020-04-16 17:01:06.970 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 17:01:06.971 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 17:01:06.973 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 17:01:10.428 WARN  [http-nio-8088-exec-10]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:199 -Resolved [org.springframework.http.converter.HttpMessageNotReadableException: I/O error while reading input message; nested exception is org.apache.catalina.connector.ClientAbortException: java.io.EOFException]
+2020-04-16 17:01:17.966 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 17:01:17.968 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 17:01:17.973 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 17:02:14.830 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 17:02:14.830 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 17:02:14.831 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 17:02:18.407 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 17:02:18.408 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 17:02:18.409 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 17:02:58.063 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 17:02:58.064 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 17:02:58.066 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 17:05:43.059 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 17:05:43.059 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 17:05:43.061 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 17:06:04.626 DEBUG [http-nio-8088-exec-9]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 17:06:04.626 DEBUG [http-nio-8088-exec-9]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 17:06:04.627 DEBUG [http-nio-8088-exec-9]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 17:06:17.212 DEBUG [http-nio-8088-exec-8]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 17:06:17.213 DEBUG [http-nio-8088-exec-8]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 17:06:17.215 DEBUG [http-nio-8088-exec-8]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 17:06:30.607 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 17:06:30.608 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 17:06:30.610 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 17:06:34.285 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category 
+2020-04-16 17:06:34.286 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 17:06:34.289 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -<==      Total: 2
+2020-04-16 17:06:41.196 WARN  [http-nio-8088-exec-10]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:199 -Resolved [org.springframework.http.converter.HttpMessageNotReadableException: I/O error while reading input message; nested exception is org.apache.catalina.connector.ClientAbortException: java.io.EOFException]
+2020-04-16 17:12:06.672 WARN  [http-nio-8088-exec-3]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:199 -Resolved [org.springframework.http.converter.HttpMessageNotReadableException: I/O error while reading input message; nested exception is org.apache.catalina.connector.ClientAbortException: java.io.EOFException]
+2020-04-16 17:16:46.386 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category 
+2020-04-16 17:16:46.388 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 17:16:46.390 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -<==      Total: 2
+2020-04-16 17:17:27.616 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category 
+2020-04-16 17:17:27.617 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 17:17:27.618 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -<==      Total: 2
+2020-04-16 17:17:44.915 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category 
+2020-04-16 17:17:44.917 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 17:17:44.918 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -<==      Total: 2
+2020-04-16 17:18:15.532 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category 
+2020-04-16 17:18:15.533 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 17:18:15.534 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -<==      Total: 2
+2020-04-16 17:18:48.031 DEBUG [http-nio-8088-exec-9]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category 
+2020-04-16 17:18:48.032 DEBUG [http-nio-8088-exec-9]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 17:18:48.034 DEBUG [http-nio-8088-exec-9]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -<==      Total: 2
+2020-04-16 17:19:32.655 DEBUG [http-nio-8088-exec-8]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category 
+2020-04-16 17:19:32.656 DEBUG [http-nio-8088-exec-8]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 17:19:32.657 DEBUG [http-nio-8088-exec-8]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -<==      Total: 2
+2020-04-16 17:19:35.022 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.CategoryMapper.deleteById.debug:143 -==>  Preparing: DELETE FROM category WHERE id=? 
+2020-04-16 17:19:35.024 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.CategoryMapper.deleteById.debug:143 -==> Parameters: 1(Long)
+2020-04-16 17:19:35.040 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.CategoryMapper.deleteById.debug:143 -<==    Updates: 1
+2020-04-16 17:19:35.359 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category 
+2020-04-16 17:19:35.360 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 17:19:35.363 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -<==      Total: 1
+2020-04-16 17:19:39.650 DEBUG [http-nio-8088-exec-10]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category 
+2020-04-16 17:19:39.651 DEBUG [http-nio-8088-exec-10]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 17:19:39.653 DEBUG [http-nio-8088-exec-10]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -<==      Total: 1
+2020-04-16 17:23:37.546 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category 
+2020-04-16 17:23:37.547 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 17:23:37.548 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -<==      Total: 1
+2020-04-16 17:23:42.224 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 17:23:42.225 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 17:23:42.226 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 17:23:43.591 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category 
+2020-04-16 17:23:43.592 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 17:23:43.594 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -<==      Total: 1
+2020-04-16 17:25:09.977 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category 
+2020-04-16 17:25:09.978 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 17:25:09.984 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -<==      Total: 1
+2020-04-16 17:25:32.268 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category 
+2020-04-16 17:25:32.270 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 17:25:32.271 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -<==      Total: 1
+2020-04-16 17:25:35.431 DEBUG [http-nio-8088-exec-9]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category 
+2020-04-16 17:25:35.432 DEBUG [http-nio-8088-exec-9]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 17:25:35.434 DEBUG [http-nio-8088-exec-9]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -<==      Total: 1
+2020-04-16 17:26:22.457 DEBUG [http-nio-8088-exec-8]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category 
+2020-04-16 17:26:22.458 DEBUG [http-nio-8088-exec-8]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 17:26:22.460 DEBUG [http-nio-8088-exec-8]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -<==      Total: 1
+2020-04-16 17:27:12.513 INFO  [main]org.springframework.core.KotlinDetector.<clinit>:57 -Kotlin reflection implementation not found at runtime, related features won't be available.
+2020-04-16 17:27:13.286 INFO  [main]cn.codexing.blog.BlogApplication.logStarting:55 -Starting BlogApplication on DESKTOP-0EBHI2S with PID 11808 (E:\2020\myblog2.0\blog-backend\target\classes started by GuoXing in E:\2020\myblog2.0\blog-backend)
+2020-04-16 17:27:13.288 DEBUG [main]cn.codexing.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-16 17:27:13.289 INFO  [main]cn.codexing.blog.BlogApplication.logStartupProfileInfo:655 -The following profiles are active: dev
+2020-04-16 17:27:13.539 WARN  [background-preinit]o.s.http.converter.json.Jackson2ObjectMapperBuilder.warn:127 -For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-04-16 17:27:15.407 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:92 -Tomcat initialized with port(s): 8088 (http)
+2020-04-16 17:27:15.416 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8088"]
+2020-04-16 17:27:15.417 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-04-16 17:27:15.418 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-16 17:27:15.531 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-04-16 17:27:15.532 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 2185 ms
+2020-04-16 17:27:16.055 WARN  [main]com.baomidou.mybatisplus.core.injector.AbstractMethod.addMappedStatement:307 -[cn.codexing.blog.mapper.ArticleMapper.deleteById] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.DeleteById]
+2020-04-16 17:27:17.547 INFO  [main]s.d.s.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods:69 -Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-16 17:27:17.633 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:181 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-16 17:27:17.831 INFO  [main]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:160 -Context refreshed
+2020-04-16 17:27:17.849 INFO  [main]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:163 -Found 1 custom documentation plugin(s)
+2020-04-16 17:27:17.877 INFO  [main]s.d.spring.web.scanners.ApiListingReferenceScanner.scan:41 -Scanning for api listing references
+2020-04-16 17:27:18.082 INFO  [main]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: getByIdUsingGET_1
+2020-04-16 17:27:18.095 INFO  [main]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: getByIdUsingGET_2
+2020-04-16 17:27:18.108 INFO  [main]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: getByIdUsingGET_3
+2020-04-16 17:27:18.121 INFO  [main]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: getByIdUsingGET_4
+2020-04-16 17:27:18.157 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8088"]
+2020-04-16 17:27:18.177 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 8088 (http) with context path ''
+2020-04-16 17:27:18.180 INFO  [main]cn.codexing.blog.BlogApplication.logStarted:61 -Started BlogApplication in 5.605 seconds (JVM running for 6.962)
+2020-04-16 17:27:25.742 INFO  [http-nio-8088-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-16 17:27:25.742 INFO  [http-nio-8088-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-04-16 17:27:25.749 INFO  [http-nio-8088-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 6 ms
+2020-04-16 17:27:25.879 INFO  [http-nio-8088-exec-1]com.alibaba.druid.pool.DruidDataSource.init:1003 -{dataSource-1} inited
+2020-04-16 17:27:26.044 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category 
+2020-04-16 17:27:26.060 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 17:27:26.073 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -<==      Total: 1
+2020-04-16 17:27:40.865 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category 
+2020-04-16 17:27:40.869 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 17:27:40.883 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -<==      Total: 1
+2020-04-16 17:27:48.793 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category 
+2020-04-16 17:27:48.794 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 17:27:48.796 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -<==      Total: 1
+2020-04-16 17:28:29.524 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category 
+2020-04-16 17:28:29.525 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 17:28:29.527 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -<==      Total: 1
+2020-04-16 17:28:33.148 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category 
+2020-04-16 17:28:33.149 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 17:28:33.151 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -<==      Total: 1
+2020-04-16 17:29:09.777 DEBUG [http-nio-8088-exec-8]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 17:29:09.779 DEBUG [http-nio-8088-exec-8]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 17:29:09.782 DEBUG [http-nio-8088-exec-8]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 17:29:11.439 DEBUG [http-nio-8088-exec-9]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category 
+2020-04-16 17:29:11.440 DEBUG [http-nio-8088-exec-9]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 17:29:11.442 DEBUG [http-nio-8088-exec-9]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -<==      Total: 1
+2020-04-16 17:29:33.268 DEBUG [http-nio-8088-exec-10]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category 
+2020-04-16 17:29:33.270 DEBUG [http-nio-8088-exec-10]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 17:29:33.272 DEBUG [http-nio-8088-exec-10]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -<==      Total: 1
+2020-04-16 17:31:01.258 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category 
+2020-04-16 17:31:01.259 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 17:31:01.260 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -<==      Total: 1
+2020-04-16 17:34:14.732 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category 
+2020-04-16 17:34:14.735 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 17:34:14.738 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -<==      Total: 1
+2020-04-16 17:34:16.483 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 17:34:16.483 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 17:34:16.485 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 20:12:14.378 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 20:12:14.383 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 20:12:14.388 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 20:13:08.395 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 20:13:08.399 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 20:13:08.401 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 20:13:11.969 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category 
+2020-04-16 20:13:11.971 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 20:13:11.975 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -<==      Total: 1
+2020-04-16 20:13:14.763 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 20:13:14.765 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 20:13:14.767 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 20:14:27.844 DEBUG [http-nio-8088-exec-8]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 20:14:27.846 DEBUG [http-nio-8088-exec-8]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 20:14:27.850 DEBUG [http-nio-8088-exec-8]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 20:15:52.410 DEBUG [http-nio-8088-exec-9]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 20:15:52.412 DEBUG [http-nio-8088-exec-9]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 20:15:52.414 DEBUG [http-nio-8088-exec-9]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 20:15:54.778 DEBUG [http-nio-8088-exec-10]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category 
+2020-04-16 20:15:54.781 DEBUG [http-nio-8088-exec-10]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 20:15:54.783 DEBUG [http-nio-8088-exec-10]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -<==      Total: 1
+2020-04-16 20:15:56.684 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 20:15:56.686 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 20:15:56.690 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 20:16:35.100 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 20:16:35.101 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 20:16:35.103 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 20:16:41.342 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category 
+2020-04-16 20:16:41.343 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 20:16:41.345 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -<==      Total: 1
+2020-04-16 20:16:42.311 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 20:16:42.312 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 20:16:42.313 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 20:31:40.868 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 20:31:40.869 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 20:31:40.870 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 20:32:24.878 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 20:32:24.879 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 20:32:24.880 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 20:35:45.120 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 20:35:45.121 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 20:35:45.124 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 20:36:12.063 DEBUG [http-nio-8088-exec-8]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 20:36:12.064 DEBUG [http-nio-8088-exec-8]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 20:36:12.067 DEBUG [http-nio-8088-exec-8]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 20:37:34.705 DEBUG [http-nio-8088-exec-9]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 20:37:34.707 DEBUG [http-nio-8088-exec-9]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 20:37:34.709 DEBUG [http-nio-8088-exec-9]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 20:39:54.265 DEBUG [http-nio-8088-exec-10]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 20:39:54.266 DEBUG [http-nio-8088-exec-10]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 20:39:54.268 DEBUG [http-nio-8088-exec-10]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 20:40:14.848 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 20:40:14.849 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 20:40:14.851 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 20:40:26.322 WARN  [http-nio-8088-exec-1]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:199 -Resolved [org.springframework.http.converter.HttpMessageNotReadableException: I/O error while reading input message; nested exception is org.apache.catalina.connector.ClientAbortException: java.io.EOFException]
+2020-04-16 20:40:48.103 INFO  [main]org.springframework.core.KotlinDetector.<clinit>:57 -Kotlin reflection implementation not found at runtime, related features won't be available.
+2020-04-16 20:40:48.751 INFO  [main]cn.codexing.blog.BlogApplication.logStarting:55 -Starting BlogApplication on DESKTOP-0EBHI2S with PID 14188 (E:\2020\myblog2.0\blog-backend\target\classes started by GuoXing in E:\2020\myblog2.0\blog-backend)
+2020-04-16 20:40:48.753 DEBUG [main]cn.codexing.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-16 20:40:48.754 INFO  [main]cn.codexing.blog.BlogApplication.logStartupProfileInfo:655 -The following profiles are active: dev
+2020-04-16 20:40:48.941 WARN  [background-preinit]o.s.http.converter.json.Jackson2ObjectMapperBuilder.warn:127 -For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-04-16 20:40:50.953 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:92 -Tomcat initialized with port(s): 8088 (http)
+2020-04-16 20:40:50.962 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8088"]
+2020-04-16 20:40:50.963 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-04-16 20:40:50.964 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-16 20:40:51.070 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-04-16 20:40:51.071 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 2249 ms
+2020-04-16 20:40:51.661 WARN  [main]com.baomidou.mybatisplus.core.injector.AbstractMethod.addMappedStatement:307 -[cn.codexing.blog.mapper.ArticleMapper.deleteById] Has been loaded by XML or SqlProvider or Mybatis's Annotation, so ignoring this injection for [class com.baomidou.mybatisplus.core.injector.methods.DeleteById]
+2020-04-16 20:40:52.705 INFO  [main]s.d.s.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods:69 -Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-16 20:40:52.790 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:181 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-16 20:40:52.993 INFO  [main]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:160 -Context refreshed
+2020-04-16 20:40:53.018 INFO  [main]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:163 -Found 1 custom documentation plugin(s)
+2020-04-16 20:40:53.050 INFO  [main]s.d.spring.web.scanners.ApiListingReferenceScanner.scan:41 -Scanning for api listing references
+2020-04-16 20:40:53.257 INFO  [main]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: getByIdUsingGET_1
+2020-04-16 20:40:53.266 INFO  [main]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: getByIdUsingGET_2
+2020-04-16 20:40:53.279 INFO  [main]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: getByIdUsingGET_3
+2020-04-16 20:40:53.295 INFO  [main]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: getByIdUsingGET_4
+2020-04-16 20:40:53.335 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8088"]
+2020-04-16 20:40:53.371 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 8088 (http) with context path ''
+2020-04-16 20:40:53.374 INFO  [main]cn.codexing.blog.BlogApplication.logStarted:61 -Started BlogApplication in 5.173 seconds (JVM running for 6.825)
+2020-04-16 20:41:39.257 INFO  [http-nio-8088-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-16 20:41:39.257 INFO  [http-nio-8088-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-04-16 20:41:39.265 INFO  [http-nio-8088-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 8 ms
+2020-04-16 20:41:44.235 WARN  [http-nio-8088-exec-1]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:199 -Resolved [org.springframework.http.converter.HttpMessageNotReadableException: I/O error while reading input message; nested exception is org.apache.catalina.connector.ClientAbortException: java.io.EOFException]
+2020-04-16 20:44:05.263 INFO  [http-nio-8088-exec-2]com.alibaba.druid.pool.DruidDataSource.init:1003 -{dataSource-1} inited
+2020-04-16 20:44:05.487 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 20:44:05.505 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 20:44:05.519 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 20:49:01.447 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 20:49:01.448 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 20:49:01.450 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 20:49:17.762 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 20:49:17.763 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 20:49:17.765 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 20:50:41.871 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 20:50:41.873 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 20:50:41.875 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 20:51:41.131 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 20:51:41.132 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 20:51:41.134 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 20:52:33.622 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 20:52:33.623 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 20:52:33.628 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 20:54:04.669 DEBUG [http-nio-8088-exec-8]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 20:54:04.670 DEBUG [http-nio-8088-exec-8]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 20:54:04.672 DEBUG [http-nio-8088-exec-8]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 20:54:26.103 DEBUG [http-nio-8088-exec-9]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 20:54:26.105 DEBUG [http-nio-8088-exec-9]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 20:54:26.111 DEBUG [http-nio-8088-exec-9]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 20:56:24.686 DEBUG [http-nio-8088-exec-10]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 20:56:24.688 DEBUG [http-nio-8088-exec-10]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 20:56:24.691 DEBUG [http-nio-8088-exec-10]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 20:57:16.239 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 20:57:16.242 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 20:57:16.244 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 20:57:52.316 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 20:57:52.317 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 20:57:52.320 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 20:58:37.402 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 20:58:37.403 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 20:58:37.404 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 20:59:27.201 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 20:59:27.205 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 20:59:27.210 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 20:59:37.016 WARN  [http-nio-8088-exec-5]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:199 -Resolved [org.springframework.http.converter.HttpMessageNotReadableException: I/O error while reading input message; nested exception is org.apache.catalina.connector.ClientAbortException: java.io.EOFException]
+2020-04-16 20:59:40.004 WARN  [http-nio-8088-exec-6]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:199 -Resolved [org.springframework.http.converter.HttpMessageNotReadableException: I/O error while reading input message; nested exception is org.apache.catalina.connector.ClientAbortException: java.io.EOFException]
+2020-04-16 21:02:51.510 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 21:02:51.511 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 21:02:51.513 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 21:03:03.784 DEBUG [http-nio-8088-exec-8]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 21:03:03.785 DEBUG [http-nio-8088-exec-8]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 21:03:03.787 DEBUG [http-nio-8088-exec-8]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 21:03:12.319 DEBUG [http-nio-8088-exec-9]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 21:03:12.321 DEBUG [http-nio-8088-exec-9]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 21:03:12.324 DEBUG [http-nio-8088-exec-9]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 21:04:33.545 DEBUG [http-nio-8088-exec-10]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 21:04:33.547 DEBUG [http-nio-8088-exec-10]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 21:04:33.549 DEBUG [http-nio-8088-exec-10]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 21:07:35.126 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 21:07:35.128 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 21:07:35.130 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 21:08:04.658 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 21:08:04.659 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 21:08:04.661 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 21:13:04.671 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 21:13:04.672 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 21:13:04.674 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 21:13:05.876 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 21:13:05.877 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 21:13:05.878 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 21:13:07.214 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.TagMapper.selectById.debug:143 -==>  Preparing: SELECT id,name FROM tag WHERE id=? 
+2020-04-16 21:13:07.215 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.TagMapper.selectById.debug:143 -==> Parameters: 1249918441775739000(Long)
+2020-04-16 21:13:07.217 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.TagMapper.selectById.debug:143 -<==      Total: 0
+2020-04-16 21:13:10.057 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.TagMapper.selectById.debug:143 -==>  Preparing: SELECT id,name FROM tag WHERE id=? 
+2020-04-16 21:13:10.058 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.TagMapper.selectById.debug:143 -==> Parameters: 1241969722157813800(Long)
+2020-04-16 21:13:10.059 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.TagMapper.selectById.debug:143 -<==      Total: 0
+2020-04-16 21:14:26.450 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 21:14:26.451 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 21:14:26.453 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 21:14:27.914 DEBUG [http-nio-8088-exec-8]cn.codexing.blog.mapper.TagMapper.selectById.debug:143 -==>  Preparing: SELECT id,name FROM tag WHERE id=? 
+2020-04-16 21:14:27.915 DEBUG [http-nio-8088-exec-8]cn.codexing.blog.mapper.TagMapper.selectById.debug:143 -==> Parameters: 1(Long)
+2020-04-16 21:14:27.916 DEBUG [http-nio-8088-exec-8]cn.codexing.blog.mapper.TagMapper.selectById.debug:143 -<==      Total: 1
+2020-04-16 21:14:30.777 DEBUG [http-nio-8088-exec-9]cn.codexing.blog.mapper.TagMapper.selectById.debug:143 -==>  Preparing: SELECT id,name FROM tag WHERE id=? 
+2020-04-16 21:14:30.778 DEBUG [http-nio-8088-exec-9]cn.codexing.blog.mapper.TagMapper.selectById.debug:143 -==> Parameters: 2(Long)
+2020-04-16 21:14:30.779 DEBUG [http-nio-8088-exec-9]cn.codexing.blog.mapper.TagMapper.selectById.debug:143 -<==      Total: 1
+2020-04-16 21:14:36.881 DEBUG [http-nio-8088-exec-10]cn.codexing.blog.mapper.TagMapper.selectById.debug:143 -==>  Preparing: SELECT id,name FROM tag WHERE id=? 
+2020-04-16 21:14:36.883 DEBUG [http-nio-8088-exec-10]cn.codexing.blog.mapper.TagMapper.selectById.debug:143 -==> Parameters: 1(Long)
+2020-04-16 21:14:36.887 DEBUG [http-nio-8088-exec-10]cn.codexing.blog.mapper.TagMapper.selectById.debug:143 -<==      Total: 1
+2020-04-16 21:14:38.883 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.TagMapper.selectById.debug:143 -==>  Preparing: SELECT id,name FROM tag WHERE id=? 
+2020-04-16 21:14:38.884 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.TagMapper.selectById.debug:143 -==> Parameters: 2(Long)
+2020-04-16 21:14:38.885 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.TagMapper.selectById.debug:143 -<==      Total: 1
+2020-04-16 21:14:42.584 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.TagMapper.selectById.debug:143 -==>  Preparing: SELECT id,name FROM tag WHERE id=? 
+2020-04-16 21:14:42.587 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.TagMapper.selectById.debug:143 -==> Parameters: 3(Long)
+2020-04-16 21:14:42.590 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.TagMapper.selectById.debug:143 -<==      Total: 1
+2020-04-16 21:14:50.612 WARN  [http-nio-8088-exec-3]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:199 -Resolved [org.springframework.http.converter.HttpMessageNotReadableException: I/O error while reading input message; nested exception is org.apache.catalina.connector.ClientAbortException: java.io.EOFException]
+2020-04-16 21:14:55.360 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 21:14:55.362 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 21:14:55.363 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 21:14:57.955 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 21:14:57.956 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 21:14:57.957 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 21:16:06.701 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.TagMapper.selectById.debug:143 -==>  Preparing: SELECT id,name FROM tag WHERE id=? 
+2020-04-16 21:16:06.702 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.TagMapper.selectById.debug:143 -==> Parameters: 3(Long)
+2020-04-16 21:16:06.703 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.TagMapper.selectById.debug:143 -<==      Total: 1
+2020-04-16 21:16:10.057 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.TagMapper.selectById.debug:143 -==>  Preparing: SELECT id,name FROM tag WHERE id=? 
+2020-04-16 21:16:10.058 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.TagMapper.selectById.debug:143 -==> Parameters: 2(Long)
+2020-04-16 21:16:10.059 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.TagMapper.selectById.debug:143 -<==      Total: 1
+2020-04-16 21:17:43.391 DEBUG [http-nio-8088-exec-8]cn.codexing.blog.mapper.TagMapper.selectById.debug:143 -==>  Preparing: SELECT id,name FROM tag WHERE id=? 
+2020-04-16 21:17:43.392 DEBUG [http-nio-8088-exec-8]cn.codexing.blog.mapper.TagMapper.selectById.debug:143 -==> Parameters: 3(Long)
+2020-04-16 21:17:43.393 DEBUG [http-nio-8088-exec-8]cn.codexing.blog.mapper.TagMapper.selectById.debug:143 -<==      Total: 1
+2020-04-16 21:17:46.590 DEBUG [http-nio-8088-exec-9]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 21:17:46.591 DEBUG [http-nio-8088-exec-9]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 21:17:46.592 DEBUG [http-nio-8088-exec-9]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 21:17:47.817 DEBUG [http-nio-8088-exec-10]cn.codexing.blog.mapper.TagMapper.selectById.debug:143 -==>  Preparing: SELECT id,name FROM tag WHERE id=? 
+2020-04-16 21:17:47.818 DEBUG [http-nio-8088-exec-10]cn.codexing.blog.mapper.TagMapper.selectById.debug:143 -==> Parameters: 3(Long)
+2020-04-16 21:17:47.819 DEBUG [http-nio-8088-exec-10]cn.codexing.blog.mapper.TagMapper.selectById.debug:143 -<==      Total: 1
+2020-04-16 21:18:43.010 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.TagMapper.selectById.debug:143 -==>  Preparing: SELECT id,name FROM tag WHERE id=? 
+2020-04-16 21:18:43.011 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.TagMapper.selectById.debug:143 -==> Parameters: 3(Long)
+2020-04-16 21:18:43.012 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.TagMapper.selectById.debug:143 -<==      Total: 1
+2020-04-16 21:20:14.402 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.TagMapper.selectById.debug:143 -==>  Preparing: SELECT id,name FROM tag WHERE id=? 
+2020-04-16 21:20:14.403 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.TagMapper.selectById.debug:143 -==> Parameters: 1(Long)
+2020-04-16 21:20:14.405 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.TagMapper.selectById.debug:143 -<==      Total: 1
+2020-04-16 21:20:16.426 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.TagMapper.selectById.debug:143 -==>  Preparing: SELECT id,name FROM tag WHERE id=? 
+2020-04-16 21:20:16.427 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.TagMapper.selectById.debug:143 -==> Parameters: 2(Long)
+2020-04-16 21:20:16.428 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.TagMapper.selectById.debug:143 -<==      Total: 1
+2020-04-16 21:20:25.316 WARN  [http-nio-8088-exec-4]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:199 -Resolved [org.springframework.http.converter.HttpMessageNotReadableException: I/O error while reading input message; nested exception is org.apache.catalina.connector.ClientAbortException: java.io.EOFException]
+2020-04-16 21:20:30.198 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 21:20:30.199 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 21:20:30.200 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 21:23:12.120 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 21:23:12.121 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 21:23:12.124 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 21:25:04.934 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 21:25:04.936 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 21:25:04.938 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 21:25:48.740 DEBUG [http-nio-8088-exec-8]cn.codexing.blog.mapper.TagMapper.selectById.debug:143 -==>  Preparing: SELECT id,name FROM tag WHERE id=? 
+2020-04-16 21:25:48.741 DEBUG [http-nio-8088-exec-8]cn.codexing.blog.mapper.TagMapper.selectById.debug:143 -==> Parameters: 1(Long)
+2020-04-16 21:25:48.742 DEBUG [http-nio-8088-exec-8]cn.codexing.blog.mapper.TagMapper.selectById.debug:143 -<==      Total: 1
+2020-04-16 21:25:51.423 DEBUG [http-nio-8088-exec-9]cn.codexing.blog.mapper.TagMapper.selectById.debug:143 -==>  Preparing: SELECT id,name FROM tag WHERE id=? 
+2020-04-16 21:25:51.427 DEBUG [http-nio-8088-exec-9]cn.codexing.blog.mapper.TagMapper.selectById.debug:143 -==> Parameters: 2(Long)
+2020-04-16 21:25:51.431 DEBUG [http-nio-8088-exec-9]cn.codexing.blog.mapper.TagMapper.selectById.debug:143 -<==      Total: 1
+2020-04-16 21:25:59.445 DEBUG [http-nio-8088-exec-10]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category 
+2020-04-16 21:25:59.446 DEBUG [http-nio-8088-exec-10]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 21:25:59.448 DEBUG [http-nio-8088-exec-10]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -<==      Total: 1
+2020-04-16 21:26:02.581 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 21:26:02.588 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 21:26:02.590 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 21:26:09.522 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.TagMapper.selectById.debug:143 -==>  Preparing: SELECT id,name FROM tag WHERE id=? 
+2020-04-16 21:26:09.523 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.TagMapper.selectById.debug:143 -==> Parameters: 3(Long)
+2020-04-16 21:26:09.524 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.TagMapper.selectById.debug:143 -<==      Total: 1
+2020-04-16 21:26:56.663 WARN  [http-nio-8088-exec-3]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:199 -Resolved [org.springframework.http.converter.HttpMessageNotReadableException: I/O error while reading input message; nested exception is org.apache.catalina.connector.ClientAbortException: java.io.EOFException]
+2020-04-16 21:31:23.516 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 21:31:23.524 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 21:31:23.531 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 21:31:37.864 WARN  [http-nio-8088-exec-5]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:199 -Resolved [org.springframework.http.converter.HttpMessageNotReadableException: I/O error while reading input message; nested exception is org.apache.catalina.connector.ClientAbortException: java.io.EOFException]
+2020-04-16 21:36:41.459 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category 
+2020-04-16 21:36:41.461 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 21:36:41.463 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -<==      Total: 1
+2020-04-16 21:36:47.908 DEBUG [http-nio-8088-exec-8]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category 
+2020-04-16 21:36:47.909 DEBUG [http-nio-8088-exec-8]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 21:36:47.912 DEBUG [http-nio-8088-exec-8]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -<==      Total: 1
+2020-04-16 21:36:50.991 WARN  [http-nio-8088-exec-7]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:199 -Resolved [org.springframework.http.converter.HttpMessageNotReadableException: I/O error while reading input message; nested exception is org.apache.catalina.connector.ClientAbortException: java.io.EOFException]
+2020-04-16 21:37:09.919 DEBUG [http-nio-8088-exec-9]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category 
+2020-04-16 21:37:09.920 DEBUG [http-nio-8088-exec-9]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 21:37:09.923 DEBUG [http-nio-8088-exec-9]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -<==      Total: 1
+2020-04-16 21:42:02.543 DEBUG [http-nio-8088-exec-10]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category 
+2020-04-16 21:42:02.544 DEBUG [http-nio-8088-exec-10]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 21:42:02.546 DEBUG [http-nio-8088-exec-10]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -<==      Total: 1
+2020-04-16 21:43:05.638 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category 
+2020-04-16 21:43:05.639 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 21:43:05.641 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -<==      Total: 1
+2020-04-16 21:44:08.908 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category 
+2020-04-16 21:44:08.909 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 21:44:08.912 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -<==      Total: 1
+2020-04-16 21:44:45.272 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category 
+2020-04-16 21:44:45.272 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 21:44:45.273 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -<==      Total: 1
+2020-04-16 21:45:37.876 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category 
+2020-04-16 21:45:37.876 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 21:45:37.878 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -<==      Total: 1
+2020-04-16 21:46:27.424 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category 
+2020-04-16 21:46:27.425 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 21:46:27.426 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -<==      Total: 1
+2020-04-16 21:46:45.451 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category 
+2020-04-16 21:46:45.452 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 21:46:45.453 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -<==      Total: 1
+2020-04-16 21:47:03.273 DEBUG [http-nio-8088-exec-8]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category 
+2020-04-16 21:47:03.274 DEBUG [http-nio-8088-exec-8]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 21:47:03.276 DEBUG [http-nio-8088-exec-8]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -<==      Total: 1
+2020-04-16 21:50:27.326 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category 
+2020-04-16 21:50:27.328 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 21:50:27.332 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -<==      Total: 1
+2020-04-16 21:52:07.440 DEBUG [http-nio-8088-exec-9]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category 
+2020-04-16 21:52:07.441 DEBUG [http-nio-8088-exec-9]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 21:52:07.443 DEBUG [http-nio-8088-exec-9]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -<==      Total: 1
+2020-04-16 21:52:08.268 DEBUG [http-nio-8088-exec-10]cn.codexing.blog.mapper.CategoryMapper.selectById.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category WHERE id=? 
+2020-04-16 21:52:08.269 DEBUG [http-nio-8088-exec-10]cn.codexing.blog.mapper.CategoryMapper.selectById.debug:143 -==> Parameters: 1249925190226288600(Long)
+2020-04-16 21:52:08.270 DEBUG [http-nio-8088-exec-10]cn.codexing.blog.mapper.CategoryMapper.selectById.debug:143 -<==      Total: 0
+2020-04-16 21:52:22.376 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category 
+2020-04-16 21:52:22.377 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 21:52:22.379 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -<==      Total: 1
+2020-04-16 21:52:23.763 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.CategoryMapper.selectById.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category WHERE id=? 
+2020-04-16 21:52:23.764 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.CategoryMapper.selectById.debug:143 -==> Parameters: 1(Long)
+2020-04-16 21:52:23.766 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.CategoryMapper.selectById.debug:143 -<==      Total: 1
+2020-04-16 21:52:48.291 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.CategoryMapper.selectById.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category WHERE id=? 
+2020-04-16 21:52:48.292 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.CategoryMapper.selectById.debug:143 -==> Parameters: 1(Long)
+2020-04-16 21:52:48.293 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.CategoryMapper.selectById.debug:143 -<==      Total: 1
+2020-04-16 21:52:54.080 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 21:52:54.081 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 21:52:54.082 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 21:52:56.238 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.TagMapper.selectById.debug:143 -==>  Preparing: SELECT id,name FROM tag WHERE id=? 
+2020-04-16 21:52:56.239 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.TagMapper.selectById.debug:143 -==> Parameters: 1(Long)
+2020-04-16 21:52:56.240 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.TagMapper.selectById.debug:143 -<==      Total: 1
+2020-04-16 21:53:20.262 DEBUG [http-nio-8088-exec-8]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category 
+2020-04-16 21:53:20.263 DEBUG [http-nio-8088-exec-8]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 21:53:20.265 DEBUG [http-nio-8088-exec-8]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -<==      Total: 1
+2020-04-16 21:53:21.501 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category 
+2020-04-16 21:53:21.502 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 21:53:21.503 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -<==      Total: 1
+2020-04-16 21:53:23.915 WARN  [http-nio-8088-exec-6]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:199 -Resolved [org.springframework.http.converter.HttpMessageNotReadableException: I/O error while reading input message; nested exception is org.apache.catalina.connector.ClientAbortException: java.io.EOFException]
+2020-04-16 21:53:26.958 WARN  [http-nio-8088-exec-9]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:199 -Resolved [org.springframework.http.converter.HttpMessageNotReadableException: I/O error while reading input message; nested exception is org.apache.catalina.connector.ClientAbortException: java.io.EOFException]
+2020-04-16 21:55:42.233 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category 
+2020-04-16 21:55:42.234 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 21:55:42.235 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -<==      Total: 1
+2020-04-16 21:55:44.877 WARN  [http-nio-8088-exec-10]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:199 -Resolved [org.springframework.http.converter.HttpMessageNotReadableException: I/O error while reading input message; nested exception is org.apache.catalina.connector.ClientAbortException: java.io.EOFException]
+2020-04-16 21:55:44.006 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 21:55:45.604 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 21:55:45.609 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 21:55:55.905 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category 
+2020-04-16 21:55:55.905 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 21:55:55.907 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -<==      Total: 1
+2020-04-16 21:55:57.921 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 21:55:57.923 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 21:55:57.928 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 21:56:04.711 WARN  [http-nio-8088-exec-5]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:199 -Resolved [org.springframework.http.converter.HttpMessageNotReadableException: I/O error while reading input message; nested exception is org.apache.catalina.connector.ClientAbortException: java.io.EOFException]
+2020-04-16 21:56:33.625 DEBUG [http-nio-8088-exec-8]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 21:56:33.626 DEBUG [http-nio-8088-exec-8]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 21:56:33.628 DEBUG [http-nio-8088-exec-8]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 22:00:36.285 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==>  Preparing: SELECT COUNT(1) FROM article WHERE is_deleted = 0 
+2020-04-16 22:00:36.285 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==> Parameters: 
+2020-04-16 22:00:36.296 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==>  Preparing: SELECT id,author,title,summary,cover,views,comment_count,like_count,create_time FROM article WHERE is_deleted=0 LIMIT ?,? 
+2020-04-16 22:00:36.296 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==> Parameters: 0(Long), 2(Long)
+2020-04-16 22:00:36.302 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -<==      Total: 2
+2020-04-16 22:00:36.308 DEBUG [http-nio-8088-exec-7]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -==>  Preparing: SELECT c.id, c.category_name FROM category c LEFT JOIN article_category ac ON c.id = ac.category_id WHERE ac.article_id =? 
+2020-04-16 22:00:36.309 DEBUG [http-nio-8088-exec-7]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -==> Parameters: 1(Long)
+2020-04-16 22:00:36.312 DEBUG [http-nio-8088-exec-7]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -<==      Total: 1
+2020-04-16 22:00:36.316 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -==>  Preparing: SELECT t.id, t.name FROM tag t LEFT JOIN article_tag art ON t.id = art.tag_id WHERE art.article_id=? 
+2020-04-16 22:00:36.317 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -==> Parameters: 1(Long)
+2020-04-16 22:00:36.319 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -<==      Total: 0
+2020-04-16 22:00:36.320 DEBUG [http-nio-8088-exec-7]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -==>  Preparing: SELECT c.id, c.category_name FROM category c LEFT JOIN article_category ac ON c.id = ac.category_id WHERE ac.article_id =? 
+2020-04-16 22:00:36.321 DEBUG [http-nio-8088-exec-7]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -==> Parameters: 2(Long)
+2020-04-16 22:00:36.322 DEBUG [http-nio-8088-exec-7]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -<==      Total: 0
+2020-04-16 22:00:36.323 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -==>  Preparing: SELECT t.id, t.name FROM tag t LEFT JOIN article_tag art ON t.id = art.tag_id WHERE art.article_id=? 
+2020-04-16 22:00:36.323 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -==> Parameters: 2(Long)
+2020-04-16 22:00:36.324 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -<==      Total: 0
+2020-04-16 22:01:56.411 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 22:01:56.412 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 22:01:56.414 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 22:02:03.819 WARN  [http-nio-8088-exec-10]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:199 -Resolved [org.springframework.http.converter.HttpMessageNotReadableException: I/O error while reading input message; nested exception is org.apache.catalina.connector.ClientAbortException: java.io.EOFException]
+2020-04-16 22:04:45.801 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category 
+2020-04-16 22:04:45.802 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 22:04:45.803 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -<==      Total: 1
+2020-04-16 22:04:47.518 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-16 22:04:47.519 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-16 22:04:47.521 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 3
+2020-04-16 22:04:49.185 WARN  [http-nio-8088-exec-2]o.s.w.s.mvc.support.DefaultHandlerExceptionResolver.logException:199 -Resolved [org.springframework.http.converter.HttpMessageNotReadableException: I/O error while reading input message; nested exception is org.apache.catalina.connector.ClientAbortException: java.io.EOFException]

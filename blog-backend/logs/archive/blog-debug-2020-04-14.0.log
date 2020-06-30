@@ -1,0 +1,578 @@
+2020-04-14 09:06:15.206 DEBUG [main]cn.codexing.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-14 09:07:07.109 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==>  Preparing: SELECT COUNT(1) WHERE is_deleted = 0 
+2020-04-14 09:07:07.126 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==> Parameters: 
+2020-04-14 09:07:40.304 DEBUG [main]cn.codexing.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-14 09:07:51.818 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==>  Preparing: SELECT COUNT(1) FROM article WHERE is_deleted = 0 
+2020-04-14 09:07:51.831 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==> Parameters: 
+2020-04-14 09:07:51.858 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==>  Preparing: SELECT id,author,title,summary,cover,views,comment_count,like_count,create_time FROM article WHERE is_deleted=0 LIMIT ?,? 
+2020-04-14 09:07:51.860 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==> Parameters: 0(Long), 10(Long)
+2020-04-14 09:07:51.865 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -<==      Total: 2
+2020-04-14 09:10:38.827 DEBUG [main]cn.codexing.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-14 09:10:50.730 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==>  Preparing: SELECT COUNT(1) FROM article WHERE is_deleted = 0 
+2020-04-14 09:10:50.744 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==> Parameters: 
+2020-04-14 09:10:50.757 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==>  Preparing: SELECT id,author,title,summary,cover,views,comment_count,like_count,create_time FROM article WHERE is_deleted=0 LIMIT ?,? 
+2020-04-14 09:10:50.758 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==> Parameters: 0(Long), 10(Long)
+2020-04-14 09:10:50.764 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -<==      Total: 2
+2020-04-14 09:10:50.771 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.CategoryMapper.selectById.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category WHERE id=? 
+2020-04-14 09:10:50.771 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.CategoryMapper.selectById.debug:143 -==> Parameters: 1(Long)
+2020-04-14 09:10:50.792 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.CategoryMapper.selectById.debug:143 -<==      Total: 1
+2020-04-14 09:10:50.807 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-14 09:10:50.808 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-14 09:10:50.811 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 2
+2020-04-14 09:10:50.813 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.CategoryMapper.selectById.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category WHERE id=? 
+2020-04-14 09:10:50.813 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.CategoryMapper.selectById.debug:143 -==> Parameters: 2(Long)
+2020-04-14 09:10:50.815 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.CategoryMapper.selectById.debug:143 -<==      Total: 0
+2020-04-14 09:10:50.817 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-14 09:10:50.818 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-14 09:10:50.820 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 2
+2020-04-14 09:24:57.811 DEBUG [main]cn.codexing.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-14 09:25:07.254 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==>  Preparing: SELECT COUNT(1) FROM article WHERE is_deleted = 0 
+2020-04-14 09:25:07.268 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==> Parameters: 
+2020-04-14 09:25:07.279 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==>  Preparing: SELECT id,author,title,summary,cover,views,comment_count,like_count,create_time FROM article WHERE is_deleted=0 LIMIT ?,? 
+2020-04-14 09:25:07.281 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==> Parameters: 0(Long), 10(Long)
+2020-04-14 09:25:07.287 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -<==      Total: 2
+2020-04-14 09:25:07.293 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.CategoryMapper.selectById.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category WHERE id=? 
+2020-04-14 09:25:07.294 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.CategoryMapper.selectById.debug:143 -==> Parameters: 1(Long)
+2020-04-14 09:25:07.296 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.CategoryMapper.selectById.debug:143 -<==      Total: 1
+2020-04-14 09:25:07.301 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.TagMapper.listByArticleId.debug:143 -==>  Preparing: SELECT t.id, t.name FROM tag t LEFT JOIN article_tag art ON t.id = art.tag_id WHERE art.article_id=? 
+2020-04-14 09:25:07.302 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.TagMapper.listByArticleId.debug:143 -==> Parameters: 1(Long)
+2020-04-14 09:25:07.305 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.TagMapper.listByArticleId.debug:143 -<==      Total: 1
+2020-04-14 09:25:07.306 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.CategoryMapper.selectById.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category WHERE id=? 
+2020-04-14 09:25:07.306 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.CategoryMapper.selectById.debug:143 -==> Parameters: 2(Long)
+2020-04-14 09:25:07.307 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.CategoryMapper.selectById.debug:143 -<==      Total: 0
+2020-04-14 09:25:07.308 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.TagMapper.listByArticleId.debug:143 -==>  Preparing: SELECT t.id, t.name FROM tag t LEFT JOIN article_tag art ON t.id = art.tag_id WHERE art.article_id=? 
+2020-04-14 09:25:07.309 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.TagMapper.listByArticleId.debug:143 -==> Parameters: 2(Long)
+2020-04-14 09:25:07.310 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.TagMapper.listByArticleId.debug:143 -<==      Total: 1
+2020-04-14 09:26:37.039 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==>  Preparing: SELECT COUNT(1) FROM article WHERE title LIKE CONCAT('%', ?, '%') AND is_deleted = 0 
+2020-04-14 09:26:37.041 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==> Parameters: spring(String)
+2020-04-14 09:26:42.092 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==>  Preparing: SELECT COUNT(1) FROM article WHERE title LIKE CONCAT('%', ?, '%') AND is_deleted = 0 
+2020-04-14 09:26:42.094 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==> Parameters: h(String)
+2020-04-14 09:26:42.096 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==>  Preparing: SELECT id,author,title,summary,cover,views,comment_count,like_count,create_time FROM article WHERE title like CONCAT('%',?,'%') and is_deleted=0 LIMIT ?,? 
+2020-04-14 09:26:42.097 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==> Parameters: h(String), 0(Long), 10(Long)
+2020-04-14 09:26:42.099 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -<==      Total: 1
+2020-04-14 09:26:42.101 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.CategoryMapper.selectById.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category WHERE id=? 
+2020-04-14 09:26:42.102 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.CategoryMapper.selectById.debug:143 -==> Parameters: 1(Long)
+2020-04-14 09:26:42.105 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.CategoryMapper.selectById.debug:143 -<==      Total: 1
+2020-04-14 09:26:42.107 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.TagMapper.listByArticleId.debug:143 -==>  Preparing: SELECT t.id, t.name FROM tag t LEFT JOIN article_tag art ON t.id = art.tag_id WHERE art.article_id=? 
+2020-04-14 09:26:42.108 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.TagMapper.listByArticleId.debug:143 -==> Parameters: 1(Long)
+2020-04-14 09:26:42.110 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.TagMapper.listByArticleId.debug:143 -<==      Total: 1
+2020-04-14 09:27:37.820 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==>  Preparing: SELECT COUNT(1) FROM article WHERE title LIKE CONCAT('%', ?, '%') AND is_deleted = 0 
+2020-04-14 09:27:37.821 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==> Parameters: h(String)
+2020-04-14 09:27:37.823 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==>  Preparing: SELECT id,author,title,summary,cover,views,comment_count,like_count,create_time FROM article WHERE title like CONCAT('%',?,'%') and is_deleted=0 LIMIT ?,? 
+2020-04-14 09:27:37.824 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==> Parameters: h(String), 0(Long), 1(Long)
+2020-04-14 09:27:37.826 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -<==      Total: 1
+2020-04-14 09:27:37.828 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.CategoryMapper.selectById.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category WHERE id=? 
+2020-04-14 09:27:37.829 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.CategoryMapper.selectById.debug:143 -==> Parameters: 1(Long)
+2020-04-14 09:27:37.831 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.CategoryMapper.selectById.debug:143 -<==      Total: 1
+2020-04-14 09:27:37.833 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.TagMapper.listByArticleId.debug:143 -==>  Preparing: SELECT t.id, t.name FROM tag t LEFT JOIN article_tag art ON t.id = art.tag_id WHERE art.article_id=? 
+2020-04-14 09:27:37.834 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.TagMapper.listByArticleId.debug:143 -==> Parameters: 1(Long)
+2020-04-14 09:27:37.836 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.TagMapper.listByArticleId.debug:143 -<==      Total: 1
+2020-04-14 09:27:47.575 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==>  Preparing: SELECT COUNT(1) FROM article WHERE title LIKE CONCAT('%', ?, '%') AND is_deleted = 0 
+2020-04-14 09:27:47.577 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==> Parameters: h(String)
+2020-04-14 09:27:47.579 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==>  Preparing: SELECT id,author,title,summary,cover,views,comment_count,like_count,create_time FROM article WHERE title like CONCAT('%',?,'%') and is_deleted=0 LIMIT ?,? 
+2020-04-14 09:27:47.581 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==> Parameters: h(String), 0(Long), 1(Long)
+2020-04-14 09:27:47.583 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -<==      Total: 1
+2020-04-14 09:27:47.586 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.CategoryMapper.selectById.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category WHERE id=? 
+2020-04-14 09:27:47.587 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.CategoryMapper.selectById.debug:143 -==> Parameters: 1(Long)
+2020-04-14 09:27:47.592 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.CategoryMapper.selectById.debug:143 -<==      Total: 1
+2020-04-14 09:27:47.593 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.TagMapper.listByArticleId.debug:143 -==>  Preparing: SELECT t.id, t.name FROM tag t LEFT JOIN article_tag art ON t.id = art.tag_id WHERE art.article_id=? 
+2020-04-14 09:27:47.594 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.TagMapper.listByArticleId.debug:143 -==> Parameters: 1(Long)
+2020-04-14 09:27:47.596 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.TagMapper.listByArticleId.debug:143 -<==      Total: 1
+2020-04-14 09:30:59.891 DEBUG [main]cn.codexing.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-14 09:31:10.117 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==>  Preparing: SELECT COUNT(1) FROM article WHERE title LIKE CONCAT('%', ?, '%') AND is_deleted = 0 
+2020-04-14 09:31:10.137 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==> Parameters: h(String)
+2020-04-14 09:31:10.149 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==>  Preparing: SELECT id,author,title,summary,cover,views,comment_count,like_count,create_time FROM article WHERE title like CONCAT('%',?,'%') and is_deleted=0 LIMIT ?,? 
+2020-04-14 09:31:10.151 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==> Parameters: h(String), 0(Long), 1(Long)
+2020-04-14 09:31:10.158 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -<==      Total: 1
+2020-04-14 09:31:10.163 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.CategoryMapper.selectById.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category WHERE id=? 
+2020-04-14 09:31:10.164 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.CategoryMapper.selectById.debug:143 -==> Parameters: 1(Long)
+2020-04-14 09:31:10.166 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.CategoryMapper.selectById.debug:143 -<==      Total: 1
+2020-04-14 09:31:10.170 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.TagMapper.listByArticleId.debug:143 -==>  Preparing: SELECT t.id, t.name FROM tag t LEFT JOIN article_tag art ON t.id = art.tag_id WHERE art.article_id=? 
+2020-04-14 09:31:10.171 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.TagMapper.listByArticleId.debug:143 -==> Parameters: 1(Long)
+2020-04-14 09:31:10.174 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.TagMapper.listByArticleId.debug:143 -<==      Total: 1
+2020-04-14 09:37:38.893 DEBUG [main]cn.codexing.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-14 09:38:17.517 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==>  Preparing: SELECT COUNT(1) FROM article WHERE is_deleted = 0 
+2020-04-14 09:38:17.531 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==> Parameters: 
+2020-04-14 09:38:17.546 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==>  Preparing: SELECT id,author,title,summary,cover,views,comment_count,like_count,create_time FROM article WHERE is_deleted=0 LIMIT ?,? 
+2020-04-14 09:38:17.548 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==> Parameters: 0(Long), 1(Long)
+2020-04-14 09:38:17.557 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -<==      Total: 1
+2020-04-14 09:38:17.568 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.CategoryMapper.selectById.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category WHERE id=? 
+2020-04-14 09:38:17.569 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.CategoryMapper.selectById.debug:143 -==> Parameters: 1(Long)
+2020-04-14 09:38:17.572 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.CategoryMapper.selectById.debug:143 -<==      Total: 1
+2020-04-14 09:38:17.580 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.TagMapper.listByArticleId.debug:143 -==>  Preparing: SELECT t.id, t.name FROM tag t LEFT JOIN article_tag art ON t.id = art.tag_id WHERE art.article_id=? 
+2020-04-14 09:38:17.580 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.TagMapper.listByArticleId.debug:143 -==> Parameters: 1(Long)
+2020-04-14 09:38:17.583 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.TagMapper.listByArticleId.debug:143 -<==      Total: 1
+2020-04-14 09:38:46.574 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.ArticleMapper.getArticleVoById.debug:143 -==>  Preparing: SELECT id,author,title,summary,content,cover,views,comment_count,like_count,create_time,update_time FROM article 
+2020-04-14 09:38:46.575 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.ArticleMapper.getArticleVoById.debug:143 -==> Parameters: 
+2020-04-14 09:38:46.578 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.ArticleMapper.getArticleVoById.debug:143 -<==      Total: 2
+2020-04-14 09:40:38.195 DEBUG [main]cn.codexing.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-14 09:51:33.648 DEBUG [main]cn.codexing.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-14 09:51:46.662 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.ArticleMapper.getArticleVoById.debug:143 -==>  Preparing: SELECT id,author,title,summary,content,cover,views,comment_count,like_count,create_time,update_time FROM article WHERE id=? 
+2020-04-14 09:51:46.676 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.ArticleMapper.getArticleVoById.debug:143 -==> Parameters: 1(Long)
+2020-04-14 09:51:46.690 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.ArticleMapper.getArticleVoById.debug:143 -<==      Total: 1
+2020-04-14 09:51:46.696 DEBUG [http-nio-8088-exec-1]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -==>  Preparing: SELECT c.id, c.category_name FROM category c LEFT JOIN article_category ac ON c.id = ac.category_id WHERE ac.article_id =? 
+2020-04-14 09:51:46.697 DEBUG [http-nio-8088-exec-1]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -==> Parameters: 1(Long)
+2020-04-14 09:51:46.700 DEBUG [http-nio-8088-exec-1]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -<==      Total: 1
+2020-04-14 09:51:46.702 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.ArticleMapper.getArticleVoById.debug:143 -==>  Preparing: SELECT id,author,title,summary,content,cover,views,comment_count,like_count,create_time,update_time FROM article WHERE id=? 
+2020-04-14 09:51:46.703 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.ArticleMapper.getArticleVoById.debug:143 -==> Parameters: 1(Long)
+2020-04-14 09:51:46.704 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.ArticleMapper.getArticleVoById.debug:143 -<==      Total: 1
+2020-04-14 09:54:05.010 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.ArticleMapper.getArticleVoById.debug:143 -==>  Preparing: SELECT id,author,title,summary,content,cover,views,comment_count,like_count,create_time,update_time FROM article WHERE id=? 
+2020-04-14 09:54:05.011 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.ArticleMapper.getArticleVoById.debug:143 -==> Parameters: 2(Long)
+2020-04-14 09:54:05.014 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.ArticleMapper.getArticleVoById.debug:143 -<==      Total: 1
+2020-04-14 09:54:05.015 DEBUG [http-nio-8088-exec-5]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -==>  Preparing: SELECT c.id, c.category_name FROM category c LEFT JOIN article_category ac ON c.id = ac.category_id WHERE ac.article_id =? 
+2020-04-14 09:54:05.016 DEBUG [http-nio-8088-exec-5]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -==> Parameters: 2(Long)
+2020-04-14 09:54:05.017 DEBUG [http-nio-8088-exec-5]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -<==      Total: 0
+2020-04-14 09:54:05.019 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.ArticleMapper.getArticleVoById.debug:143 -==>  Preparing: SELECT id,author,title,summary,content,cover,views,comment_count,like_count,create_time,update_time FROM article WHERE id=? 
+2020-04-14 09:54:05.019 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.ArticleMapper.getArticleVoById.debug:143 -==> Parameters: 2(Long)
+2020-04-14 09:54:05.021 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.ArticleMapper.getArticleVoById.debug:143 -<==      Total: 1
+2020-04-14 09:54:10.224 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.ArticleMapper.getArticleVoById.debug:143 -==>  Preparing: SELECT id,author,title,summary,content,cover,views,comment_count,like_count,create_time,update_time FROM article WHERE id=? 
+2020-04-14 09:54:10.229 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.ArticleMapper.getArticleVoById.debug:143 -==> Parameters: 1(Long)
+2020-04-14 09:54:10.249 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.ArticleMapper.getArticleVoById.debug:143 -<==      Total: 1
+2020-04-14 09:54:10.252 DEBUG [http-nio-8088-exec-6]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -==>  Preparing: SELECT c.id, c.category_name FROM category c LEFT JOIN article_category ac ON c.id = ac.category_id WHERE ac.article_id =? 
+2020-04-14 09:54:10.253 DEBUG [http-nio-8088-exec-6]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -==> Parameters: 1(Long)
+2020-04-14 09:54:10.255 DEBUG [http-nio-8088-exec-6]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -<==      Total: 1
+2020-04-14 09:54:10.257 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.ArticleMapper.getArticleVoById.debug:143 -==>  Preparing: SELECT id,author,title,summary,content,cover,views,comment_count,like_count,create_time,update_time FROM article WHERE id=? 
+2020-04-14 09:54:10.257 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.ArticleMapper.getArticleVoById.debug:143 -==> Parameters: 1(Long)
+2020-04-14 09:54:10.260 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.ArticleMapper.getArticleVoById.debug:143 -<==      Total: 1
+2020-04-14 09:55:18.540 DEBUG [http-nio-8088-exec-9]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==>  Preparing: SELECT COUNT(1) FROM article WHERE is_deleted = 0 
+2020-04-14 09:55:18.541 DEBUG [http-nio-8088-exec-9]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==> Parameters: 
+2020-04-14 09:55:18.545 DEBUG [http-nio-8088-exec-9]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==>  Preparing: SELECT id,author,title,summary,cover,views,comment_count,like_count,create_time FROM article WHERE is_deleted=0 LIMIT ?,? 
+2020-04-14 09:55:18.546 DEBUG [http-nio-8088-exec-9]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==> Parameters: 0(Long), 1(Long)
+2020-04-14 09:55:18.547 DEBUG [http-nio-8088-exec-9]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -<==      Total: 1
+2020-04-14 09:55:18.549 DEBUG [http-nio-8088-exec-9]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -==>  Preparing: SELECT c.id, c.category_name FROM category c LEFT JOIN article_category ac ON c.id = ac.category_id WHERE ac.article_id =? 
+2020-04-14 09:55:18.549 DEBUG [http-nio-8088-exec-9]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -==> Parameters: 1(Long)
+2020-04-14 09:55:18.551 DEBUG [http-nio-8088-exec-9]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -<==      Total: 1
+2020-04-14 09:55:18.556 DEBUG [http-nio-8088-exec-9]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -==>  Preparing: SELECT t.id, t.name FROM tag t LEFT JOIN article_tag art ON t.id = art.tag_id WHERE art.article_id=? 
+2020-04-14 09:55:18.556 DEBUG [http-nio-8088-exec-9]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -==> Parameters: 1(Long)
+2020-04-14 09:55:18.559 DEBUG [http-nio-8088-exec-9]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -<==      Total: 1
+2020-04-14 09:55:36.481 DEBUG [http-nio-8088-exec-10]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==>  Preparing: SELECT COUNT(1) FROM article WHERE is_deleted = 0 
+2020-04-14 09:55:36.483 DEBUG [http-nio-8088-exec-10]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==> Parameters: 
+2020-04-14 09:55:36.486 DEBUG [http-nio-8088-exec-10]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==>  Preparing: SELECT id,author,title,summary,cover,views,comment_count,like_count,create_time FROM article WHERE is_deleted=0 LIMIT ?,? 
+2020-04-14 09:55:36.487 DEBUG [http-nio-8088-exec-10]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==> Parameters: 0(Long), 2(Long)
+2020-04-14 09:55:36.489 DEBUG [http-nio-8088-exec-10]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -<==      Total: 2
+2020-04-14 09:55:36.490 DEBUG [http-nio-8088-exec-10]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -==>  Preparing: SELECT c.id, c.category_name FROM category c LEFT JOIN article_category ac ON c.id = ac.category_id WHERE ac.article_id =? 
+2020-04-14 09:55:36.492 DEBUG [http-nio-8088-exec-10]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -==> Parameters: 1(Long)
+2020-04-14 09:55:36.495 DEBUG [http-nio-8088-exec-10]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -<==      Total: 1
+2020-04-14 09:55:36.497 DEBUG [http-nio-8088-exec-10]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -==>  Preparing: SELECT t.id, t.name FROM tag t LEFT JOIN article_tag art ON t.id = art.tag_id WHERE art.article_id=? 
+2020-04-14 09:55:36.498 DEBUG [http-nio-8088-exec-10]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -==> Parameters: 1(Long)
+2020-04-14 09:55:36.499 DEBUG [http-nio-8088-exec-10]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -<==      Total: 1
+2020-04-14 09:55:36.502 DEBUG [http-nio-8088-exec-10]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -==>  Preparing: SELECT c.id, c.category_name FROM category c LEFT JOIN article_category ac ON c.id = ac.category_id WHERE ac.article_id =? 
+2020-04-14 09:55:36.503 DEBUG [http-nio-8088-exec-10]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -==> Parameters: 2(Long)
+2020-04-14 09:55:36.505 DEBUG [http-nio-8088-exec-10]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -<==      Total: 0
+2020-04-14 09:55:36.507 DEBUG [http-nio-8088-exec-10]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -==>  Preparing: SELECT t.id, t.name FROM tag t LEFT JOIN article_tag art ON t.id = art.tag_id WHERE art.article_id=? 
+2020-04-14 09:55:36.508 DEBUG [http-nio-8088-exec-10]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -==> Parameters: 2(Long)
+2020-04-14 09:55:36.510 DEBUG [http-nio-8088-exec-10]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -<==      Total: 1
+2020-04-14 09:57:15.062 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.getArticleVoById.debug:143 -==>  Preparing: SELECT id,author,title,summary,content,cover,views,comment_count,like_count,create_time,update_time FROM article WHERE id=? 
+2020-04-14 09:57:15.064 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.getArticleVoById.debug:143 -==> Parameters: 1(Long)
+2020-04-14 09:57:15.072 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.getArticleVoById.debug:143 -<==      Total: 1
+2020-04-14 09:57:15.086 DEBUG [http-nio-8088-exec-2]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -==>  Preparing: SELECT c.id, c.category_name FROM category c LEFT JOIN article_category ac ON c.id = ac.category_id WHERE ac.article_id =? 
+2020-04-14 09:57:15.087 DEBUG [http-nio-8088-exec-2]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -==> Parameters: 1(Long)
+2020-04-14 09:57:15.089 DEBUG [http-nio-8088-exec-2]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -<==      Total: 1
+2020-04-14 09:57:15.090 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.getArticleVoById.debug:143 -==>  Preparing: SELECT id,author,title,summary,content,cover,views,comment_count,like_count,create_time,update_time FROM article WHERE id=? 
+2020-04-14 09:57:15.091 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.getArticleVoById.debug:143 -==> Parameters: 1(Long)
+2020-04-14 09:57:15.093 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.getArticleVoById.debug:143 -<==      Total: 1
+2020-04-14 09:59:03.043 DEBUG [main]cn.codexing.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-14 09:59:11.851 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.getArticleVoById.debug:143 -==>  Preparing: SELECT id,author,title,summary,content,cover,views,comment_count,like_count,create_time,update_time FROM article WHERE id=? 
+2020-04-14 09:59:11.865 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.getArticleVoById.debug:143 -==> Parameters: 1(Long)
+2020-04-14 09:59:11.877 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.getArticleVoById.debug:143 -<==      Total: 1
+2020-04-14 09:59:11.884 DEBUG [http-nio-8088-exec-2]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -==>  Preparing: SELECT c.id, c.category_name FROM category c LEFT JOIN article_category ac ON c.id = ac.category_id WHERE ac.article_id =? 
+2020-04-14 09:59:11.885 DEBUG [http-nio-8088-exec-2]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -==> Parameters: 1(Long)
+2020-04-14 09:59:11.889 DEBUG [http-nio-8088-exec-2]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -<==      Total: 1
+2020-04-14 09:59:11.895 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -==>  Preparing: SELECT t.id, t.name FROM tag t LEFT JOIN article_tag art ON t.id = art.tag_id WHERE art.article_id=? 
+2020-04-14 09:59:11.896 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -==> Parameters: 1(Long)
+2020-04-14 09:59:11.899 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -<==      Total: 1
+2020-04-14 09:59:20.420 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.ArticleMapper.getArticleVoById.debug:143 -==>  Preparing: SELECT id,author,title,summary,content,cover,views,comment_count,like_count,create_time,update_time FROM article WHERE id=? 
+2020-04-14 09:59:20.421 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.ArticleMapper.getArticleVoById.debug:143 -==> Parameters: 2(Long)
+2020-04-14 09:59:20.424 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.ArticleMapper.getArticleVoById.debug:143 -<==      Total: 1
+2020-04-14 09:59:20.425 DEBUG [http-nio-8088-exec-3]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -==>  Preparing: SELECT c.id, c.category_name FROM category c LEFT JOIN article_category ac ON c.id = ac.category_id WHERE ac.article_id =? 
+2020-04-14 09:59:20.426 DEBUG [http-nio-8088-exec-3]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -==> Parameters: 2(Long)
+2020-04-14 09:59:20.428 DEBUG [http-nio-8088-exec-3]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -<==      Total: 0
+2020-04-14 09:59:20.430 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -==>  Preparing: SELECT t.id, t.name FROM tag t LEFT JOIN article_tag art ON t.id = art.tag_id WHERE art.article_id=? 
+2020-04-14 09:59:20.430 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -==> Parameters: 2(Long)
+2020-04-14 09:59:20.432 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -<==      Total: 1
+2020-04-14 10:08:53.093 DEBUG [main]cn.codexing.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-14 10:09:06.827 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.getArticleVoById.debug:143 -==>  Preparing: SELECT id,author,title,summary,content,cover,views,comment_count,like_count,create_time,update_time FROM article WHERE id=? 
+2020-04-14 10:09:06.839 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.getArticleVoById.debug:143 -==> Parameters: 2(Long)
+2020-04-14 10:09:06.852 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.getArticleVoById.debug:143 -<==      Total: 1
+2020-04-14 10:09:06.859 DEBUG [http-nio-8088-exec-2]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -==>  Preparing: SELECT c.id, c.category_name FROM category c LEFT JOIN article_category ac ON c.id = ac.category_id WHERE ac.article_id =? 
+2020-04-14 10:09:06.860 DEBUG [http-nio-8088-exec-2]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -==> Parameters: 2(Long)
+2020-04-14 10:09:06.863 DEBUG [http-nio-8088-exec-2]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -<==      Total: 0
+2020-04-14 10:09:06.868 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -==>  Preparing: SELECT t.id, t.name FROM tag t LEFT JOIN article_tag art ON t.id = art.tag_id WHERE art.article_id=? 
+2020-04-14 10:09:06.868 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -==> Parameters: 2(Long)
+2020-04-14 10:09:06.871 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -<==      Total: 1
+2020-04-14 10:09:12.635 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.ArticleMapper.getArticleVoById.debug:143 -==>  Preparing: SELECT id,author,title,summary,content,cover,views,comment_count,like_count,create_time,update_time FROM article WHERE id=? 
+2020-04-14 10:09:12.636 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.ArticleMapper.getArticleVoById.debug:143 -==> Parameters: 2(Long)
+2020-04-14 10:09:12.639 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.ArticleMapper.getArticleVoById.debug:143 -<==      Total: 1
+2020-04-14 10:09:12.644 DEBUG [http-nio-8088-exec-3]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -==>  Preparing: SELECT c.id, c.category_name FROM category c LEFT JOIN article_category ac ON c.id = ac.category_id WHERE ac.article_id =? 
+2020-04-14 10:09:12.645 DEBUG [http-nio-8088-exec-3]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -==> Parameters: 2(Long)
+2020-04-14 10:09:12.647 DEBUG [http-nio-8088-exec-3]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -<==      Total: 0
+2020-04-14 10:09:12.649 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -==>  Preparing: SELECT t.id, t.name FROM tag t LEFT JOIN article_tag art ON t.id = art.tag_id WHERE art.article_id=? 
+2020-04-14 10:09:12.649 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -==> Parameters: 2(Long)
+2020-04-14 10:09:12.651 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -<==      Total: 1
+2020-04-14 10:11:03.358 DEBUG [main]cn.codexing.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-14 10:11:28.937 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.ArticleMapper.getArticleVoById.debug:143 -==>  Preparing: SELECT id,author,title,summary,content,cover,views,comment_count,like_count,create_time,update_time FROM article WHERE id=? 
+2020-04-14 10:11:28.951 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.ArticleMapper.getArticleVoById.debug:143 -==> Parameters: 2(Long)
+2020-04-14 10:11:28.962 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.ArticleMapper.getArticleVoById.debug:143 -<==      Total: 1
+2020-04-14 10:11:28.969 DEBUG [http-nio-8088-exec-1]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -==>  Preparing: SELECT c.id, c.category_name FROM category c LEFT JOIN article_category ac ON c.id = ac.category_id WHERE ac.article_id =? 
+2020-04-14 10:11:28.970 DEBUG [http-nio-8088-exec-1]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -==> Parameters: 2(Long)
+2020-04-14 10:11:28.972 DEBUG [http-nio-8088-exec-1]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -<==      Total: 0
+2020-04-14 10:11:28.976 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -==>  Preparing: SELECT t.id, t.name FROM tag t LEFT JOIN article_tag art ON t.id = art.tag_id WHERE art.article_id=? 
+2020-04-14 10:11:28.977 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -==> Parameters: 2(Long)
+2020-04-14 10:11:28.980 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -<==      Total: 1
+2020-04-14 10:11:28.982 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.ArticleMapper.updateReadTotal.debug:143 -==>  Preparing: UPDATE article SET views = views + 1 WHERE id = ?; 
+2020-04-14 10:11:28.982 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.ArticleMapper.updateReadTotal.debug:143 -==> Parameters: 2(Long)
+2020-04-14 10:11:28.992 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.ArticleMapper.updateReadTotal.debug:143 -<==    Updates: 1
+2020-04-14 10:11:31.686 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.ArticleMapper.getArticleVoById.debug:143 -==>  Preparing: SELECT id,author,title,summary,content,cover,views,comment_count,like_count,create_time,update_time FROM article WHERE id=? 
+2020-04-14 10:11:31.687 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.ArticleMapper.getArticleVoById.debug:143 -==> Parameters: 2(Long)
+2020-04-14 10:11:31.690 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.ArticleMapper.getArticleVoById.debug:143 -<==      Total: 1
+2020-04-14 10:11:31.692 DEBUG [http-nio-8088-exec-3]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -==>  Preparing: SELECT c.id, c.category_name FROM category c LEFT JOIN article_category ac ON c.id = ac.category_id WHERE ac.article_id =? 
+2020-04-14 10:11:31.694 DEBUG [http-nio-8088-exec-3]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -==> Parameters: 2(Long)
+2020-04-14 10:11:31.700 DEBUG [http-nio-8088-exec-3]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -<==      Total: 0
+2020-04-14 10:11:31.701 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -==>  Preparing: SELECT t.id, t.name FROM tag t LEFT JOIN article_tag art ON t.id = art.tag_id WHERE art.article_id=? 
+2020-04-14 10:11:31.702 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -==> Parameters: 2(Long)
+2020-04-14 10:11:31.704 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -<==      Total: 1
+2020-04-14 10:11:31.706 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.ArticleMapper.updateReadTotal.debug:143 -==>  Preparing: UPDATE article SET views = views + 1 WHERE id = ?; 
+2020-04-14 10:11:31.707 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.ArticleMapper.updateReadTotal.debug:143 -==> Parameters: 2(Long)
+2020-04-14 10:11:31.709 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.ArticleMapper.updateReadTotal.debug:143 -<==    Updates: 1
+2020-04-14 10:11:34.039 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.ArticleMapper.getArticleVoById.debug:143 -==>  Preparing: SELECT id,author,title,summary,content,cover,views,comment_count,like_count,create_time,update_time FROM article WHERE id=? 
+2020-04-14 10:11:34.041 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.ArticleMapper.getArticleVoById.debug:143 -==> Parameters: 2(Long)
+2020-04-14 10:11:34.043 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.ArticleMapper.getArticleVoById.debug:143 -<==      Total: 1
+2020-04-14 10:11:34.046 DEBUG [http-nio-8088-exec-4]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -==>  Preparing: SELECT c.id, c.category_name FROM category c LEFT JOIN article_category ac ON c.id = ac.category_id WHERE ac.article_id =? 
+2020-04-14 10:11:34.047 DEBUG [http-nio-8088-exec-4]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -==> Parameters: 2(Long)
+2020-04-14 10:11:34.048 DEBUG [http-nio-8088-exec-4]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -<==      Total: 0
+2020-04-14 10:11:34.050 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -==>  Preparing: SELECT t.id, t.name FROM tag t LEFT JOIN article_tag art ON t.id = art.tag_id WHERE art.article_id=? 
+2020-04-14 10:11:34.051 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -==> Parameters: 2(Long)
+2020-04-14 10:11:34.053 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -<==      Total: 1
+2020-04-14 10:11:34.054 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.ArticleMapper.updateReadTotal.debug:143 -==>  Preparing: UPDATE article SET views = views + 1 WHERE id = ?; 
+2020-04-14 10:11:34.054 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.ArticleMapper.updateReadTotal.debug:143 -==> Parameters: 2(Long)
+2020-04-14 10:11:34.055 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.ArticleMapper.updateReadTotal.debug:143 -<==    Updates: 1
+2020-04-14 10:12:21.219 DEBUG [main]cn.codexing.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-14 10:12:27.687 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.getArticleVoById.debug:143 -==>  Preparing: SELECT id,author,title,summary,content,cover,views,comment_count,like_count,create_time,update_time FROM article WHERE id=? 
+2020-04-14 10:12:27.703 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.getArticleVoById.debug:143 -==> Parameters: 2(Long)
+2020-04-14 10:12:27.716 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.getArticleVoById.debug:143 -<==      Total: 1
+2020-04-14 10:12:27.722 DEBUG [http-nio-8088-exec-2]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -==>  Preparing: SELECT c.id, c.category_name FROM category c LEFT JOIN article_category ac ON c.id = ac.category_id WHERE ac.article_id =? 
+2020-04-14 10:12:27.723 DEBUG [http-nio-8088-exec-2]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -==> Parameters: 2(Long)
+2020-04-14 10:12:27.725 DEBUG [http-nio-8088-exec-2]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -<==      Total: 0
+2020-04-14 10:12:27.731 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -==>  Preparing: SELECT t.id, t.name FROM tag t LEFT JOIN article_tag art ON t.id = art.tag_id WHERE art.article_id=? 
+2020-04-14 10:12:27.732 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -==> Parameters: 2(Long)
+2020-04-14 10:12:27.734 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -<==      Total: 1
+2020-04-14 10:12:27.735 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.updateReadTotal.debug:143 -==>  Preparing: UPDATE article SET views = views + 1 WHERE id = ?; 
+2020-04-14 10:12:27.736 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.updateReadTotal.debug:143 -==> Parameters: 2(Long)
+2020-04-14 10:12:27.737 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.updateReadTotal.debug:143 -<==    Updates: 1
+2020-04-14 10:13:12.216 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.ArticleMapper.getArticleVoById.debug:143 -==>  Preparing: SELECT id,author,title,summary,content,cover,views,comment_count,like_count,create_time,update_time FROM article WHERE id=? 
+2020-04-14 10:13:12.218 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.ArticleMapper.getArticleVoById.debug:143 -==> Parameters: 2(Long)
+2020-04-14 10:13:12.220 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.ArticleMapper.getArticleVoById.debug:143 -<==      Total: 1
+2020-04-14 10:13:12.223 DEBUG [http-nio-8088-exec-4]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -==>  Preparing: SELECT c.id, c.category_name FROM category c LEFT JOIN article_category ac ON c.id = ac.category_id WHERE ac.article_id =? 
+2020-04-14 10:13:12.224 DEBUG [http-nio-8088-exec-4]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -==> Parameters: 2(Long)
+2020-04-14 10:13:12.225 DEBUG [http-nio-8088-exec-4]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -<==      Total: 0
+2020-04-14 10:13:12.227 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -==>  Preparing: SELECT t.id, t.name FROM tag t LEFT JOIN article_tag art ON t.id = art.tag_id WHERE art.article_id=? 
+2020-04-14 10:13:12.228 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -==> Parameters: 2(Long)
+2020-04-14 10:13:12.230 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -<==      Total: 1
+2020-04-14 10:13:12.233 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.ArticleMapper.updateReadTotal.debug:143 -==>  Preparing: UPDATE article SET views = views + 1 WHERE id = ?; 
+2020-04-14 10:13:12.234 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.ArticleMapper.updateReadTotal.debug:143 -==> Parameters: 2(Long)
+2020-04-14 10:13:12.237 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.ArticleMapper.updateReadTotal.debug:143 -<==    Updates: 1
+2020-04-14 10:13:13.478 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.ArticleMapper.getArticleVoById.debug:143 -==>  Preparing: SELECT id,author,title,summary,content,cover,views,comment_count,like_count,create_time,update_time FROM article WHERE id=? 
+2020-04-14 10:13:13.480 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.ArticleMapper.getArticleVoById.debug:143 -==> Parameters: 2(Long)
+2020-04-14 10:13:13.482 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.ArticleMapper.getArticleVoById.debug:143 -<==      Total: 1
+2020-04-14 10:13:13.485 DEBUG [http-nio-8088-exec-7]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -==>  Preparing: SELECT c.id, c.category_name FROM category c LEFT JOIN article_category ac ON c.id = ac.category_id WHERE ac.article_id =? 
+2020-04-14 10:13:13.486 DEBUG [http-nio-8088-exec-7]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -==> Parameters: 2(Long)
+2020-04-14 10:13:13.487 DEBUG [http-nio-8088-exec-7]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -<==      Total: 0
+2020-04-14 10:13:13.489 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -==>  Preparing: SELECT t.id, t.name FROM tag t LEFT JOIN article_tag art ON t.id = art.tag_id WHERE art.article_id=? 
+2020-04-14 10:13:13.491 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -==> Parameters: 2(Long)
+2020-04-14 10:13:13.493 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -<==      Total: 1
+2020-04-14 10:13:13.495 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.ArticleMapper.updateReadTotal.debug:143 -==>  Preparing: UPDATE article SET views = views + 1 WHERE id = ?; 
+2020-04-14 10:13:13.496 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.ArticleMapper.updateReadTotal.debug:143 -==> Parameters: 2(Long)
+2020-04-14 10:13:13.497 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.ArticleMapper.updateReadTotal.debug:143 -<==    Updates: 1
+2020-04-14 10:13:37.287 DEBUG [main]cn.codexing.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-14 10:13:48.216 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.ArticleMapper.getArticleVoById.debug:143 -==>  Preparing: SELECT id,author,title,summary,content,cover,views,comment_count,like_count,create_time,update_time FROM article WHERE id=? 
+2020-04-14 10:13:48.232 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.ArticleMapper.getArticleVoById.debug:143 -==> Parameters: 2(Long)
+2020-04-14 10:13:48.245 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.ArticleMapper.getArticleVoById.debug:143 -<==      Total: 1
+2020-04-14 10:13:48.252 DEBUG [http-nio-8088-exec-1]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -==>  Preparing: SELECT c.id, c.category_name FROM category c LEFT JOIN article_category ac ON c.id = ac.category_id WHERE ac.article_id =? 
+2020-04-14 10:13:48.253 DEBUG [http-nio-8088-exec-1]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -==> Parameters: 2(Long)
+2020-04-14 10:13:48.256 DEBUG [http-nio-8088-exec-1]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -<==      Total: 0
+2020-04-14 10:13:48.263 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -==>  Preparing: SELECT t.id, t.name FROM tag t LEFT JOIN article_tag art ON t.id = art.tag_id WHERE art.article_id=? 
+2020-04-14 10:13:48.264 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -==> Parameters: 2(Long)
+2020-04-14 10:13:48.267 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -<==      Total: 1
+2020-04-14 10:13:48.270 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.ArticleMapper.updateReadTotal.debug:143 -==>  Preparing: UPDATE article SET views = views + 1 WHERE id = ?; 
+2020-04-14 10:13:48.271 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.ArticleMapper.updateReadTotal.debug:143 -==> Parameters: 2(Long)
+2020-04-14 10:13:48.273 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.ArticleMapper.updateReadTotal.debug:143 -<==    Updates: 1
+2020-04-14 10:23:15.967 DEBUG [main]cn.codexing.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-14 10:23:29.871 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==>  Preparing: SELECT COUNT(1) FROM article WHERE is_deleted = 0 
+2020-04-14 10:23:29.884 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==> Parameters: 
+2020-04-14 10:23:29.896 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==>  Preparing: SELECT id,author,title,summary,cover,views,comment_count,like_count,create_time FROM article WHERE is_deleted=0 LIMIT ?,? 
+2020-04-14 10:23:29.898 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==> Parameters: 0(Long), 1(Long)
+2020-04-14 10:23:29.904 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -<==      Total: 1
+2020-04-14 10:23:29.912 DEBUG [http-nio-8088-exec-2]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -==>  Preparing: SELECT c.id, c.category_name FROM category c LEFT JOIN article_category ac ON c.id = ac.category_id WHERE ac.article_id =? 
+2020-04-14 10:23:29.912 DEBUG [http-nio-8088-exec-2]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -==> Parameters: 1(Long)
+2020-04-14 10:23:29.915 DEBUG [http-nio-8088-exec-2]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -<==      Total: 1
+2020-04-14 10:23:29.921 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -==>  Preparing: SELECT t.id, t.name FROM tag t LEFT JOIN article_tag art ON t.id = art.tag_id WHERE art.article_id=? 
+2020-04-14 10:23:29.921 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -==> Parameters: 1(Long)
+2020-04-14 10:23:29.924 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -<==      Total: 1
+2020-04-14 10:23:39.461 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==>  Preparing: SELECT COUNT(1) FROM article WHERE is_deleted = 0 
+2020-04-14 10:23:39.472 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==> Parameters: 
+2020-04-14 10:23:39.475 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==>  Preparing: SELECT id,author,title,summary,cover,views,comment_count,like_count,create_time FROM article WHERE is_deleted=0 LIMIT ?,? 
+2020-04-14 10:23:39.476 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==> Parameters: 0(Long), 2(Long)
+2020-04-14 10:23:39.479 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -<==      Total: 2
+2020-04-14 10:23:39.480 DEBUG [http-nio-8088-exec-3]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -==>  Preparing: SELECT c.id, c.category_name FROM category c LEFT JOIN article_category ac ON c.id = ac.category_id WHERE ac.article_id =? 
+2020-04-14 10:23:39.481 DEBUG [http-nio-8088-exec-3]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -==> Parameters: 1(Long)
+2020-04-14 10:23:39.482 DEBUG [http-nio-8088-exec-3]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -<==      Total: 1
+2020-04-14 10:23:39.484 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -==>  Preparing: SELECT t.id, t.name FROM tag t LEFT JOIN article_tag art ON t.id = art.tag_id WHERE art.article_id=? 
+2020-04-14 10:23:39.485 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -==> Parameters: 1(Long)
+2020-04-14 10:23:39.487 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -<==      Total: 1
+2020-04-14 10:23:39.488 DEBUG [http-nio-8088-exec-3]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -==>  Preparing: SELECT c.id, c.category_name FROM category c LEFT JOIN article_category ac ON c.id = ac.category_id WHERE ac.article_id =? 
+2020-04-14 10:23:39.489 DEBUG [http-nio-8088-exec-3]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -==> Parameters: 2(Long)
+2020-04-14 10:23:39.491 DEBUG [http-nio-8088-exec-3]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -<==      Total: 0
+2020-04-14 10:23:39.492 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -==>  Preparing: SELECT t.id, t.name FROM tag t LEFT JOIN article_tag art ON t.id = art.tag_id WHERE art.article_id=? 
+2020-04-14 10:23:39.493 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -==> Parameters: 2(Long)
+2020-04-14 10:23:39.494 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -<==      Total: 1
+2020-04-14 10:24:10.841 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.ArticleMapper.deleteById.debug:143 -==>  Preparing: update article set is_deleted=1 where id=? 
+2020-04-14 10:24:10.843 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.ArticleMapper.deleteById.debug:143 -==> Parameters: 2(Long)
+2020-04-14 10:24:10.846 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.ArticleMapper.deleteById.debug:143 -<==    Updates: 1
+2020-04-14 10:24:15.701 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==>  Preparing: SELECT COUNT(1) FROM article WHERE is_deleted = 0 
+2020-04-14 10:24:15.702 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==> Parameters: 
+2020-04-14 10:24:15.704 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==>  Preparing: SELECT id,author,title,summary,cover,views,comment_count,like_count,create_time FROM article WHERE is_deleted=0 LIMIT ?,? 
+2020-04-14 10:24:15.705 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==> Parameters: 0(Long), 2(Long)
+2020-04-14 10:24:15.708 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -<==      Total: 1
+2020-04-14 10:24:15.710 DEBUG [http-nio-8088-exec-5]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -==>  Preparing: SELECT c.id, c.category_name FROM category c LEFT JOIN article_category ac ON c.id = ac.category_id WHERE ac.article_id =? 
+2020-04-14 10:24:15.711 DEBUG [http-nio-8088-exec-5]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -==> Parameters: 1(Long)
+2020-04-14 10:24:15.713 DEBUG [http-nio-8088-exec-5]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -<==      Total: 1
+2020-04-14 10:24:15.715 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -==>  Preparing: SELECT t.id, t.name FROM tag t LEFT JOIN article_tag art ON t.id = art.tag_id WHERE art.article_id=? 
+2020-04-14 10:24:15.716 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -==> Parameters: 1(Long)
+2020-04-14 10:24:15.718 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -<==      Total: 1
+2020-04-14 10:31:31.826 DEBUG [main]cn.codexing.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-14 10:31:36.953 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==>  Preparing: SELECT COUNT(1) FROM article WHERE is_deleted = 0 
+2020-04-14 10:31:36.977 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==> Parameters: 
+2020-04-14 10:31:36.995 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==>  Preparing: SELECT id,author,title,summary,cover,views,comment_count,like_count,create_time FROM article WHERE is_deleted=0 LIMIT ?,? 
+2020-04-14 10:31:36.997 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==> Parameters: 0(Long), 2(Long)
+2020-04-14 10:31:37.006 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -<==      Total: 2
+2020-04-14 10:31:37.015 DEBUG [http-nio-8088-exec-2]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -==>  Preparing: SELECT c.id, c.category_name FROM category c LEFT JOIN article_category ac ON c.id = ac.category_id WHERE ac.article_id =? 
+2020-04-14 10:31:37.016 DEBUG [http-nio-8088-exec-2]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -==> Parameters: 1(Long)
+2020-04-14 10:31:37.020 DEBUG [http-nio-8088-exec-2]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -<==      Total: 1
+2020-04-14 10:31:37.028 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -==>  Preparing: SELECT t.id, t.name FROM tag t LEFT JOIN article_tag art ON t.id = art.tag_id WHERE art.article_id=? 
+2020-04-14 10:31:37.028 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -==> Parameters: 1(Long)
+2020-04-14 10:31:37.031 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -<==      Total: 1
+2020-04-14 10:31:37.032 DEBUG [http-nio-8088-exec-2]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -==>  Preparing: SELECT c.id, c.category_name FROM category c LEFT JOIN article_category ac ON c.id = ac.category_id WHERE ac.article_id =? 
+2020-04-14 10:31:37.033 DEBUG [http-nio-8088-exec-2]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -==> Parameters: 2(Long)
+2020-04-14 10:31:37.034 DEBUG [http-nio-8088-exec-2]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -<==      Total: 0
+2020-04-14 10:31:37.036 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -==>  Preparing: SELECT t.id, t.name FROM tag t LEFT JOIN article_tag art ON t.id = art.tag_id WHERE art.article_id=? 
+2020-04-14 10:31:37.037 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -==> Parameters: 2(Long)
+2020-04-14 10:31:37.039 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -<==      Total: 1
+2020-04-14 10:39:18.395 DEBUG [main]cn.codexing.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-14 10:39:27.727 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.updateById.debug:143 -==>  Preparing: UPDATE article SET author=?, title=?, summary=?, cover=?, views=?, comment_count=?, like_count=?, create_time=? WHERE id=? 
+2020-04-14 10:39:27.741 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.updateById.debug:143 -==> Parameters: 1(String), hello123123(String), 1(String), 1(String), 0(Integer), 0(Integer), 0(Integer), 2020-03-23T15:55:15(LocalDateTime), 1(Long)
+2020-04-14 10:39:27.747 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.updateById.debug:143 -<==    Updates: 1
+2020-04-14 10:42:42.991 DEBUG [main]cn.codexing.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-14 10:43:02.419 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.updateById.debug:143 -==>  Preparing: UPDATE article SET author=?, title=?, summary=?, cover=?, views=?, comment_count=?, like_count=?, create_time=? WHERE id=? 
+2020-04-14 10:43:02.434 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.updateById.debug:143 -==> Parameters: 1(String), mybatis plus 乐观锁测试(String), 1(String), 1(String), 0(Integer), 0(Integer), 0(Integer), 2020-03-23T15:55:15(LocalDateTime), 1(Long)
+2020-04-14 10:43:02.438 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.updateById.debug:143 -<==    Updates: 1
+2020-04-14 10:47:09.820 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.ArticleMapper.updateById.debug:143 -==>  Preparing: UPDATE article SET author=?, title=?, summary=?, cover=?, views=?, comment_count=?, like_count=?, create_time=? WHERE id=? 
+2020-04-14 10:47:09.822 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.ArticleMapper.updateById.debug:143 -==> Parameters: 1(String), mybatis plus 乐观锁测试(String), 1(String), 1(String), 0(Integer), 0(Integer), 0(Integer), 2020-03-23T15:55:15(LocalDateTime), 1(Long)
+2020-04-14 10:47:09.825 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.ArticleMapper.updateById.debug:143 -<==    Updates: 1
+2020-04-14 11:19:27.762 DEBUG [main]cn.codexing.blog.BlogApplicationTests.logStarting:56 -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-14 11:21:29.660 DEBUG [main]cn.codexing.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-14 11:21:40.653 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.updateById.debug:143 -==>  Preparing: UPDATE article SET author=?, title=?, summary=?, cover=?, views=?, comment_count=?, like_count=?, create_time=?, update_time=? WHERE id=? 
+2020-04-14 11:21:40.668 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.updateById.debug:143 -==> Parameters: 1(String), mybatis plus 乐观锁测试时间(String), 1(String), 1(String), 0(Integer), 0(Integer), 0(Integer), 2020-03-23T15:55:15(LocalDateTime), 2020-04-14T11:21:40.423(LocalDateTime), 1(Long)
+2020-04-14 11:21:40.673 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleMapper.updateById.debug:143 -<==    Updates: 1
+2020-04-14 11:22:18.947 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.ArticleMapper.updateById.debug:143 -==>  Preparing: UPDATE article SET author=?, title=?, summary=?, cover=?, views=?, comment_count=?, like_count=?, create_time=?, update_time=? WHERE id=? 
+2020-04-14 11:22:18.950 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.ArticleMapper.updateById.debug:143 -==> Parameters: 1(String), mybatis plus 乐观锁测试时间(String), 1(String), 1(String), 0(Integer), 0(Integer), 0(Integer), 2020-03-23T15:55:15(LocalDateTime), 2020-04-14T11:22:18.944(LocalDateTime), 1(Long)
+2020-04-14 11:22:18.966 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.ArticleMapper.updateById.debug:143 -<==    Updates: 1
+2020-04-14 11:58:03.959 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.ArticleMapper.updateById.debug:143 -==>  Preparing: UPDATE article SET author=?, title=?, summary=?, cover=?, views=?, comment_count=?, like_count=?, create_time=?, update_time=? WHERE id=? 
+2020-04-14 11:58:03.962 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.ArticleMapper.updateById.debug:143 -==> Parameters: 1(String), mybatis plus 乐观锁测试时间(String), 1(String), 1(String), 0(Integer), 0(Integer), 0(Integer), 2020-03-23T15:55:15(LocalDateTime), 2020-04-14T11:58:03.950(LocalDateTime), 1(Long)
+2020-04-14 11:58:03.965 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.ArticleMapper.updateById.debug:143 -<==    Updates: 1
+2020-04-14 12:21:33.780 DEBUG [main]cn.codexing.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-14 12:21:50.401 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.ArticleMapper.insert.debug:143 -==>  Preparing: INSERT INTO article ( id, author, title, content, summary, cover ) VALUES ( ?, ?, ?, ?, ?, ? ) 
+2020-04-14 12:21:50.416 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.ArticleMapper.insert.debug:143 -==> Parameters: 1249915744196546561(Long), 3(String), save(String), save(String), 1(String), 1(String)
+2020-04-14 12:21:50.419 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.ArticleMapper.insert.debug:143 -<==    Updates: 1
+2020-04-14 12:21:50.426 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.ArticleCategoryMapper.insert.debug:143 -==>  Preparing: INSERT INTO article_category ( id, article_id, category_id ) VALUES ( ?, ?, ? ) 
+2020-04-14 12:21:50.427 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.ArticleCategoryMapper.insert.debug:143 -==> Parameters: 1249915744360124417(Long), 1249915744196546561(Long), 1(Long)
+2020-04-14 12:21:50.429 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.ArticleCategoryMapper.insert.debug:143 -<==    Updates: 1
+2020-04-14 12:21:50.433 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.ArticleTagMapper.insert.debug:143 -==>  Preparing: INSERT INTO article_tag ( id, article_id, tag_id ) VALUES ( ?, ?, ? ) 
+2020-04-14 12:21:50.434 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.ArticleTagMapper.insert.debug:143 -==> Parameters: 1249915744393678850(Long), 1249915744196546561(Long), 1241969542054400001(Long)
+2020-04-14 12:21:50.435 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.ArticleTagMapper.insert.debug:143 -<==    Updates: 1
+2020-04-14 12:23:19.975 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==>  Preparing: SELECT COUNT(1) FROM article WHERE is_deleted = 0 
+2020-04-14 12:23:19.976 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==> Parameters: 
+2020-04-14 12:23:19.988 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==>  Preparing: SELECT id,author,title,summary,cover,views,comment_count,like_count,create_time FROM article WHERE is_deleted=0 LIMIT ?,? 
+2020-04-14 12:23:19.989 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==> Parameters: 0(Long), 2(Long)
+2020-04-14 12:23:19.995 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -<==      Total: 2
+2020-04-14 12:23:20.000 DEBUG [http-nio-8088-exec-5]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -==>  Preparing: SELECT c.id, c.category_name FROM category c LEFT JOIN article_category ac ON c.id = ac.category_id WHERE ac.article_id =? 
+2020-04-14 12:23:20.001 DEBUG [http-nio-8088-exec-5]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -==> Parameters: 1(Long)
+2020-04-14 12:23:20.002 DEBUG [http-nio-8088-exec-5]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -<==      Total: 1
+2020-04-14 12:23:20.007 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -==>  Preparing: SELECT t.id, t.name FROM tag t LEFT JOIN article_tag art ON t.id = art.tag_id WHERE art.article_id=? 
+2020-04-14 12:23:20.008 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -==> Parameters: 1(Long)
+2020-04-14 12:23:20.010 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -<==      Total: 1
+2020-04-14 12:23:20.012 DEBUG [http-nio-8088-exec-5]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -==>  Preparing: SELECT c.id, c.category_name FROM category c LEFT JOIN article_category ac ON c.id = ac.category_id WHERE ac.article_id =? 
+2020-04-14 12:23:20.013 DEBUG [http-nio-8088-exec-5]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -==> Parameters: 2(Long)
+2020-04-14 12:23:20.014 DEBUG [http-nio-8088-exec-5]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -<==      Total: 0
+2020-04-14 12:23:20.016 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -==>  Preparing: SELECT t.id, t.name FROM tag t LEFT JOIN article_tag art ON t.id = art.tag_id WHERE art.article_id=? 
+2020-04-14 12:23:20.017 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -==> Parameters: 2(Long)
+2020-04-14 12:23:20.018 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -<==      Total: 1
+2020-04-14 12:23:30.014 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==>  Preparing: SELECT COUNT(1) FROM article WHERE is_deleted = 0 
+2020-04-14 12:23:30.015 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==> Parameters: 
+2020-04-14 12:23:30.017 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==>  Preparing: SELECT id,author,title,summary,cover,views,comment_count,like_count,create_time FROM article WHERE is_deleted=0 LIMIT ?,? 
+2020-04-14 12:23:30.018 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -==> Parameters: 0(Long), 3(Long)
+2020-04-14 12:23:30.021 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.ArticleMapper.getByPage.debug:143 -<==      Total: 3
+2020-04-14 12:23:30.023 DEBUG [http-nio-8088-exec-6]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -==>  Preparing: SELECT c.id, c.category_name FROM category c LEFT JOIN article_category ac ON c.id = ac.category_id WHERE ac.article_id =? 
+2020-04-14 12:23:30.025 DEBUG [http-nio-8088-exec-6]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -==> Parameters: 1(Long)
+2020-04-14 12:23:30.027 DEBUG [http-nio-8088-exec-6]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -<==      Total: 1
+2020-04-14 12:23:30.029 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -==>  Preparing: SELECT t.id, t.name FROM tag t LEFT JOIN article_tag art ON t.id = art.tag_id WHERE art.article_id=? 
+2020-04-14 12:23:30.030 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -==> Parameters: 1(Long)
+2020-04-14 12:23:30.033 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -<==      Total: 1
+2020-04-14 12:23:30.035 DEBUG [http-nio-8088-exec-6]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -==>  Preparing: SELECT c.id, c.category_name FROM category c LEFT JOIN article_category ac ON c.id = ac.category_id WHERE ac.article_id =? 
+2020-04-14 12:23:30.036 DEBUG [http-nio-8088-exec-6]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -==> Parameters: 2(Long)
+2020-04-14 12:23:30.038 DEBUG [http-nio-8088-exec-6]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -<==      Total: 0
+2020-04-14 12:23:30.040 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -==>  Preparing: SELECT t.id, t.name FROM tag t LEFT JOIN article_tag art ON t.id = art.tag_id WHERE art.article_id=? 
+2020-04-14 12:23:30.041 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -==> Parameters: 2(Long)
+2020-04-14 12:23:30.043 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -<==      Total: 1
+2020-04-14 12:23:30.045 DEBUG [http-nio-8088-exec-6]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -==>  Preparing: SELECT c.id, c.category_name FROM category c LEFT JOIN article_category ac ON c.id = ac.category_id WHERE ac.article_id =? 
+2020-04-14 12:23:30.047 DEBUG [http-nio-8088-exec-6]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -==> Parameters: 1249915744196546561(Long)
+2020-04-14 12:23:30.049 DEBUG [http-nio-8088-exec-6]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -<==      Total: 1
+2020-04-14 12:23:30.052 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -==>  Preparing: SELECT t.id, t.name FROM tag t LEFT JOIN article_tag art ON t.id = art.tag_id WHERE art.article_id=? 
+2020-04-14 12:23:30.053 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -==> Parameters: 1249915744196546561(Long)
+2020-04-14 12:23:30.055 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -<==      Total: 1
+2020-04-14 12:23:58.673 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.ArticleMapper.getArticleVoById.debug:143 -==>  Preparing: SELECT id,author,title,summary,content,cover,views,comment_count,like_count,create_time,update_time FROM article WHERE id=? 
+2020-04-14 12:23:58.675 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.ArticleMapper.getArticleVoById.debug:143 -==> Parameters: 1249915744196546561(Long)
+2020-04-14 12:23:58.678 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.ArticleMapper.getArticleVoById.debug:143 -<==      Total: 1
+2020-04-14 12:23:58.680 DEBUG [http-nio-8088-exec-7]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -==>  Preparing: SELECT c.id, c.category_name FROM category c LEFT JOIN article_category ac ON c.id = ac.category_id WHERE ac.article_id =? 
+2020-04-14 12:23:58.680 DEBUG [http-nio-8088-exec-7]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -==> Parameters: 1249915744196546561(Long)
+2020-04-14 12:23:58.683 DEBUG [http-nio-8088-exec-7]c.codexing.blog.mapper.CategoryMapper.getTypeByArticleId.debug:143 -<==      Total: 1
+2020-04-14 12:23:58.685 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -==>  Preparing: SELECT t.id, t.name FROM tag t LEFT JOIN article_tag art ON t.id = art.tag_id WHERE art.article_id=? 
+2020-04-14 12:23:58.686 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -==> Parameters: 1249915744196546561(Long)
+2020-04-14 12:23:58.688 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.TagMapper.listTagByArticleId.debug:143 -<==      Total: 1
+2020-04-14 12:27:13.418 DEBUG [main]cn.codexing.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-14 12:27:34.893 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-14 12:27:34.908 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-14 12:27:34.923 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 2
+2020-04-14 12:28:30.491 DEBUG [main]cn.codexing.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-14 12:28:57.612 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==>  Preparing: SELECT id,name FROM tag 
+2020-04-14 12:28:57.626 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -==> Parameters: 
+2020-04-14 12:28:57.636 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.TagMapper.selectList.debug:143 -<==      Total: 2
+2020-04-14 12:29:06.236 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.TagMapper.selectById.debug:143 -==>  Preparing: SELECT id,name FROM tag WHERE id=? 
+2020-04-14 12:29:06.238 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.TagMapper.selectById.debug:143 -==> Parameters: 1241969542054400001(Long)
+2020-04-14 12:29:06.240 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.TagMapper.selectById.debug:143 -<==      Total: 1
+2020-04-14 12:30:44.932 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.TagMapper.insert.debug:143 -==>  Preparing: INSERT INTO tag ( id, name ) VALUES ( ?, ? ) 
+2020-04-14 12:30:44.933 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.TagMapper.insert.debug:143 -==> Parameters: 1249917986223992834(Long), mysql(String)
+2020-04-14 12:30:44.936 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.TagMapper.insert.debug:143 -<==    Updates: 1
+2020-04-14 12:31:50.245 DEBUG [http-nio-8088-exec-10]cn.codexing.blog.mapper.TagMapper.deleteById.debug:143 -==>  Preparing: DELETE FROM tag WHERE id=? 
+2020-04-14 12:31:50.246 DEBUG [http-nio-8088-exec-10]cn.codexing.blog.mapper.TagMapper.deleteById.debug:143 -==> Parameters: 1249917986223992834(Long)
+2020-04-14 12:31:50.253 DEBUG [http-nio-8088-exec-10]cn.codexing.blog.mapper.TagMapper.deleteById.debug:143 -<==    Updates: 1
+2020-04-14 12:32:33.541 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.TagMapper.insert.debug:143 -==>  Preparing: INSERT INTO tag ( id, name ) VALUES ( ?, ? ) 
+2020-04-14 12:32:33.542 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.TagMapper.insert.debug:143 -==> Parameters: 1249918441775738882(Long), mysql(String)
+2020-04-14 12:32:33.546 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.TagMapper.insert.debug:143 -<==    Updates: 1
+2020-04-14 12:49:43.907 DEBUG [main]cn.codexing.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-14 12:50:08.352 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category 
+2020-04-14 12:50:08.368 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -==> Parameters: 
+2020-04-14 12:50:08.379 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.CategoryMapper.selectList.debug:143 -<==      Total: 1
+2020-04-14 12:50:40.705 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.CategoryMapper.selectById.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category WHERE id=? 
+2020-04-14 12:50:40.706 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.CategoryMapper.selectById.debug:143 -==> Parameters: 1(Long)
+2020-04-14 12:50:40.709 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.CategoryMapper.selectById.debug:143 -<==      Total: 1
+2020-04-14 12:51:49.316 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.CategoryMapper.insert.debug:143 -==>  Preparing: INSERT INTO category ( id ) VALUES ( ? ) 
+2020-04-14 12:51:49.317 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.CategoryMapper.insert.debug:143 -==> Parameters: 1249923289422241793(Long)
+2020-04-14 12:52:38.249 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.CategoryMapper.insert.debug:143 -==>  Preparing: INSERT INTO category ( id ) VALUES ( ? ) 
+2020-04-14 12:52:38.251 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.CategoryMapper.insert.debug:143 -==> Parameters: 1249923494645342209(Long)
+2020-04-14 12:54:11.857 DEBUG [http-nio-8088-exec-10]cn.codexing.blog.mapper.CategoryMapper.insert.debug:143 -==>  Preparing: INSERT INTO category ( id ) VALUES ( ? ) 
+2020-04-14 12:54:11.859 DEBUG [http-nio-8088-exec-10]cn.codexing.blog.mapper.CategoryMapper.insert.debug:143 -==> Parameters: 1249923887316082690(Long)
+2020-04-14 12:55:37.467 DEBUG [main]cn.codexing.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-14 12:55:49.663 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.CategoryMapper.insert.debug:143 -==>  Preparing: INSERT INTO category ( id ) VALUES ( ? ) 
+2020-04-14 12:55:49.682 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.CategoryMapper.insert.debug:143 -==> Parameters: 1249924296743141377(Long)
+2020-04-14 12:57:03.789 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.CategoryMapper.insert.debug:143 -==>  Preparing: INSERT INTO category ( id ) VALUES ( ? ) 
+2020-04-14 12:57:03.791 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.CategoryMapper.insert.debug:143 -==> Parameters: 1249924608426065922(Long)
+2020-04-14 12:57:58.385 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.CategoryMapper.insert.debug:143 -==>  Preparing: INSERT INTO category ( id ) VALUES ( ? ) 
+2020-04-14 12:57:58.386 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.CategoryMapper.insert.debug:143 -==> Parameters: 1249924837439258626(Long)
+2020-04-14 12:58:15.228 DEBUG [http-nio-8088-exec-8]cn.codexing.blog.mapper.CategoryMapper.selectById.debug:143 -==>  Preparing: SELECT id,category_name,parent_category_id FROM category WHERE id=? 
+2020-04-14 12:58:15.229 DEBUG [http-nio-8088-exec-8]cn.codexing.blog.mapper.CategoryMapper.selectById.debug:143 -==> Parameters: 1(Long)
+2020-04-14 12:58:15.245 DEBUG [http-nio-8088-exec-8]cn.codexing.blog.mapper.CategoryMapper.selectById.debug:143 -<==      Total: 1
+2020-04-14 12:58:35.343 DEBUG [http-nio-8088-exec-10]cn.codexing.blog.mapper.CategoryMapper.insert.debug:143 -==>  Preparing: INSERT INTO category ( id ) VALUES ( ? ) 
+2020-04-14 12:58:35.349 DEBUG [http-nio-8088-exec-10]cn.codexing.blog.mapper.CategoryMapper.insert.debug:143 -==> Parameters: 1249924992456540162(Long)
+2020-04-14 12:59:02.193 DEBUG [main]cn.codexing.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-14 12:59:22.682 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.CategoryMapper.insert.debug:143 -==>  Preparing: INSERT INTO category ( id, category_name ) VALUES ( ?, ? ) 
+2020-04-14 12:59:22.697 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.CategoryMapper.insert.debug:143 -==> Parameters: 1249925190226288642(Long), life(String)
+2020-04-14 12:59:22.709 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.CategoryMapper.insert.debug:143 -<==    Updates: 1
+2020-04-14 13:00:59.641 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.CategoryMapper.updateById.debug:143 -==>  Preparing: UPDATE category SET category_name=? WHERE id=? 
+2020-04-14 13:00:59.643 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.CategoryMapper.updateById.debug:143 -==> Parameters: 测试(String), 1249925190226288642(Long)
+2020-04-14 13:00:59.646 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.CategoryMapper.updateById.debug:143 -<==    Updates: 1
+2020-04-14 13:01:26.274 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.CategoryMapper.updateById.debug:143 -==>  Preparing: UPDATE category SET category_name=? WHERE id=? 
+2020-04-14 13:01:26.275 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.CategoryMapper.updateById.debug:143 -==> Parameters: 学习(String), 1(Long)
+2020-04-14 13:01:26.279 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.CategoryMapper.updateById.debug:143 -<==    Updates: 1
+2020-04-14 13:21:04.688 DEBUG [main]cn.codexing.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-14 13:22:07.406 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.FriendLinkMapper.insert.debug:143 -==>  Preparing: INSERT INTO friend_link ( id, nickname, url ) VALUES ( ?, ?, ? ) 
+2020-04-14 13:22:07.422 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.FriendLinkMapper.insert.debug:143 -==> Parameters: 1249930914201403394(Long), 百度(String), https://www.baidu.com(String)
+2020-04-14 13:22:07.426 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.FriendLinkMapper.insert.debug:143 -<==    Updates: 1
+2020-04-14 13:22:54.145 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.FriendLinkMapper.selectList.debug:143 -==>  Preparing: SELECT id,nickname,url,is_enable FROM friend_link 
+2020-04-14 13:22:54.146 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.FriendLinkMapper.selectList.debug:143 -==> Parameters: 
+2020-04-14 13:22:54.160 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.FriendLinkMapper.selectList.debug:143 -<==      Total: 1
+2020-04-14 13:23:36.590 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.FriendLinkMapper.listEnableLink.debug:143 -==>  Preparing: select * from friend_link where is_enable=1 
+2020-04-14 13:23:36.591 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.FriendLinkMapper.listEnableLink.debug:143 -==> Parameters: 
+2020-04-14 13:23:36.593 DEBUG [http-nio-8088-exec-4]cn.codexing.blog.mapper.FriendLinkMapper.listEnableLink.debug:143 -<==      Total: 0
+2020-04-14 13:24:14.843 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.FriendLinkMapper.selectList.debug:143 -==>  Preparing: SELECT id,nickname,url,is_enable FROM friend_link 
+2020-04-14 13:24:14.844 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.FriendLinkMapper.selectList.debug:143 -==> Parameters: 
+2020-04-14 13:24:14.847 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.FriendLinkMapper.selectList.debug:143 -<==      Total: 1
+2020-04-14 13:25:02.764 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.FriendLinkMapper.updateById.debug:143 -==>  Preparing: UPDATE friend_link SET nickname=?, url=?, is_enable=? WHERE id=? 
+2020-04-14 13:25:02.772 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.FriendLinkMapper.updateById.debug:143 -==> Parameters: 百度(String), https://www.baidu.com(String), true(Boolean), 1249930914201403394(Long)
+2020-04-14 13:25:02.777 DEBUG [http-nio-8088-exec-6]cn.codexing.blog.mapper.FriendLinkMapper.updateById.debug:143 -<==    Updates: 1
+2020-04-14 13:25:19.676 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.FriendLinkMapper.listEnableLink.debug:143 -==>  Preparing: select * from friend_link where is_enable=1 
+2020-04-14 13:25:19.677 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.FriendLinkMapper.listEnableLink.debug:143 -==> Parameters: 
+2020-04-14 13:25:19.685 DEBUG [http-nio-8088-exec-7]cn.codexing.blog.mapper.FriendLinkMapper.listEnableLink.debug:143 -<==      Total: 1
+2020-04-14 13:26:06.177 DEBUG [http-nio-8088-exec-10]cn.codexing.blog.mapper.FriendLinkMapper.deleteById.debug:143 -==>  Preparing: DELETE FROM friend_link WHERE id=? 
+2020-04-14 13:26:06.186 DEBUG [http-nio-8088-exec-10]cn.codexing.blog.mapper.FriendLinkMapper.deleteById.debug:143 -==> Parameters: 1(Long)
+2020-04-14 13:26:06.201 DEBUG [http-nio-8088-exec-10]cn.codexing.blog.mapper.FriendLinkMapper.deleteById.debug:143 -<==    Updates: 1
+2020-04-14 15:01:04.847 DEBUG [main]cn.codexing.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-14 15:02:36.601 DEBUG [main]cn.codexing.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-14 15:02:50.357 DEBUG [http-nio-8088-exec-2]c.c.blog.mapper.ArticleCommentMapper.listByArticleId.debug:143 -==>  Preparing: SELECT * FROM message WHERE message_type = 1 AND article_id = ? AND parent_id = -1 ORDER BY create_time DESC 
+2020-04-14 15:02:50.377 DEBUG [http-nio-8088-exec-2]c.c.blog.mapper.ArticleCommentMapper.listByArticleId.debug:143 -==> Parameters: 1(Long)
+2020-04-14 15:03:20.797 DEBUG [main]cn.codexing.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-14 15:03:28.924 DEBUG [http-nio-8088-exec-2]c.c.blog.mapper.ArticleCommentMapper.listByArticleId.debug:143 -==>  Preparing: SELECT * FROM message WHERE message_type = 1 AND article_id = ? AND parent_id = -1 ORDER BY create_time DESC 
+2020-04-14 15:03:28.938 DEBUG [http-nio-8088-exec-2]c.c.blog.mapper.ArticleCommentMapper.listByArticleId.debug:143 -==> Parameters: 1(Long)
+2020-04-14 15:04:52.281 DEBUG [main]cn.codexing.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-14 15:05:05.130 DEBUG [http-nio-8088-exec-2]c.c.blog.mapper.ArticleCommentMapper.listByArticleId.debug:143 -==>  Preparing: SELECT * FROM article_comment WHERE article_id = ? AND parent_id = -1 ORDER BY create_time DESC 
+2020-04-14 15:05:05.151 DEBUG [http-nio-8088-exec-2]c.c.blog.mapper.ArticleCommentMapper.listByArticleId.debug:143 -==> Parameters: 1(Long)
+2020-04-14 15:05:05.169 DEBUG [http-nio-8088-exec-2]c.c.blog.mapper.ArticleCommentMapper.listByArticleId.debug:143 -<==      Total: 1
+2020-04-14 15:05:05.187 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleCommentMapper.listById.debug:143 -==>  Preparing: SELECT * FROM article_comment WHERE parent_id = ? order by create_time desc 
+2020-04-14 15:05:05.187 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleCommentMapper.listById.debug:143 -==> Parameters: 1(Long)
+2020-04-14 15:05:05.189 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleCommentMapper.listById.debug:143 -<==      Total: 1
+2020-04-14 15:05:05.191 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleCommentMapper.listById.debug:143 -==>  Preparing: SELECT * FROM article_comment WHERE parent_id = ? order by create_time desc 
+2020-04-14 15:05:05.191 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleCommentMapper.listById.debug:143 -==> Parameters: 2(Long)
+2020-04-14 15:05:05.193 DEBUG [http-nio-8088-exec-2]cn.codexing.blog.mapper.ArticleCommentMapper.listById.debug:143 -<==      Total: 0
+2020-04-14 15:05:42.984 DEBUG [http-nio-8088-exec-3]c.c.blog.mapper.ArticleCommentMapper.listByArticleId.debug:143 -==>  Preparing: SELECT * FROM article_comment WHERE article_id = ? AND parent_id = -1 ORDER BY create_time DESC 
+2020-04-14 15:05:42.988 DEBUG [http-nio-8088-exec-3]c.c.blog.mapper.ArticleCommentMapper.listByArticleId.debug:143 -==> Parameters: 1(Long)
+2020-04-14 15:05:42.992 DEBUG [http-nio-8088-exec-3]c.c.blog.mapper.ArticleCommentMapper.listByArticleId.debug:143 -<==      Total: 1
+2020-04-14 15:05:42.993 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.ArticleCommentMapper.listById.debug:143 -==>  Preparing: SELECT * FROM article_comment WHERE parent_id = ? order by create_time desc 
+2020-04-14 15:05:42.995 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.ArticleCommentMapper.listById.debug:143 -==> Parameters: 1(Long)
+2020-04-14 15:05:42.997 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.ArticleCommentMapper.listById.debug:143 -<==      Total: 1
+2020-04-14 15:05:42.999 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.ArticleCommentMapper.listById.debug:143 -==>  Preparing: SELECT * FROM article_comment WHERE parent_id = ? order by create_time desc 
+2020-04-14 15:05:43.000 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.ArticleCommentMapper.listById.debug:143 -==> Parameters: 2(Long)
+2020-04-14 15:05:43.002 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.ArticleCommentMapper.listById.debug:143 -<==      Total: 1
+2020-04-14 15:05:43.004 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.ArticleCommentMapper.listById.debug:143 -==>  Preparing: SELECT * FROM article_comment WHERE parent_id = ? order by create_time desc 
+2020-04-14 15:05:43.005 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.ArticleCommentMapper.listById.debug:143 -==> Parameters: 3(Long)
+2020-04-14 15:05:43.006 DEBUG [http-nio-8088-exec-3]cn.codexing.blog.mapper.ArticleCommentMapper.listById.debug:143 -<==      Total: 0
+2020-04-14 15:06:22.939 DEBUG [http-nio-8088-exec-5]c.c.blog.mapper.ArticleCommentMapper.listByArticleId.debug:143 -==>  Preparing: SELECT * FROM article_comment WHERE article_id = ? AND parent_id = -1 ORDER BY create_time DESC 
+2020-04-14 15:06:22.941 DEBUG [http-nio-8088-exec-5]c.c.blog.mapper.ArticleCommentMapper.listByArticleId.debug:143 -==> Parameters: 1(Long)
+2020-04-14 15:06:22.943 DEBUG [http-nio-8088-exec-5]c.c.blog.mapper.ArticleCommentMapper.listByArticleId.debug:143 -<==      Total: 2
+2020-04-14 15:06:22.946 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.ArticleCommentMapper.listById.debug:143 -==>  Preparing: SELECT * FROM article_comment WHERE parent_id = ? order by create_time desc 
+2020-04-14 15:06:22.947 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.ArticleCommentMapper.listById.debug:143 -==> Parameters: 4(Long)
+2020-04-14 15:06:22.949 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.ArticleCommentMapper.listById.debug:143 -<==      Total: 0
+2020-04-14 15:06:22.951 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.ArticleCommentMapper.listById.debug:143 -==>  Preparing: SELECT * FROM article_comment WHERE parent_id = ? order by create_time desc 
+2020-04-14 15:06:22.952 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.ArticleCommentMapper.listById.debug:143 -==> Parameters: 1(Long)
+2020-04-14 15:06:23.293 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.ArticleCommentMapper.listById.debug:143 -<==      Total: 1
+2020-04-14 15:06:23.295 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.ArticleCommentMapper.listById.debug:143 -==>  Preparing: SELECT * FROM article_comment WHERE parent_id = ? order by create_time desc 
+2020-04-14 15:06:23.296 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.ArticleCommentMapper.listById.debug:143 -==> Parameters: 2(Long)
+2020-04-14 15:06:23.298 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.ArticleCommentMapper.listById.debug:143 -<==      Total: 1
+2020-04-14 15:06:23.299 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.ArticleCommentMapper.listById.debug:143 -==>  Preparing: SELECT * FROM article_comment WHERE parent_id = ? order by create_time desc 
+2020-04-14 15:06:23.300 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.ArticleCommentMapper.listById.debug:143 -==> Parameters: 3(Long)
+2020-04-14 15:06:23.302 DEBUG [http-nio-8088-exec-5]cn.codexing.blog.mapper.ArticleCommentMapper.listById.debug:143 -<==      Total: 0
+2020-04-14 15:08:35.988 DEBUG [main]cn.codexing.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-04-14 15:08:43.315 DEBUG [http-nio-8088-exec-1]c.c.blog.mapper.ArticleCommentMapper.listByArticleId.debug:143 -==>  Preparing: SELECT * FROM article_comment WHERE article_id = ? AND parent_id = -1 ORDER BY create_time DESC 
+2020-04-14 15:08:43.331 DEBUG [http-nio-8088-exec-1]c.c.blog.mapper.ArticleCommentMapper.listByArticleId.debug:143 -==> Parameters: 1(Long)
+2020-04-14 15:08:43.345 DEBUG [http-nio-8088-exec-1]c.c.blog.mapper.ArticleCommentMapper.listByArticleId.debug:143 -<==      Total: 2
+2020-04-14 15:08:43.358 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.ArticleCommentMapper.listById.debug:143 -==>  Preparing: SELECT * FROM article_comment WHERE parent_id = ? order by create_time desc 
+2020-04-14 15:08:43.359 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.ArticleCommentMapper.listById.debug:143 -==> Parameters: 4(Long)
+2020-04-14 15:08:43.361 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.ArticleCommentMapper.listById.debug:143 -<==      Total: 0
+2020-04-14 15:08:43.362 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.ArticleCommentMapper.listById.debug:143 -==>  Preparing: SELECT * FROM article_comment WHERE parent_id = ? order by create_time desc 
+2020-04-14 15:08:43.363 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.ArticleCommentMapper.listById.debug:143 -==> Parameters: 1(Long)
+2020-04-14 15:08:43.364 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.ArticleCommentMapper.listById.debug:143 -<==      Total: 1
+2020-04-14 15:08:43.365 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.ArticleCommentMapper.listById.debug:143 -==>  Preparing: SELECT * FROM article_comment WHERE parent_id = ? order by create_time desc 
+2020-04-14 15:08:43.366 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.ArticleCommentMapper.listById.debug:143 -==> Parameters: 2(Long)
+2020-04-14 15:08:43.367 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.ArticleCommentMapper.listById.debug:143 -<==      Total: 1
+2020-04-14 15:08:43.368 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.ArticleCommentMapper.listById.debug:143 -==>  Preparing: SELECT * FROM article_comment WHERE parent_id = ? order by create_time desc 
+2020-04-14 15:08:43.369 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.ArticleCommentMapper.listById.debug:143 -==> Parameters: 3(Long)
+2020-04-14 15:08:43.370 DEBUG [http-nio-8088-exec-1]cn.codexing.blog.mapper.ArticleCommentMapper.listById.debug:143 -<==      Total: 0
+2020-04-14 19:49:26.350 DEBUG [main]cn.codexing.blog.BlogApplication.logStarting:56 -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE

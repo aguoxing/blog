@@ -1,0 +1,50 @@
+package cn.codexing.blog.common.filter;
+
+import cn.codexing.blog.common.util.JwtTokenUtils;
+import cn.codexing.blog.common.util.StringUtils;
+import cn.codexing.blog.security.CustomUserDetailsService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
+import org.springframework.security.core.context.SecurityContextHolder;
+import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.security.web.authentication.WebAuthenticationDetailsSource;
+import org.springframework.stereotype.Component;
+import org.springframework.web.filter.OncePerRequestFilter;
+
+import javax.servlet.FilterChain;
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import java.io.IOException;
+
+/**
+ * BasicAuthenticationFilter   OncePerRequestFilter
+ */
+@Component
+public class JwtAuthenticationFilter extends OncePerRequestFilter {
+    @Value("${jwt.tokenHeader}")
+    private String tokenHeader;
+
+    @Autowired
+    private CustomUserDetailsService userDetailsService;
+
+    @Autowired
+    private JwtTokenUtils jwtTokenUtils;
+
+    @Override
+    protected void doFilterInternal(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, FilterChain filterChain) throws ServletException, IOException {
+        String token = httpServletRequest.getHeader(this.tokenHeader);
+        if (StringUtils.isNotBlank(token) && jwtTokenUtils.validateToken(token)) {
+            String username = jwtTokenUtils.getUserNameFromToken(token);
+            UserDetails userDetails = userDetailsService.loadUserByUsername(username);
+            if (userDetails != null) {
+                UsernamePasswordAuthenticationToken authenticationToken = new UsernamePasswordAuthenticationToken(userDetails, null, userDetails.getAuthorities());
+                authenticationToken.setDetails(new WebAuthenticationDetailsSource().buildDetails(httpServletRequest));
+                /*权限设置*/
+                SecurityContextHolder.getContext().setAuthentication(authenticationToken);
+            }
+        }
+        filterChain.doFilter(httpServletRequest, httpServletResponse);
+    }
+}

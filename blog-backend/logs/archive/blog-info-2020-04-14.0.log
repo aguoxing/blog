@@ -1,0 +1,677 @@
+2020-04-14 09:06:14.268 INFO  [main]org.springframework.core.KotlinDetector.<clinit>:57 -Kotlin reflection implementation not found at runtime, related features won't be available.
+2020-04-14 09:06:15.206 INFO  [main]cn.codexing.blog.BlogApplication.logStarting:55 -Starting BlogApplication on DESKTOP-0EBHI2S with PID 1124 (E:\2020\myblog2.0\blog-backend\target\classes started by GuoXing in E:\2020\myblog2.0\blog-backend)
+2020-04-14 09:06:15.221 INFO  [main]cn.codexing.blog.BlogApplication.logStartupProfileInfo:655 -The following profiles are active: dev
+2020-04-14 09:06:17.939 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:92 -Tomcat initialized with port(s): 8088 (http)
+2020-04-14 09:06:17.955 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8088"]
+2020-04-14 09:06:17.955 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-04-14 09:06:17.955 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-14 09:06:18.071 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-04-14 09:06:18.071 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 2787 ms
+2020-04-14 09:06:20.443 INFO  [main]s.d.s.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods:69 -Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-14 09:06:20.577 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:181 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-14 09:06:20.935 INFO  [main]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:160 -Context refreshed
+2020-04-14 09:06:20.961 INFO  [main]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:163 -Found 1 custom documentation plugin(s)
+2020-04-14 09:06:21.002 INFO  [main]s.d.spring.web.scanners.ApiListingReferenceScanner.scan:41 -Scanning for api listing references
+2020-04-14 09:06:21.269 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8088"]
+2020-04-14 09:06:21.299 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 8088 (http) with context path ''
+2020-04-14 09:06:21.305 INFO  [main]cn.codexing.blog.BlogApplication.logStarted:61 -Started BlogApplication in 6.888 seconds (JVM running for 8.624)
+2020-04-14 09:06:41.184 INFO  [http-nio-8088-exec-3]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-14 09:06:41.184 INFO  [http-nio-8088-exec-3]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-04-14 09:06:41.192 INFO  [http-nio-8088-exec-3]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 7 ms
+2020-04-14 09:07:06.877 INFO  [http-nio-8088-exec-1]com.alibaba.druid.pool.DruidDataSource.init:1003 -{dataSource-1} inited
+2020-04-14 09:07:39.567 INFO  [main]org.springframework.core.KotlinDetector.<clinit>:57 -Kotlin reflection implementation not found at runtime, related features won't be available.
+2020-04-14 09:07:40.304 INFO  [main]cn.codexing.blog.BlogApplication.logStarting:55 -Starting BlogApplication on DESKTOP-0EBHI2S with PID 6284 (E:\2020\myblog2.0\blog-backend\target\classes started by GuoXing in E:\2020\myblog2.0\blog-backend)
+2020-04-14 09:07:40.304 INFO  [main]cn.codexing.blog.BlogApplication.logStartupProfileInfo:655 -The following profiles are active: dev
+2020-04-14 09:07:42.002 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:92 -Tomcat initialized with port(s): 8088 (http)
+2020-04-14 09:07:42.018 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8088"]
+2020-04-14 09:07:42.018 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-04-14 09:07:42.018 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-14 09:07:42.096 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-04-14 09:07:42.096 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1680 ms
+2020-04-14 09:07:43.424 INFO  [main]s.d.s.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods:69 -Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-14 09:07:43.502 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:181 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-14 09:07:43.690 INFO  [main]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:160 -Context refreshed
+2020-04-14 09:07:43.721 INFO  [main]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:163 -Found 1 custom documentation plugin(s)
+2020-04-14 09:07:43.752 INFO  [main]s.d.spring.web.scanners.ApiListingReferenceScanner.scan:41 -Scanning for api listing references
+2020-04-14 09:07:43.915 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8088"]
+2020-04-14 09:07:43.924 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 8088 (http) with context path ''
+2020-04-14 09:07:43.924 INFO  [main]cn.codexing.blog.BlogApplication.logStarted:61 -Started BlogApplication in 4.289 seconds (JVM running for 5.461)
+2020-04-14 09:07:51.484 INFO  [http-nio-8088-exec-2]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-14 09:07:51.485 INFO  [http-nio-8088-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-04-14 09:07:51.491 INFO  [http-nio-8088-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 6 ms
+2020-04-14 09:07:51.649 INFO  [http-nio-8088-exec-2]com.alibaba.druid.pool.DruidDataSource.init:1003 -{dataSource-1} inited
+2020-04-14 09:10:38.151 INFO  [main]org.springframework.core.KotlinDetector.<clinit>:57 -Kotlin reflection implementation not found at runtime, related features won't be available.
+2020-04-14 09:10:38.826 INFO  [main]cn.codexing.blog.BlogApplication.logStarting:55 -Starting BlogApplication on DESKTOP-0EBHI2S with PID 11168 (E:\2020\myblog2.0\blog-backend\target\classes started by GuoXing in E:\2020\myblog2.0\blog-backend)
+2020-04-14 09:10:38.827 INFO  [main]cn.codexing.blog.BlogApplication.logStartupProfileInfo:655 -The following profiles are active: dev
+2020-04-14 09:10:40.471 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:92 -Tomcat initialized with port(s): 8088 (http)
+2020-04-14 09:10:40.487 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8088"]
+2020-04-14 09:10:40.487 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-04-14 09:10:40.487 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-14 09:10:40.565 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-04-14 09:10:40.565 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1661 ms
+2020-04-14 09:10:41.906 INFO  [main]s.d.s.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods:69 -Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-14 09:10:41.999 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:181 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-14 09:10:42.187 INFO  [main]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:160 -Context refreshed
+2020-04-14 09:10:42.203 INFO  [main]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:163 -Found 1 custom documentation plugin(s)
+2020-04-14 09:10:42.218 INFO  [main]s.d.spring.web.scanners.ApiListingReferenceScanner.scan:41 -Scanning for api listing references
+2020-04-14 09:10:42.374 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8088"]
+2020-04-14 09:10:42.390 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 8088 (http) with context path ''
+2020-04-14 09:10:42.406 INFO  [main]cn.codexing.blog.BlogApplication.logStarted:61 -Started BlogApplication in 4.193 seconds (JVM running for 5.316)
+2020-04-14 09:10:50.403 INFO  [http-nio-8088-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-14 09:10:50.404 INFO  [http-nio-8088-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-04-14 09:10:50.410 INFO  [http-nio-8088-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 6 ms
+2020-04-14 09:10:50.557 INFO  [http-nio-8088-exec-1]com.alibaba.druid.pool.DruidDataSource.init:1003 -{dataSource-1} inited
+2020-04-14 09:24:57.092 INFO  [main]org.springframework.core.KotlinDetector.<clinit>:57 -Kotlin reflection implementation not found at runtime, related features won't be available.
+2020-04-14 09:24:57.810 INFO  [main]cn.codexing.blog.BlogApplication.logStarting:55 -Starting BlogApplication on DESKTOP-0EBHI2S with PID 6756 (E:\2020\myblog2.0\blog-backend\target\classes started by GuoXing in E:\2020\myblog2.0\blog-backend)
+2020-04-14 09:24:57.811 INFO  [main]cn.codexing.blog.BlogApplication.logStartupProfileInfo:655 -The following profiles are active: dev
+2020-04-14 09:25:00.292 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:92 -Tomcat initialized with port(s): 8088 (http)
+2020-04-14 09:25:00.299 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8088"]
+2020-04-14 09:25:00.300 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-04-14 09:25:00.301 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-14 09:25:00.387 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-04-14 09:25:00.387 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 2492 ms
+2020-04-14 09:25:01.764 INFO  [main]s.d.s.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods:69 -Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-14 09:25:01.839 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:181 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-14 09:25:02.019 INFO  [main]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:160 -Context refreshed
+2020-04-14 09:25:02.042 INFO  [main]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:163 -Found 1 custom documentation plugin(s)
+2020-04-14 09:25:02.069 INFO  [main]s.d.spring.web.scanners.ApiListingReferenceScanner.scan:41 -Scanning for api listing references
+2020-04-14 09:25:02.216 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8088"]
+2020-04-14 09:25:02.237 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 8088 (http) with context path ''
+2020-04-14 09:25:02.240 INFO  [main]cn.codexing.blog.BlogApplication.logStarted:61 -Started BlogApplication in 5.066 seconds (JVM running for 6.274)
+2020-04-14 09:25:06.921 INFO  [http-nio-8088-exec-2]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-14 09:25:06.921 INFO  [http-nio-8088-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-04-14 09:25:06.928 INFO  [http-nio-8088-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 7 ms
+2020-04-14 09:25:07.081 INFO  [http-nio-8088-exec-2]com.alibaba.druid.pool.DruidDataSource.init:1003 -{dataSource-1} inited
+2020-04-14 09:30:59.208 INFO  [main]org.springframework.core.KotlinDetector.<clinit>:57 -Kotlin reflection implementation not found at runtime, related features won't be available.
+2020-04-14 09:30:59.890 INFO  [main]cn.codexing.blog.BlogApplication.logStarting:55 -Starting BlogApplication on DESKTOP-0EBHI2S with PID 11672 (E:\2020\myblog2.0\blog-backend\target\classes started by GuoXing in E:\2020\myblog2.0\blog-backend)
+2020-04-14 09:30:59.892 INFO  [main]cn.codexing.blog.BlogApplication.logStartupProfileInfo:655 -The following profiles are active: dev
+2020-04-14 09:31:01.813 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:92 -Tomcat initialized with port(s): 8088 (http)
+2020-04-14 09:31:01.826 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8088"]
+2020-04-14 09:31:01.827 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-04-14 09:31:01.827 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-14 09:31:01.951 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-04-14 09:31:01.951 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1954 ms
+2020-04-14 09:31:03.372 INFO  [main]s.d.s.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods:69 -Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-14 09:31:03.465 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:181 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-14 09:31:03.694 INFO  [main]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:160 -Context refreshed
+2020-04-14 09:31:03.708 INFO  [main]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:163 -Found 1 custom documentation plugin(s)
+2020-04-14 09:31:03.733 INFO  [main]s.d.spring.web.scanners.ApiListingReferenceScanner.scan:41 -Scanning for api listing references
+2020-04-14 09:31:03.894 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8088"]
+2020-04-14 09:31:03.928 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 8088 (http) with context path ''
+2020-04-14 09:31:03.930 INFO  [main]cn.codexing.blog.BlogApplication.logStarted:61 -Started BlogApplication in 4.64 seconds (JVM running for 5.81)
+2020-04-14 09:31:09.772 INFO  [http-nio-8088-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-14 09:31:09.772 INFO  [http-nio-8088-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-04-14 09:31:09.779 INFO  [http-nio-8088-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 6 ms
+2020-04-14 09:31:09.939 INFO  [http-nio-8088-exec-1]com.alibaba.druid.pool.DruidDataSource.init:1003 -{dataSource-1} inited
+2020-04-14 09:37:38.188 INFO  [main]org.springframework.core.KotlinDetector.<clinit>:57 -Kotlin reflection implementation not found at runtime, related features won't be available.
+2020-04-14 09:37:38.891 INFO  [main]cn.codexing.blog.BlogApplication.logStarting:55 -Starting BlogApplication on DESKTOP-0EBHI2S with PID 7524 (E:\2020\myblog2.0\blog-backend\target\classes started by GuoXing in E:\2020\myblog2.0\blog-backend)
+2020-04-14 09:37:38.893 INFO  [main]cn.codexing.blog.BlogApplication.logStartupProfileInfo:655 -The following profiles are active: dev
+2020-04-14 09:37:40.693 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:92 -Tomcat initialized with port(s): 8088 (http)
+2020-04-14 09:37:40.702 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8088"]
+2020-04-14 09:37:40.703 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-04-14 09:37:40.704 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-14 09:37:40.800 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-04-14 09:37:40.801 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1834 ms
+2020-04-14 09:37:42.137 INFO  [main]s.d.s.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods:69 -Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-14 09:37:42.219 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:181 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-14 09:37:42.410 INFO  [main]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:160 -Context refreshed
+2020-04-14 09:37:42.425 INFO  [main]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:163 -Found 1 custom documentation plugin(s)
+2020-04-14 09:37:42.449 INFO  [main]s.d.spring.web.scanners.ApiListingReferenceScanner.scan:41 -Scanning for api listing references
+2020-04-14 09:37:42.614 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8088"]
+2020-04-14 09:37:42.634 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 8088 (http) with context path ''
+2020-04-14 09:37:42.637 INFO  [main]cn.codexing.blog.BlogApplication.logStarted:61 -Started BlogApplication in 4.384 seconds (JVM running for 5.673)
+2020-04-14 09:37:55.141 INFO  [http-nio-8088-exec-2]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-14 09:37:55.144 INFO  [http-nio-8088-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-04-14 09:37:55.152 INFO  [http-nio-8088-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 7 ms
+2020-04-14 09:38:17.335 INFO  [http-nio-8088-exec-5]com.alibaba.druid.pool.DruidDataSource.init:1003 -{dataSource-1} inited
+2020-04-14 09:40:37.479 INFO  [main]org.springframework.core.KotlinDetector.<clinit>:57 -Kotlin reflection implementation not found at runtime, related features won't be available.
+2020-04-14 09:40:38.194 INFO  [main]cn.codexing.blog.BlogApplication.logStarting:55 -Starting BlogApplication on DESKTOP-0EBHI2S with PID 9800 (E:\2020\myblog2.0\blog-backend\target\classes started by GuoXing in E:\2020\myblog2.0\blog-backend)
+2020-04-14 09:40:38.196 INFO  [main]cn.codexing.blog.BlogApplication.logStartupProfileInfo:655 -The following profiles are active: dev
+2020-04-14 09:40:40.898 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:92 -Tomcat initialized with port(s): 8088 (http)
+2020-04-14 09:40:40.905 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8088"]
+2020-04-14 09:40:40.906 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-04-14 09:40:40.907 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-14 09:40:40.987 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-04-14 09:40:40.988 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 2696 ms
+2020-04-14 09:40:42.342 INFO  [main]s.d.s.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods:69 -Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-14 09:40:42.425 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:181 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-14 09:40:42.901 INFO  [main]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:160 -Context refreshed
+2020-04-14 09:40:42.926 INFO  [main]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:163 -Found 1 custom documentation plugin(s)
+2020-04-14 09:40:42.968 INFO  [main]s.d.spring.web.scanners.ApiListingReferenceScanner.scan:41 -Scanning for api listing references
+2020-04-14 09:40:43.170 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8088"]
+2020-04-14 09:40:43.192 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 8088 (http) with context path ''
+2020-04-14 09:40:43.195 INFO  [main]cn.codexing.blog.BlogApplication.logStarted:61 -Started BlogApplication in 5.651 seconds (JVM running for 6.835)
+2020-04-14 09:51:32.977 INFO  [main]org.springframework.core.KotlinDetector.<clinit>:57 -Kotlin reflection implementation not found at runtime, related features won't be available.
+2020-04-14 09:51:33.647 INFO  [main]cn.codexing.blog.BlogApplication.logStarting:55 -Starting BlogApplication on DESKTOP-0EBHI2S with PID 3388 (E:\2020\myblog2.0\blog-backend\target\classes started by GuoXing in E:\2020\myblog2.0\blog-backend)
+2020-04-14 09:51:33.648 INFO  [main]cn.codexing.blog.BlogApplication.logStartupProfileInfo:655 -The following profiles are active: dev
+2020-04-14 09:51:35.301 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:92 -Tomcat initialized with port(s): 8088 (http)
+2020-04-14 09:51:35.308 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8088"]
+2020-04-14 09:51:35.309 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-04-14 09:51:35.310 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-14 09:51:35.408 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-04-14 09:51:35.408 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1655 ms
+2020-04-14 09:51:36.747 INFO  [main]s.d.s.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods:69 -Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-14 09:51:36.861 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:181 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-14 09:51:37.072 INFO  [main]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:160 -Context refreshed
+2020-04-14 09:51:37.088 INFO  [main]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:163 -Found 1 custom documentation plugin(s)
+2020-04-14 09:51:37.115 INFO  [main]s.d.spring.web.scanners.ApiListingReferenceScanner.scan:41 -Scanning for api listing references
+2020-04-14 09:51:37.292 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8088"]
+2020-04-14 09:51:37.311 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 8088 (http) with context path ''
+2020-04-14 09:51:37.314 INFO  [main]cn.codexing.blog.BlogApplication.logStarted:61 -Started BlogApplication in 4.271 seconds (JVM running for 5.342)
+2020-04-14 09:51:46.432 INFO  [http-nio-8088-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-14 09:51:46.432 INFO  [http-nio-8088-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-04-14 09:51:46.440 INFO  [http-nio-8088-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 7 ms
+2020-04-14 09:51:46.521 INFO  [http-nio-8088-exec-1]com.alibaba.druid.pool.DruidDataSource.init:1003 -{dataSource-1} inited
+2020-04-14 09:59:02.401 INFO  [main]org.springframework.core.KotlinDetector.<clinit>:57 -Kotlin reflection implementation not found at runtime, related features won't be available.
+2020-04-14 09:59:03.042 INFO  [main]cn.codexing.blog.BlogApplication.logStarting:55 -Starting BlogApplication on DESKTOP-0EBHI2S with PID 9988 (E:\2020\myblog2.0\blog-backend\target\classes started by GuoXing in E:\2020\myblog2.0\blog-backend)
+2020-04-14 09:59:03.044 INFO  [main]cn.codexing.blog.BlogApplication.logStartupProfileInfo:655 -The following profiles are active: dev
+2020-04-14 09:59:04.961 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:92 -Tomcat initialized with port(s): 8088 (http)
+2020-04-14 09:59:04.969 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8088"]
+2020-04-14 09:59:04.970 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-04-14 09:59:04.970 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-14 09:59:05.057 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-04-14 09:59:05.057 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1958 ms
+2020-04-14 09:59:06.493 INFO  [main]s.d.s.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods:69 -Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-14 09:59:06.572 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:181 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-14 09:59:06.744 INFO  [main]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:160 -Context refreshed
+2020-04-14 09:59:06.757 INFO  [main]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:163 -Found 1 custom documentation plugin(s)
+2020-04-14 09:59:06.782 INFO  [main]s.d.spring.web.scanners.ApiListingReferenceScanner.scan:41 -Scanning for api listing references
+2020-04-14 09:59:06.924 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8088"]
+2020-04-14 09:59:06.943 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 8088 (http) with context path ''
+2020-04-14 09:59:06.946 INFO  [main]cn.codexing.blog.BlogApplication.logStarted:61 -Started BlogApplication in 4.483 seconds (JVM running for 5.638)
+2020-04-14 09:59:11.615 INFO  [http-nio-8088-exec-2]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-14 09:59:11.616 INFO  [http-nio-8088-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-04-14 09:59:11.623 INFO  [http-nio-8088-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 7 ms
+2020-04-14 09:59:11.707 INFO  [http-nio-8088-exec-2]com.alibaba.druid.pool.DruidDataSource.init:1003 -{dataSource-1} inited
+2020-04-14 10:08:52.338 INFO  [main]org.springframework.core.KotlinDetector.<clinit>:57 -Kotlin reflection implementation not found at runtime, related features won't be available.
+2020-04-14 10:08:53.093 INFO  [main]cn.codexing.blog.BlogApplication.logStarting:55 -Starting BlogApplication on DESKTOP-0EBHI2S with PID 1516 (E:\2020\myblog2.0\blog-backend\target\classes started by GuoXing in E:\2020\myblog2.0\blog-backend)
+2020-04-14 10:08:53.094 INFO  [main]cn.codexing.blog.BlogApplication.logStartupProfileInfo:655 -The following profiles are active: dev
+2020-04-14 10:08:54.877 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:92 -Tomcat initialized with port(s): 8088 (http)
+2020-04-14 10:08:54.884 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8088"]
+2020-04-14 10:08:54.885 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-04-14 10:08:54.885 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-14 10:08:54.979 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-04-14 10:08:54.979 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1781 ms
+2020-04-14 10:08:56.374 INFO  [main]s.d.s.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods:69 -Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-14 10:08:56.455 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:181 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-14 10:08:56.646 INFO  [main]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:160 -Context refreshed
+2020-04-14 10:08:56.660 INFO  [main]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:163 -Found 1 custom documentation plugin(s)
+2020-04-14 10:08:56.685 INFO  [main]s.d.spring.web.scanners.ApiListingReferenceScanner.scan:41 -Scanning for api listing references
+2020-04-14 10:08:56.853 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8088"]
+2020-04-14 10:08:56.873 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 8088 (http) with context path ''
+2020-04-14 10:08:56.875 INFO  [main]cn.codexing.blog.BlogApplication.logStarted:61 -Started BlogApplication in 4.456 seconds (JVM running for 5.555)
+2020-04-14 10:09:06.604 INFO  [http-nio-8088-exec-2]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-14 10:09:06.604 INFO  [http-nio-8088-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-04-14 10:09:06.612 INFO  [http-nio-8088-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 8 ms
+2020-04-14 10:09:06.686 INFO  [http-nio-8088-exec-2]com.alibaba.druid.pool.DruidDataSource.init:1003 -{dataSource-1} inited
+2020-04-14 10:11:02.679 INFO  [main]org.springframework.core.KotlinDetector.<clinit>:57 -Kotlin reflection implementation not found at runtime, related features won't be available.
+2020-04-14 10:11:03.357 INFO  [main]cn.codexing.blog.BlogApplication.logStarting:55 -Starting BlogApplication on DESKTOP-0EBHI2S with PID 10776 (E:\2020\myblog2.0\blog-backend\target\classes started by GuoXing in E:\2020\myblog2.0\blog-backend)
+2020-04-14 10:11:03.358 INFO  [main]cn.codexing.blog.BlogApplication.logStartupProfileInfo:655 -The following profiles are active: dev
+2020-04-14 10:11:05.179 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:92 -Tomcat initialized with port(s): 8088 (http)
+2020-04-14 10:11:05.188 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8088"]
+2020-04-14 10:11:05.189 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-04-14 10:11:05.189 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-14 10:11:05.284 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-04-14 10:11:05.285 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1808 ms
+2020-04-14 10:11:06.787 INFO  [main]s.d.s.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods:69 -Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-14 10:11:06.867 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:181 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-14 10:11:07.057 INFO  [main]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:160 -Context refreshed
+2020-04-14 10:11:07.072 INFO  [main]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:163 -Found 1 custom documentation plugin(s)
+2020-04-14 10:11:07.100 INFO  [main]s.d.spring.web.scanners.ApiListingReferenceScanner.scan:41 -Scanning for api listing references
+2020-04-14 10:11:07.286 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8088"]
+2020-04-14 10:11:07.307 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 8088 (http) with context path ''
+2020-04-14 10:11:07.309 INFO  [main]cn.codexing.blog.BlogApplication.logStarted:61 -Started BlogApplication in 4.557 seconds (JVM running for 5.886)
+2020-04-14 10:11:28.668 INFO  [http-nio-8088-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-14 10:11:28.669 INFO  [http-nio-8088-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-04-14 10:11:28.681 INFO  [http-nio-8088-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 11 ms
+2020-04-14 10:11:28.765 INFO  [http-nio-8088-exec-1]com.alibaba.druid.pool.DruidDataSource.init:1003 -{dataSource-1} inited
+2020-04-14 10:12:20.580 INFO  [main]org.springframework.core.KotlinDetector.<clinit>:57 -Kotlin reflection implementation not found at runtime, related features won't be available.
+2020-04-14 10:12:21.218 INFO  [main]cn.codexing.blog.BlogApplication.logStarting:55 -Starting BlogApplication on DESKTOP-0EBHI2S with PID 768 (E:\2020\myblog2.0\blog-backend\target\classes started by GuoXing in E:\2020\myblog2.0\blog-backend)
+2020-04-14 10:12:21.219 INFO  [main]cn.codexing.blog.BlogApplication.logStartupProfileInfo:655 -The following profiles are active: dev
+2020-04-14 10:12:22.835 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:92 -Tomcat initialized with port(s): 8088 (http)
+2020-04-14 10:12:22.843 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8088"]
+2020-04-14 10:12:22.844 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-04-14 10:12:22.844 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-14 10:12:22.927 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-04-14 10:12:22.928 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1655 ms
+2020-04-14 10:12:24.208 INFO  [main]s.d.s.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods:69 -Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-14 10:12:24.282 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:181 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-14 10:12:24.456 INFO  [main]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:160 -Context refreshed
+2020-04-14 10:12:24.469 INFO  [main]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:163 -Found 1 custom documentation plugin(s)
+2020-04-14 10:12:24.495 INFO  [main]s.d.spring.web.scanners.ApiListingReferenceScanner.scan:41 -Scanning for api listing references
+2020-04-14 10:12:24.641 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8088"]
+2020-04-14 10:12:24.661 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 8088 (http) with context path ''
+2020-04-14 10:12:24.664 INFO  [main]cn.codexing.blog.BlogApplication.logStarted:61 -Started BlogApplication in 4.01 seconds (JVM running for 5.064)
+2020-04-14 10:12:27.454 INFO  [http-nio-8088-exec-2]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-14 10:12:27.454 INFO  [http-nio-8088-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-04-14 10:12:27.460 INFO  [http-nio-8088-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 5 ms
+2020-04-14 10:12:27.521 INFO  [http-nio-8088-exec-2]com.alibaba.druid.pool.DruidDataSource.init:1003 -{dataSource-1} inited
+2020-04-14 10:13:36.537 INFO  [main]org.springframework.core.KotlinDetector.<clinit>:57 -Kotlin reflection implementation not found at runtime, related features won't be available.
+2020-04-14 10:13:37.284 INFO  [main]cn.codexing.blog.BlogApplication.logStarting:55 -Starting BlogApplication on DESKTOP-0EBHI2S with PID 3804 (E:\2020\myblog2.0\blog-backend\target\classes started by GuoXing in E:\2020\myblog2.0\blog-backend)
+2020-04-14 10:13:37.288 INFO  [main]cn.codexing.blog.BlogApplication.logStartupProfileInfo:655 -The following profiles are active: dev
+2020-04-14 10:13:39.469 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:92 -Tomcat initialized with port(s): 8088 (http)
+2020-04-14 10:13:39.477 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8088"]
+2020-04-14 10:13:39.478 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-04-14 10:13:39.478 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-14 10:13:39.563 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-04-14 10:13:39.563 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 2046 ms
+2020-04-14 10:13:40.836 INFO  [main]s.d.s.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods:69 -Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-14 10:13:40.913 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:181 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-14 10:13:41.086 INFO  [main]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:160 -Context refreshed
+2020-04-14 10:13:41.100 INFO  [main]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:163 -Found 1 custom documentation plugin(s)
+2020-04-14 10:13:41.125 INFO  [main]s.d.spring.web.scanners.ApiListingReferenceScanner.scan:41 -Scanning for api listing references
+2020-04-14 10:13:41.282 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8088"]
+2020-04-14 10:13:41.302 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 8088 (http) with context path ''
+2020-04-14 10:13:41.304 INFO  [main]cn.codexing.blog.BlogApplication.logStarted:61 -Started BlogApplication in 4.689 seconds (JVM running for 5.827)
+2020-04-14 10:13:47.956 INFO  [http-nio-8088-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-14 10:13:47.957 INFO  [http-nio-8088-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-04-14 10:13:47.963 INFO  [http-nio-8088-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 6 ms
+2020-04-14 10:13:48.044 INFO  [http-nio-8088-exec-1]com.alibaba.druid.pool.DruidDataSource.init:1003 -{dataSource-1} inited
+2020-04-14 10:23:15.329 INFO  [main]org.springframework.core.KotlinDetector.<clinit>:57 -Kotlin reflection implementation not found at runtime, related features won't be available.
+2020-04-14 10:23:15.966 INFO  [main]cn.codexing.blog.BlogApplication.logStarting:55 -Starting BlogApplication on DESKTOP-0EBHI2S with PID 5312 (E:\2020\myblog2.0\blog-backend\target\classes started by GuoXing in E:\2020\myblog2.0\blog-backend)
+2020-04-14 10:23:15.967 INFO  [main]cn.codexing.blog.BlogApplication.logStartupProfileInfo:655 -The following profiles are active: dev
+2020-04-14 10:23:17.725 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:92 -Tomcat initialized with port(s): 8088 (http)
+2020-04-14 10:23:17.733 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8088"]
+2020-04-14 10:23:17.734 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-04-14 10:23:17.734 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-14 10:23:17.827 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-04-14 10:23:17.827 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1793 ms
+2020-04-14 10:23:19.264 INFO  [main]s.d.s.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods:69 -Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-14 10:23:19.346 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:181 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-14 10:23:19.535 INFO  [main]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:160 -Context refreshed
+2020-04-14 10:23:19.583 INFO  [main]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:163 -Found 1 custom documentation plugin(s)
+2020-04-14 10:23:19.611 INFO  [main]s.d.spring.web.scanners.ApiListingReferenceScanner.scan:41 -Scanning for api listing references
+2020-04-14 10:23:19.799 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8088"]
+2020-04-14 10:23:19.819 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 8088 (http) with context path ''
+2020-04-14 10:23:19.822 INFO  [main]cn.codexing.blog.BlogApplication.logStarted:61 -Started BlogApplication in 4.429 seconds (JVM running for 5.49)
+2020-04-14 10:23:29.538 INFO  [http-nio-8088-exec-2]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-14 10:23:29.539 INFO  [http-nio-8088-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-04-14 10:23:29.563 INFO  [http-nio-8088-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 24 ms
+2020-04-14 10:23:29.709 INFO  [http-nio-8088-exec-2]com.alibaba.druid.pool.DruidDataSource.init:1003 -{dataSource-1} inited
+2020-04-14 10:31:31.082 INFO  [main]org.springframework.core.KotlinDetector.<clinit>:57 -Kotlin reflection implementation not found at runtime, related features won't be available.
+2020-04-14 10:31:31.825 INFO  [main]cn.codexing.blog.BlogApplication.logStarting:55 -Starting BlogApplication on DESKTOP-0EBHI2S with PID 3744 (E:\2020\myblog2.0\blog-backend\target\classes started by GuoXing in E:\2020\myblog2.0\blog-backend)
+2020-04-14 10:31:31.826 INFO  [main]cn.codexing.blog.BlogApplication.logStartupProfileInfo:655 -The following profiles are active: dev
+2020-04-14 10:31:33.869 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:92 -Tomcat initialized with port(s): 8088 (http)
+2020-04-14 10:31:33.877 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8088"]
+2020-04-14 10:31:33.878 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-04-14 10:31:33.878 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-14 10:31:33.967 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-04-14 10:31:33.967 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 2081 ms
+2020-04-14 10:31:35.658 INFO  [main]s.d.s.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods:69 -Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-14 10:31:35.745 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:181 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-14 10:31:35.945 INFO  [main]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:160 -Context refreshed
+2020-04-14 10:31:35.961 INFO  [main]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:163 -Found 1 custom documentation plugin(s)
+2020-04-14 10:31:35.991 INFO  [main]s.d.spring.web.scanners.ApiListingReferenceScanner.scan:41 -Scanning for api listing references
+2020-04-14 10:31:36.188 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8088"]
+2020-04-14 10:31:36.210 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 8088 (http) with context path ''
+2020-04-14 10:31:36.214 INFO  [main]cn.codexing.blog.BlogApplication.logStarted:61 -Started BlogApplication in 5.064 seconds (JVM running for 6.17)
+2020-04-14 10:31:36.495 INFO  [http-nio-8088-exec-2]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-14 10:31:36.495 INFO  [http-nio-8088-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-04-14 10:31:36.501 INFO  [http-nio-8088-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 6 ms
+2020-04-14 10:31:36.694 INFO  [http-nio-8088-exec-2]com.alibaba.druid.pool.DruidDataSource.init:1003 -{dataSource-1} inited
+2020-04-14 10:39:17.715 INFO  [main]org.springframework.core.KotlinDetector.<clinit>:57 -Kotlin reflection implementation not found at runtime, related features won't be available.
+2020-04-14 10:39:18.394 INFO  [main]cn.codexing.blog.BlogApplication.logStarting:55 -Starting BlogApplication on DESKTOP-0EBHI2S with PID 4036 (E:\2020\myblog2.0\blog-backend\target\classes started by GuoXing in E:\2020\myblog2.0\blog-backend)
+2020-04-14 10:39:18.395 INFO  [main]cn.codexing.blog.BlogApplication.logStartupProfileInfo:655 -The following profiles are active: dev
+2020-04-14 10:39:20.207 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:92 -Tomcat initialized with port(s): 8088 (http)
+2020-04-14 10:39:20.214 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8088"]
+2020-04-14 10:39:20.215 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-04-14 10:39:20.216 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-14 10:39:20.303 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-04-14 10:39:20.303 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1838 ms
+2020-04-14 10:39:21.628 INFO  [main]s.d.s.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods:69 -Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-14 10:39:21.708 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:181 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-14 10:39:21.892 INFO  [main]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:160 -Context refreshed
+2020-04-14 10:39:21.905 INFO  [main]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:163 -Found 1 custom documentation plugin(s)
+2020-04-14 10:39:21.932 INFO  [main]s.d.spring.web.scanners.ApiListingReferenceScanner.scan:41 -Scanning for api listing references
+2020-04-14 10:39:22.107 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8088"]
+2020-04-14 10:39:22.131 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 8088 (http) with context path ''
+2020-04-14 10:39:22.135 INFO  [main]cn.codexing.blog.BlogApplication.logStarted:61 -Started BlogApplication in 4.356 seconds (JVM running for 5.457)
+2020-04-14 10:39:27.432 INFO  [http-nio-8088-exec-2]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-14 10:39:27.433 INFO  [http-nio-8088-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-04-14 10:39:27.440 INFO  [http-nio-8088-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 7 ms
+2020-04-14 10:39:27.582 INFO  [http-nio-8088-exec-2]com.alibaba.druid.pool.DruidDataSource.init:1003 -{dataSource-1} inited
+2020-04-14 10:42:42.269 INFO  [main]org.springframework.core.KotlinDetector.<clinit>:57 -Kotlin reflection implementation not found at runtime, related features won't be available.
+2020-04-14 10:42:42.989 INFO  [main]cn.codexing.blog.BlogApplication.logStarting:55 -Starting BlogApplication on DESKTOP-0EBHI2S with PID 3100 (E:\2020\myblog2.0\blog-backend\target\classes started by GuoXing in E:\2020\myblog2.0\blog-backend)
+2020-04-14 10:42:42.991 INFO  [main]cn.codexing.blog.BlogApplication.logStartupProfileInfo:655 -The following profiles are active: dev
+2020-04-14 10:42:44.775 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:92 -Tomcat initialized with port(s): 8088 (http)
+2020-04-14 10:42:44.783 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8088"]
+2020-04-14 10:42:44.784 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-04-14 10:42:44.784 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-14 10:42:44.869 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-04-14 10:42:44.870 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1804 ms
+2020-04-14 10:42:46.334 INFO  [main]s.d.s.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods:69 -Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-14 10:42:46.418 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:181 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-14 10:42:46.605 INFO  [main]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:160 -Context refreshed
+2020-04-14 10:42:46.618 INFO  [main]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:163 -Found 1 custom documentation plugin(s)
+2020-04-14 10:42:46.645 INFO  [main]s.d.spring.web.scanners.ApiListingReferenceScanner.scan:41 -Scanning for api listing references
+2020-04-14 10:42:46.804 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8088"]
+2020-04-14 10:42:46.826 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 8088 (http) with context path ''
+2020-04-14 10:42:46.829 INFO  [main]cn.codexing.blog.BlogApplication.logStarted:61 -Started BlogApplication in 4.497 seconds (JVM running for 5.611)
+2020-04-14 10:43:02.084 INFO  [http-nio-8088-exec-2]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-14 10:43:02.084 INFO  [http-nio-8088-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-04-14 10:43:02.093 INFO  [http-nio-8088-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 8 ms
+2020-04-14 10:43:02.263 INFO  [http-nio-8088-exec-2]com.alibaba.druid.pool.DruidDataSource.init:1003 -{dataSource-1} inited
+2020-04-14 11:19:26.148 INFO  [main]org.springframework.core.KotlinDetector.<clinit>:57 -Kotlin reflection implementation not found at runtime, related features won't be available.
+2020-04-14 11:19:26.264 INFO  [main]o.s.boot.test.context.SpringBootTestContextBootstrapper.buildDefaultMergedContextConfiguration:308 -Neither @ContextConfiguration nor @ContextHierarchy found for test class [cn.codexing.blog.BlogApplicationTests], using SpringBootContextLoader
+2020-04-14 11:19:26.277 INFO  [main]o.s.test.context.support.AbstractContextLoader.generateDefaultLocations:264 -Could not detect default resource locations for test class [cn.codexing.blog.BlogApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-04-14 11:19:26.280 INFO  [main]o.s.t.context.support.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses:83 -Could not detect default configuration classes for test class [cn.codexing.blog.BlogApplicationTests]: BlogApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-04-14 11:19:26.520 INFO  [main]o.s.boot.test.context.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses:235 -Found @SpringBootConfiguration cn.codexing.blog.BlogApplication for test class cn.codexing.blog.BlogApplicationTests
+2020-04-14 11:19:26.760 INFO  [main]o.s.boot.test.context.SpringBootTestContextBootstrapper.getDefaultTestExecutionListenerClassNames:248 -Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2020-04-14 11:19:26.823 INFO  [main]o.s.boot.test.context.SpringBootTestContextBootstrapper.getTestExecutionListeners:177 -Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@4c2bb6e0, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3e62d773, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4ef74c30, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@7283d3eb, org.springframework.test.context.support.DirtiesContextTestExecutionListener@638ef7ed, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4bff7da0, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@3f1d2e23, org.springframework.test.context.event.EventPublishingTestExecutionListener@536dbea0, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@47c81abf, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@776a6d9b, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@21d03963, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@1f760b47, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@18ece7f4]
+2020-04-14 11:19:27.761 INFO  [main]cn.codexing.blog.BlogApplicationTests.logStarting:55 -Starting BlogApplicationTests on DESKTOP-0EBHI2S with PID 1288 (started by GuoXing in E:\2020\myblog2.0\blog-backend)
+2020-04-14 11:19:27.763 INFO  [main]cn.codexing.blog.BlogApplicationTests.logStartupProfileInfo:655 -The following profiles are active: dev
+2020-04-14 11:19:32.577 INFO  [main]s.d.s.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods:69 -Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-14 11:19:32.995 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:181 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-14 11:19:33.480 INFO  [main]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:160 -Context refreshed
+2020-04-14 11:19:33.517 INFO  [main]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:163 -Found 1 custom documentation plugin(s)
+2020-04-14 11:19:33.565 INFO  [main]s.d.spring.web.scanners.ApiListingReferenceScanner.scan:41 -Scanning for api listing references
+2020-04-14 11:19:33.857 INFO  [main]cn.codexing.blog.BlogApplicationTests.logStarted:61 -Started BlogApplicationTests in 6.883 seconds (JVM running for 9.183)
+2020-04-14 11:19:34.180 INFO  [SpringContextShutdownHook]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:218 -Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-14 11:19:34.190 INFO  [SpringContextShutdownHook]com.alibaba.druid.pool.DruidDataSource.close:1965 -{dataSource-0} closing ...
+2020-04-14 11:21:28.956 INFO  [main]org.springframework.core.KotlinDetector.<clinit>:57 -Kotlin reflection implementation not found at runtime, related features won't be available.
+2020-04-14 11:21:29.658 INFO  [main]cn.codexing.blog.BlogApplication.logStarting:55 -Starting BlogApplication on DESKTOP-0EBHI2S with PID 7404 (E:\2020\myblog2.0\blog-backend\target\classes started by GuoXing in E:\2020\myblog2.0\blog-backend)
+2020-04-14 11:21:29.661 INFO  [main]cn.codexing.blog.BlogApplication.logStartupProfileInfo:655 -The following profiles are active: dev
+2020-04-14 11:21:31.551 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:92 -Tomcat initialized with port(s): 8088 (http)
+2020-04-14 11:21:31.559 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8088"]
+2020-04-14 11:21:31.561 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-04-14 11:21:31.561 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-14 11:21:31.657 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-04-14 11:21:31.657 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1883 ms
+2020-04-14 11:21:33.102 INFO  [main]s.d.s.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods:69 -Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-14 11:21:33.190 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:181 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-14 11:21:33.383 INFO  [main]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:160 -Context refreshed
+2020-04-14 11:21:33.398 INFO  [main]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:163 -Found 1 custom documentation plugin(s)
+2020-04-14 11:21:33.427 INFO  [main]s.d.spring.web.scanners.ApiListingReferenceScanner.scan:41 -Scanning for api listing references
+2020-04-14 11:21:33.603 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8088"]
+2020-04-14 11:21:33.623 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 8088 (http) with context path ''
+2020-04-14 11:21:33.626 INFO  [main]cn.codexing.blog.BlogApplication.logStarted:61 -Started BlogApplication in 4.606 seconds (JVM running for 5.753)
+2020-04-14 11:21:40.335 INFO  [http-nio-8088-exec-2]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-14 11:21:40.336 INFO  [http-nio-8088-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-04-14 11:21:40.344 INFO  [http-nio-8088-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 8 ms
+2020-04-14 11:21:40.498 INFO  [http-nio-8088-exec-2]com.alibaba.druid.pool.DruidDataSource.init:1003 -{dataSource-1} inited
+2020-04-14 12:21:33.028 INFO  [main]org.springframework.core.KotlinDetector.<clinit>:57 -Kotlin reflection implementation not found at runtime, related features won't be available.
+2020-04-14 12:21:33.779 INFO  [main]cn.codexing.blog.BlogApplication.logStarting:55 -Starting BlogApplication on DESKTOP-0EBHI2S with PID 4100 (E:\2020\myblog2.0\blog-backend\target\classes started by GuoXing in E:\2020\myblog2.0\blog-backend)
+2020-04-14 12:21:33.781 INFO  [main]cn.codexing.blog.BlogApplication.logStartupProfileInfo:655 -The following profiles are active: dev
+2020-04-14 12:21:35.551 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:92 -Tomcat initialized with port(s): 8088 (http)
+2020-04-14 12:21:35.560 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8088"]
+2020-04-14 12:21:35.562 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-04-14 12:21:35.562 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-14 12:21:35.657 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-04-14 12:21:35.658 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1778 ms
+2020-04-14 12:21:37.009 INFO  [main]s.d.s.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods:69 -Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-14 12:21:37.090 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:181 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-14 12:21:37.277 INFO  [main]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:160 -Context refreshed
+2020-04-14 12:21:37.290 INFO  [main]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:163 -Found 1 custom documentation plugin(s)
+2020-04-14 12:21:37.316 INFO  [main]s.d.spring.web.scanners.ApiListingReferenceScanner.scan:41 -Scanning for api listing references
+2020-04-14 12:21:37.479 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8088"]
+2020-04-14 12:21:37.498 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 8088 (http) with context path ''
+2020-04-14 12:21:37.500 INFO  [main]cn.codexing.blog.BlogApplication.logStarted:61 -Started BlogApplication in 4.41 seconds (JVM running for 5.521)
+2020-04-14 12:21:50.087 INFO  [http-nio-8088-exec-3]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-14 12:21:50.088 INFO  [http-nio-8088-exec-3]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-04-14 12:21:50.097 INFO  [http-nio-8088-exec-3]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 9 ms
+2020-04-14 12:21:50.209 INFO  [http-nio-8088-exec-3]com.alibaba.druid.pool.DruidDataSource.init:1003 -{dataSource-1} inited
+2020-04-14 12:27:12.708 INFO  [main]org.springframework.core.KotlinDetector.<clinit>:57 -Kotlin reflection implementation not found at runtime, related features won't be available.
+2020-04-14 12:27:13.417 INFO  [main]cn.codexing.blog.BlogApplication.logStarting:55 -Starting BlogApplication on DESKTOP-0EBHI2S with PID 2148 (E:\2020\myblog2.0\blog-backend\target\classes started by GuoXing in E:\2020\myblog2.0\blog-backend)
+2020-04-14 12:27:13.418 INFO  [main]cn.codexing.blog.BlogApplication.logStartupProfileInfo:655 -The following profiles are active: dev
+2020-04-14 12:27:15.517 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:92 -Tomcat initialized with port(s): 8088 (http)
+2020-04-14 12:27:15.525 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8088"]
+2020-04-14 12:27:15.526 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-04-14 12:27:15.526 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-14 12:27:15.621 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-04-14 12:27:15.622 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 2139 ms
+2020-04-14 12:27:17.022 INFO  [main]s.d.s.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods:69 -Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-14 12:27:17.102 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:181 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-14 12:27:17.296 INFO  [main]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:160 -Context refreshed
+2020-04-14 12:27:17.313 INFO  [main]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:163 -Found 1 custom documentation plugin(s)
+2020-04-14 12:27:17.339 INFO  [main]s.d.spring.web.scanners.ApiListingReferenceScanner.scan:41 -Scanning for api listing references
+2020-04-14 12:27:17.508 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8088"]
+2020-04-14 12:27:17.541 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 8088 (http) with context path ''
+2020-04-14 12:27:17.544 INFO  [main]cn.codexing.blog.BlogApplication.logStarted:61 -Started BlogApplication in 4.747 seconds (JVM running for 5.874)
+2020-04-14 12:27:34.628 INFO  [http-nio-8088-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-14 12:27:34.629 INFO  [http-nio-8088-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-04-14 12:27:34.637 INFO  [http-nio-8088-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 8 ms
+2020-04-14 12:27:34.744 INFO  [http-nio-8088-exec-1]com.alibaba.druid.pool.DruidDataSource.init:1003 -{dataSource-1} inited
+2020-04-14 12:28:29.820 INFO  [main]org.springframework.core.KotlinDetector.<clinit>:57 -Kotlin reflection implementation not found at runtime, related features won't be available.
+2020-04-14 12:28:30.490 INFO  [main]cn.codexing.blog.BlogApplication.logStarting:55 -Starting BlogApplication on DESKTOP-0EBHI2S with PID 7464 (E:\2020\myblog2.0\blog-backend\target\classes started by GuoXing in E:\2020\myblog2.0\blog-backend)
+2020-04-14 12:28:30.491 INFO  [main]cn.codexing.blog.BlogApplication.logStartupProfileInfo:655 -The following profiles are active: dev
+2020-04-14 12:28:32.138 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:92 -Tomcat initialized with port(s): 8088 (http)
+2020-04-14 12:28:32.146 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8088"]
+2020-04-14 12:28:32.147 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-04-14 12:28:32.147 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-14 12:28:32.240 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-04-14 12:28:32.241 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1688 ms
+2020-04-14 12:28:33.577 INFO  [main]s.d.s.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods:69 -Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-14 12:28:33.654 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:181 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-14 12:28:33.833 INFO  [main]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:160 -Context refreshed
+2020-04-14 12:28:33.851 INFO  [main]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:163 -Found 1 custom documentation plugin(s)
+2020-04-14 12:28:33.877 INFO  [main]s.d.spring.web.scanners.ApiListingReferenceScanner.scan:41 -Scanning for api listing references
+2020-04-14 12:28:34.050 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8088"]
+2020-04-14 12:28:34.071 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 8088 (http) with context path ''
+2020-04-14 12:28:34.073 INFO  [main]cn.codexing.blog.BlogApplication.logStarted:61 -Started BlogApplication in 4.183 seconds (JVM running for 5.355)
+2020-04-14 12:28:57.350 INFO  [http-nio-8088-exec-2]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-14 12:28:57.351 INFO  [http-nio-8088-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-04-14 12:28:57.358 INFO  [http-nio-8088-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 7 ms
+2020-04-14 12:28:57.459 INFO  [http-nio-8088-exec-2]com.alibaba.druid.pool.DruidDataSource.init:1003 -{dataSource-1} inited
+2020-04-14 12:49:43.212 INFO  [main]org.springframework.core.KotlinDetector.<clinit>:57 -Kotlin reflection implementation not found at runtime, related features won't be available.
+2020-04-14 12:49:43.906 INFO  [main]cn.codexing.blog.BlogApplication.logStarting:55 -Starting BlogApplication on DESKTOP-0EBHI2S with PID 684 (E:\2020\myblog2.0\blog-backend\target\classes started by GuoXing in E:\2020\myblog2.0\blog-backend)
+2020-04-14 12:49:43.907 INFO  [main]cn.codexing.blog.BlogApplication.logStartupProfileInfo:655 -The following profiles are active: dev
+2020-04-14 12:49:46.051 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:92 -Tomcat initialized with port(s): 8088 (http)
+2020-04-14 12:49:46.060 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8088"]
+2020-04-14 12:49:46.062 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-04-14 12:49:46.062 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-14 12:49:46.161 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-04-14 12:49:46.161 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 2088 ms
+2020-04-14 12:49:47.678 INFO  [main]s.d.s.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods:69 -Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-14 12:49:47.756 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:181 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-14 12:49:47.947 INFO  [main]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:160 -Context refreshed
+2020-04-14 12:49:47.961 INFO  [main]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:163 -Found 1 custom documentation plugin(s)
+2020-04-14 12:49:47.987 INFO  [main]s.d.spring.web.scanners.ApiListingReferenceScanner.scan:41 -Scanning for api listing references
+2020-04-14 12:49:48.159 INFO  [main]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: getByIdUsingGET_1
+2020-04-14 12:49:48.180 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8088"]
+2020-04-14 12:49:48.200 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 8088 (http) with context path ''
+2020-04-14 12:49:48.203 INFO  [main]cn.codexing.blog.BlogApplication.logStarted:61 -Started BlogApplication in 4.918 seconds (JVM running for 6.11)
+2020-04-14 12:50:08.099 INFO  [http-nio-8088-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-14 12:50:08.100 INFO  [http-nio-8088-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-04-14 12:50:08.106 INFO  [http-nio-8088-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 6 ms
+2020-04-14 12:50:08.213 INFO  [http-nio-8088-exec-1]com.alibaba.druid.pool.DruidDataSource.init:1003 -{dataSource-1} inited
+2020-04-14 12:55:36.780 INFO  [main]org.springframework.core.KotlinDetector.<clinit>:57 -Kotlin reflection implementation not found at runtime, related features won't be available.
+2020-04-14 12:55:37.466 INFO  [main]cn.codexing.blog.BlogApplication.logStarting:55 -Starting BlogApplication on DESKTOP-0EBHI2S with PID 1676 (E:\2020\myblog2.0\blog-backend\target\classes started by GuoXing in E:\2020\myblog2.0\blog-backend)
+2020-04-14 12:55:37.468 INFO  [main]cn.codexing.blog.BlogApplication.logStartupProfileInfo:655 -The following profiles are active: dev
+2020-04-14 12:55:39.410 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:92 -Tomcat initialized with port(s): 8088 (http)
+2020-04-14 12:55:39.418 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8088"]
+2020-04-14 12:55:39.419 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-04-14 12:55:39.419 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-14 12:55:39.510 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-04-14 12:55:39.511 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1984 ms
+2020-04-14 12:55:40.878 INFO  [main]s.d.s.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods:69 -Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-14 12:55:40.956 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:181 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-14 12:55:41.164 INFO  [main]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:160 -Context refreshed
+2020-04-14 12:55:41.185 INFO  [main]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:163 -Found 1 custom documentation plugin(s)
+2020-04-14 12:55:41.216 INFO  [main]s.d.spring.web.scanners.ApiListingReferenceScanner.scan:41 -Scanning for api listing references
+2020-04-14 12:55:41.415 INFO  [main]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: getByIdUsingGET_1
+2020-04-14 12:55:41.441 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8088"]
+2020-04-14 12:55:41.461 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 8088 (http) with context path ''
+2020-04-14 12:55:41.463 INFO  [main]cn.codexing.blog.BlogApplication.logStarted:61 -Started BlogApplication in 4.62 seconds (JVM running for 5.916)
+2020-04-14 12:55:49.390 INFO  [http-nio-8088-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-14 12:55:49.391 INFO  [http-nio-8088-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-04-14 12:55:49.399 INFO  [http-nio-8088-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 7 ms
+2020-04-14 12:55:49.506 INFO  [http-nio-8088-exec-1]com.alibaba.druid.pool.DruidDataSource.init:1003 -{dataSource-1} inited
+2020-04-14 12:59:01.523 INFO  [main]org.springframework.core.KotlinDetector.<clinit>:57 -Kotlin reflection implementation not found at runtime, related features won't be available.
+2020-04-14 12:59:02.192 INFO  [main]cn.codexing.blog.BlogApplication.logStarting:55 -Starting BlogApplication on DESKTOP-0EBHI2S with PID 11640 (E:\2020\myblog2.0\blog-backend\target\classes started by GuoXing in E:\2020\myblog2.0\blog-backend)
+2020-04-14 12:59:02.194 INFO  [main]cn.codexing.blog.BlogApplication.logStartupProfileInfo:655 -The following profiles are active: dev
+2020-04-14 12:59:04.106 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:92 -Tomcat initialized with port(s): 8088 (http)
+2020-04-14 12:59:04.114 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8088"]
+2020-04-14 12:59:04.115 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-04-14 12:59:04.115 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-14 12:59:04.200 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-04-14 12:59:04.201 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1934 ms
+2020-04-14 12:59:05.537 INFO  [main]s.d.s.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods:69 -Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-14 12:59:05.615 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:181 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-14 12:59:05.800 INFO  [main]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:160 -Context refreshed
+2020-04-14 12:59:05.826 INFO  [main]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:163 -Found 1 custom documentation plugin(s)
+2020-04-14 12:59:05.852 INFO  [main]s.d.spring.web.scanners.ApiListingReferenceScanner.scan:41 -Scanning for api listing references
+2020-04-14 12:59:06.012 INFO  [main]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: getByIdUsingGET_1
+2020-04-14 12:59:06.035 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8088"]
+2020-04-14 12:59:06.056 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 8088 (http) with context path ''
+2020-04-14 12:59:06.060 INFO  [main]cn.codexing.blog.BlogApplication.logStarted:61 -Started BlogApplication in 4.45 seconds (JVM running for 5.529)
+2020-04-14 12:59:22.384 INFO  [http-nio-8088-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-14 12:59:22.385 INFO  [http-nio-8088-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-04-14 12:59:22.394 INFO  [http-nio-8088-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 8 ms
+2020-04-14 12:59:22.530 INFO  [http-nio-8088-exec-1]com.alibaba.druid.pool.DruidDataSource.init:1003 -{dataSource-1} inited
+2020-04-14 13:21:04.010 INFO  [main]org.springframework.core.KotlinDetector.<clinit>:57 -Kotlin reflection implementation not found at runtime, related features won't be available.
+2020-04-14 13:21:04.687 INFO  [main]cn.codexing.blog.BlogApplication.logStarting:55 -Starting BlogApplication on DESKTOP-0EBHI2S with PID 9108 (E:\2020\myblog2.0\blog-backend\target\classes started by GuoXing in E:\2020\myblog2.0\blog-backend)
+2020-04-14 13:21:04.688 INFO  [main]cn.codexing.blog.BlogApplication.logStartupProfileInfo:655 -The following profiles are active: dev
+2020-04-14 13:21:06.553 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:92 -Tomcat initialized with port(s): 8088 (http)
+2020-04-14 13:21:06.562 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8088"]
+2020-04-14 13:21:06.563 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-04-14 13:21:06.563 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-14 13:21:06.662 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-04-14 13:21:06.663 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1916 ms
+2020-04-14 13:21:08.151 INFO  [main]s.d.s.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods:69 -Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-14 13:21:08.230 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:181 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-14 13:21:08.406 INFO  [main]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:160 -Context refreshed
+2020-04-14 13:21:08.419 INFO  [main]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:163 -Found 1 custom documentation plugin(s)
+2020-04-14 13:21:08.447 INFO  [main]s.d.spring.web.scanners.ApiListingReferenceScanner.scan:41 -Scanning for api listing references
+2020-04-14 13:21:08.630 INFO  [main]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: getByIdUsingGET_1
+2020-04-14 13:21:08.652 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8088"]
+2020-04-14 13:21:08.671 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 8088 (http) with context path ''
+2020-04-14 13:21:08.674 INFO  [main]cn.codexing.blog.BlogApplication.logStarted:61 -Started BlogApplication in 4.582 seconds (JVM running for 5.998)
+2020-04-14 13:22:07.085 INFO  [http-nio-8088-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-14 13:22:07.085 INFO  [http-nio-8088-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-04-14 13:22:07.093 INFO  [http-nio-8088-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 7 ms
+2020-04-14 13:22:07.250 INFO  [http-nio-8088-exec-1]com.alibaba.druid.pool.DruidDataSource.init:1003 -{dataSource-1} inited
+2020-04-14 15:01:04.127 INFO  [main]org.springframework.core.KotlinDetector.<clinit>:57 -Kotlin reflection implementation not found at runtime, related features won't be available.
+2020-04-14 15:01:04.846 INFO  [main]cn.codexing.blog.BlogApplication.logStarting:55 -Starting BlogApplication on DESKTOP-0EBHI2S with PID 8712 (E:\2020\myblog2.0\blog-backend\target\classes started by GuoXing in E:\2020\myblog2.0\blog-backend)
+2020-04-14 15:01:04.847 INFO  [main]cn.codexing.blog.BlogApplication.logStartupProfileInfo:655 -The following profiles are active: dev
+2020-04-14 15:01:07.226 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:92 -Tomcat initialized with port(s): 8088 (http)
+2020-04-14 15:01:07.233 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8088"]
+2020-04-14 15:01:07.234 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-04-14 15:01:07.235 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-14 15:01:07.332 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-04-14 15:01:07.333 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 2406 ms
+2020-04-14 15:01:07.807 INFO  [main]com.alibaba.druid.pool.DruidDataSource.close:1965 -{dataSource-0} closing ...
+2020-04-14 15:01:07.810 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Stopping service [Tomcat]
+2020-04-14 15:01:07.832 INFO  [main]o.s.b.a.logging.ConditionEvaluationReportLoggingListener.logMessage:136 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-04-14 15:02:35.905 INFO  [main]org.springframework.core.KotlinDetector.<clinit>:57 -Kotlin reflection implementation not found at runtime, related features won't be available.
+2020-04-14 15:02:36.600 INFO  [main]cn.codexing.blog.BlogApplication.logStarting:55 -Starting BlogApplication on DESKTOP-0EBHI2S with PID 2956 (E:\2020\myblog2.0\blog-backend\target\classes started by GuoXing in E:\2020\myblog2.0\blog-backend)
+2020-04-14 15:02:36.602 INFO  [main]cn.codexing.blog.BlogApplication.logStartupProfileInfo:655 -The following profiles are active: dev
+2020-04-14 15:02:38.684 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:92 -Tomcat initialized with port(s): 8088 (http)
+2020-04-14 15:02:38.693 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8088"]
+2020-04-14 15:02:38.694 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-04-14 15:02:38.695 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-14 15:02:38.787 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-04-14 15:02:38.788 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 2028 ms
+2020-04-14 15:02:40.122 INFO  [main]s.d.s.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods:69 -Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-14 15:02:40.199 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:181 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-14 15:02:40.421 INFO  [main]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:160 -Context refreshed
+2020-04-14 15:02:40.436 INFO  [main]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:163 -Found 1 custom documentation plugin(s)
+2020-04-14 15:02:40.464 INFO  [main]s.d.spring.web.scanners.ApiListingReferenceScanner.scan:41 -Scanning for api listing references
+2020-04-14 15:02:40.672 INFO  [main]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: getByIdUsingGET_1
+2020-04-14 15:02:40.683 INFO  [main]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: getByIdUsingGET_2
+2020-04-14 15:02:40.698 INFO  [main]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: getByIdUsingGET_3
+2020-04-14 15:02:40.720 INFO  [main]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: getByIdUsingGET_4
+2020-04-14 15:02:40.739 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8088"]
+2020-04-14 15:02:40.758 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 8088 (http) with context path ''
+2020-04-14 15:02:40.760 INFO  [main]cn.codexing.blog.BlogApplication.logStarted:61 -Started BlogApplication in 4.759 seconds (JVM running for 6.017)
+2020-04-14 15:02:50.106 INFO  [http-nio-8088-exec-2]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-14 15:02:50.106 INFO  [http-nio-8088-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-04-14 15:02:50.112 INFO  [http-nio-8088-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 5 ms
+2020-04-14 15:02:50.199 INFO  [http-nio-8088-exec-2]com.alibaba.druid.pool.DruidDataSource.init:1003 -{dataSource-1} inited
+2020-04-14 15:03:20.128 INFO  [main]org.springframework.core.KotlinDetector.<clinit>:57 -Kotlin reflection implementation not found at runtime, related features won't be available.
+2020-04-14 15:03:20.796 INFO  [main]cn.codexing.blog.BlogApplication.logStarting:55 -Starting BlogApplication on DESKTOP-0EBHI2S with PID 5900 (E:\2020\myblog2.0\blog-backend\target\classes started by GuoXing in E:\2020\myblog2.0\blog-backend)
+2020-04-14 15:03:20.797 INFO  [main]cn.codexing.blog.BlogApplication.logStartupProfileInfo:655 -The following profiles are active: dev
+2020-04-14 15:03:22.690 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:92 -Tomcat initialized with port(s): 8088 (http)
+2020-04-14 15:03:22.698 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8088"]
+2020-04-14 15:03:22.699 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-04-14 15:03:22.699 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-14 15:03:22.788 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-04-14 15:03:22.789 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1929 ms
+2020-04-14 15:03:24.176 INFO  [main]s.d.s.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods:69 -Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-14 15:03:24.256 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:181 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-14 15:03:24.434 INFO  [main]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:160 -Context refreshed
+2020-04-14 15:03:24.447 INFO  [main]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:163 -Found 1 custom documentation plugin(s)
+2020-04-14 15:03:24.473 INFO  [main]s.d.spring.web.scanners.ApiListingReferenceScanner.scan:41 -Scanning for api listing references
+2020-04-14 15:03:24.664 INFO  [main]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: getByIdUsingGET_1
+2020-04-14 15:03:24.673 INFO  [main]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: getByIdUsingGET_2
+2020-04-14 15:03:24.685 INFO  [main]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: getByIdUsingGET_3
+2020-04-14 15:03:24.706 INFO  [main]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: getByIdUsingGET_4
+2020-04-14 15:03:24.725 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8088"]
+2020-04-14 15:03:24.744 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 8088 (http) with context path ''
+2020-04-14 15:03:24.747 INFO  [main]cn.codexing.blog.BlogApplication.logStarted:61 -Started BlogApplication in 4.546 seconds (JVM running for 5.703)
+2020-04-14 15:03:28.607 INFO  [http-nio-8088-exec-2]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-14 15:03:28.621 INFO  [http-nio-8088-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-04-14 15:03:28.652 INFO  [http-nio-8088-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 21 ms
+2020-04-14 15:03:28.756 INFO  [http-nio-8088-exec-2]com.alibaba.druid.pool.DruidDataSource.init:1003 -{dataSource-1} inited
+2020-04-14 15:04:51.552 INFO  [main]org.springframework.core.KotlinDetector.<clinit>:57 -Kotlin reflection implementation not found at runtime, related features won't be available.
+2020-04-14 15:04:52.281 INFO  [main]cn.codexing.blog.BlogApplication.logStarting:55 -Starting BlogApplication on DESKTOP-0EBHI2S with PID 6420 (E:\2020\myblog2.0\blog-backend\target\classes started by GuoXing in E:\2020\myblog2.0\blog-backend)
+2020-04-14 15:04:52.282 INFO  [main]cn.codexing.blog.BlogApplication.logStartupProfileInfo:655 -The following profiles are active: dev
+2020-04-14 15:04:54.137 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:92 -Tomcat initialized with port(s): 8088 (http)
+2020-04-14 15:04:54.146 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8088"]
+2020-04-14 15:04:54.147 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-04-14 15:04:54.147 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-14 15:04:54.232 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-04-14 15:04:54.232 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1835 ms
+2020-04-14 15:04:55.534 INFO  [main]s.d.s.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods:69 -Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-14 15:04:55.615 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:181 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-14 15:04:55.805 INFO  [main]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:160 -Context refreshed
+2020-04-14 15:04:55.818 INFO  [main]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:163 -Found 1 custom documentation plugin(s)
+2020-04-14 15:04:55.843 INFO  [main]s.d.spring.web.scanners.ApiListingReferenceScanner.scan:41 -Scanning for api listing references
+2020-04-14 15:04:56.048 INFO  [main]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: getByIdUsingGET_1
+2020-04-14 15:04:56.059 INFO  [main]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: getByIdUsingGET_2
+2020-04-14 15:04:56.077 INFO  [main]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: getByIdUsingGET_3
+2020-04-14 15:04:56.104 INFO  [main]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: getByIdUsingGET_4
+2020-04-14 15:04:56.132 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8088"]
+2020-04-14 15:04:56.156 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 8088 (http) with context path ''
+2020-04-14 15:04:56.159 INFO  [main]cn.codexing.blog.BlogApplication.logStarted:61 -Started BlogApplication in 4.544 seconds (JVM running for 5.64)
+2020-04-14 15:05:04.545 INFO  [http-nio-8088-exec-2]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-14 15:05:04.546 INFO  [http-nio-8088-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-04-14 15:05:04.573 INFO  [http-nio-8088-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 14 ms
+2020-04-14 15:05:04.768 INFO  [http-nio-8088-exec-2]com.alibaba.druid.pool.DruidDataSource.init:1003 -{dataSource-1} inited
+2020-04-14 15:08:35.251 INFO  [main]org.springframework.core.KotlinDetector.<clinit>:57 -Kotlin reflection implementation not found at runtime, related features won't be available.
+2020-04-14 15:08:35.986 INFO  [main]cn.codexing.blog.BlogApplication.logStarting:55 -Starting BlogApplication on DESKTOP-0EBHI2S with PID 5824 (E:\2020\myblog2.0\blog-backend\target\classes started by GuoXing in E:\2020\myblog2.0\blog-backend)
+2020-04-14 15:08:35.989 INFO  [main]cn.codexing.blog.BlogApplication.logStartupProfileInfo:655 -The following profiles are active: dev
+2020-04-14 15:08:37.967 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:92 -Tomcat initialized with port(s): 8088 (http)
+2020-04-14 15:08:37.975 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8088"]
+2020-04-14 15:08:37.976 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-04-14 15:08:37.977 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-14 15:08:38.121 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-04-14 15:08:38.121 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1998 ms
+2020-04-14 15:08:39.533 INFO  [main]s.d.s.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods:69 -Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-14 15:08:39.611 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:181 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-14 15:08:39.790 INFO  [main]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:160 -Context refreshed
+2020-04-14 15:08:39.804 INFO  [main]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:163 -Found 1 custom documentation plugin(s)
+2020-04-14 15:08:39.830 INFO  [main]s.d.spring.web.scanners.ApiListingReferenceScanner.scan:41 -Scanning for api listing references
+2020-04-14 15:08:40.017 INFO  [main]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: getByIdUsingGET_1
+2020-04-14 15:08:40.026 INFO  [main]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: getByIdUsingGET_2
+2020-04-14 15:08:40.037 INFO  [main]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: getByIdUsingGET_3
+2020-04-14 15:08:40.060 INFO  [main]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: getByIdUsingGET_4
+2020-04-14 15:08:40.095 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8088"]
+2020-04-14 15:08:40.115 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 8088 (http) with context path ''
+2020-04-14 15:08:40.118 INFO  [main]cn.codexing.blog.BlogApplication.logStarted:61 -Started BlogApplication in 4.803 seconds (JVM running for 5.97)
+2020-04-14 15:08:43.080 INFO  [http-nio-8088-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-14 15:08:43.081 INFO  [http-nio-8088-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2020-04-14 15:08:43.087 INFO  [http-nio-8088-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 6 ms
+2020-04-14 15:08:43.171 INFO  [http-nio-8088-exec-1]com.alibaba.druid.pool.DruidDataSource.init:1003 -{dataSource-1} inited
+2020-04-14 19:49:25.511 INFO  [main]org.springframework.core.KotlinDetector.<clinit>:57 -Kotlin reflection implementation not found at runtime, related features won't be available.
+2020-04-14 19:49:26.348 INFO  [main]cn.codexing.blog.BlogApplication.logStarting:55 -Starting BlogApplication on DESKTOP-0EBHI2S with PID 3172 (E:\2020\myblog2.0\blog-backend\target\classes started by GuoXing in E:\2020\myblog2.0\blog-backend)
+2020-04-14 19:49:26.351 INFO  [main]cn.codexing.blog.BlogApplication.logStartupProfileInfo:655 -The following profiles are active: dev
+2020-04-14 19:49:28.330 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:92 -Tomcat initialized with port(s): 8088 (http)
+2020-04-14 19:49:28.342 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8088"]
+2020-04-14 19:49:28.343 INFO  [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2020-04-14 19:49:28.344 INFO  [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-14 19:49:28.475 INFO  [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2020-04-14 19:49:28.476 INFO  [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:284 -Root WebApplicationContext: initialization completed in 1919 ms
+2020-04-14 19:49:29.861 INFO  [main]s.d.s.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods:69 -Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-14 19:49:29.944 INFO  [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:181 -Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-14 19:49:30.162 INFO  [main]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:160 -Context refreshed
+2020-04-14 19:49:30.178 INFO  [main]s.d.spring.web.plugins.DocumentationPluginsBootstrapper.start:163 -Found 1 custom documentation plugin(s)
+2020-04-14 19:49:30.204 INFO  [main]s.d.spring.web.scanners.ApiListingReferenceScanner.scan:41 -Scanning for api listing references
+2020-04-14 19:49:30.395 INFO  [main]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: getByIdUsingGET_1
+2020-04-14 19:49:30.404 INFO  [main]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: getByIdUsingGET_2
+2020-04-14 19:49:30.415 INFO  [main]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: getByIdUsingGET_3
+2020-04-14 19:49:30.427 INFO  [main]s.d.s.w.readers.operation.CachingOperationNameGenerator.startingWith:40 -Generating unique operation named: getByIdUsingGET_4
+2020-04-14 19:49:30.477 INFO  [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8088"]
+2020-04-14 19:49:30.496 INFO  [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 8088 (http) with context path ''
+2020-04-14 19:49:30.500 INFO  [main]cn.codexing.blog.BlogApplication.logStarted:61 -Started BlogApplication in 4.888 seconds (JVM running for 6.42)

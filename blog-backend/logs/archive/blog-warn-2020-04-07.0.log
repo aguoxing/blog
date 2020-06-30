@@ -1,0 +1,2 @@
+2020-04-07 19:23:34.369 WARN  [background-preinit]o.s.http.converter.json.Jackson2ObjectMapperBuilder.warn:127 -For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2020-04-07 19:23:36.423 WARN  [main]com.baomidou.mybatisplus.core.metadata.TableInfoHelper.initTableFields:280 -Warn: Could not find @TableId in Class: cn.codexing.blog.entity.ArticleComment.

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.codexing.blog.mapper.TagMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="cn.codexing.blog.entity.Tag">
+        <id column="id" property="id"/>
+        <result column="name" property="name"/>
+        <result column="enable" property="enable"/>
+        <result column="deleted" property="deleted"/>
+    </resultMap>
+
+    <resultMap id="tagVo" type="cn.codexing.blog.vo.TagVO" extends="BaseResultMap">
+        <association property="articleCount" column="id" select="cn.codexing.blog.mapper.ArticleMapper.getArticleCountByTagId"/>
+    </resultMap>
+
+    <select id="getByPage" parameterType="cn.codexing.blog.common.util.PageUtils" resultMap="tagVo">
+        select id,name,enable from tag
+        <where>
+            <if test="tag.params.name!=null and tag.params.name!=''">
+                and name like CONCAT('%',#{tag.params.name},'%')
+            </if>
+            <if test="tag.params.enable!=null and tag.params.enable!=''">
+                and enable = #{tag.params.enable}
+            </if>
+            and deleted = 0
+        </where>
+    </select>
+
+    <update id="deleteById">
+        update tag set deleted = 1,enable = 0 where id = #{id}
+    </update>
+
+    <select id="listByArticleId" resultMap="BaseResultMap">
+        select t.id,t.name from tag t left join article_tag att on t.id=att.tag_id
+        <where>
+            <if test="articleId!=null">
+                and att.article_id = #{articleId}
+            </if>
+            AND t.enable = 1
+            AND t.deleted = 0
+        </where>
+    </select>
+
+</mapper>

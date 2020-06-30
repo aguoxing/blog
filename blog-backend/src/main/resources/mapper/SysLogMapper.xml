@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.codexing.blog.mapper.SysLogMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="cn.codexing.blog.entity.SysLog">
+        <id column="id" property="id"/>
+        <result column="url" property="url"/>
+        <result column="params" property="params"/>
+        <result column="status" property="status"/>
+        <result column="message" property="message"/>
+        <result column="method" property="method"/>
+        <result column="used_time" property="usedTime"/>
+        <result column="result" property="result"/>
+        <result column="ip" property="ip"/>
+        <result column="create_time" property="createTime"/>
+    </resultMap>
+
+    <select id="getByPage" parameterType="cn.codexing.blog.common.util.PageUtils" resultMap="BaseResultMap">
+        SELECT
+        id,url,params,status,message,method,used_time,result,ip,create_time
+        FROM sys_log
+        <where>
+            <if test="log.params.url!=null and log.params.url!=''">
+                and url like CONCAT('%',#{log.params.url},'%')
+            </if>
+            <if test="log.params.status!=null">
+                and status = #{log.params.status}
+            </if>
+            <if test="log.params.method!=null and log.params.method!=''">
+                and method = #{log.params.method}
+            </if>
+            <if test="log.params.ip!=null and log.params.ip!=''">
+                and ip = #{log.params.ip}
+            </if>
+        </where>
+        <if test="log.sortColumn!=null and log.sortColumn!=''">
+            order by ${log.sortColumn} desc
+        </if>
+    </select>
+
+</mapper>

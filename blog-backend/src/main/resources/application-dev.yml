@@ -1,0 +1,170 @@
+server:
+  tomcat:
+    uri-encoding: UTF-8
+  port: 8088
+spring:
+  datasource:
+    # 数据库连接配置
+    url: jdbc:mysql://localhost:3306/blog?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8&useSSL=false
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 123456
+    type: com.alibaba.druid.pool.DruidDataSource
+    platform: mysql
+    # 初始化大小，最小，最大配置
+    druid:
+      # 配置获取连接等待超时的时间
+      initial-size: 5
+      min-idle: 5
+      max-active: 20
+      # 配置获取连接等待超时的时间
+      max-wait: 60000
+      # 配置间隔多久才进行一次检测，检测需要关闭的空闲连接，单位是毫秒
+      time-between-eviction-runs-millis: 60000
+      min-evictable-idle-time-millis: 300000
+      validation-query: SELECT 1 FROM DUAL
+      test-while-idle: true
+      test-on-borrow: false
+      test-on-return: false
+      # 打开PSCache，并且指定每个连接上PSCache的大小
+      pool-prepared-statements: true
+      max-pool-prepared-statement-per-connection-size: 20
+      # 配置监控统计拦截的filters，去掉后监控界面sql无法统计，'wall'用于防火墙
+      filters: config,wall,stat
+      # 通过connectProperties属性来打开mergeSql功能；慢SQL记录
+      filter:
+        stat:
+          slow-sql-millis: 5000
+      valid-connection-checker-class-name: com.alibaba.druid.pool.vendor.MSSQLValidConnectionChecker
+  # 默认编码配置
+  http:
+    encoding:
+      charset: UTF-8
+      force: true
+      enabled: true
+
+  servlet:
+    multipart:
+      max-file-size: 50MB
+      max-request-size: 100MB
+
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+    default-property-inclusion: non_null
+
+  # Redis数据库索引（默认为0）
+  redis:
+    database: 0
+    # Redis服务器地址
+    host: 39.97.191.230
+    # Redis服务器连接端口
+    port: 6379
+    # Redis服务器连接密码（默认为空）
+    password: 123456
+    # 连接池最大连接数（使用负值表示没有限制）
+    jedis:
+      pool:
+        max-active: 8
+        # 连接池最大阻塞等待时间（使用负值表示没有限制）
+        max-wait: -1
+        # 连接池中的最大空闲连接
+        max-idle: 8
+        # 连接池中的最小空闲连接
+        min-idle: 0
+    # 连接超时时间（毫秒）
+    timeout: 1000ms
+
+#jwt 配置
+jwt:
+  tokenHeader: Authorization
+  tokenHead: Bearer
+  secret: codexing
+  expiration: 86400
+
+mybatis-plus:
+  # MyBatis 配置文件位置，如果您有单独的 MyBatis 配置，请将其路径配置到 configLocation 中。
+  # config-location: classpath:mybatis-config.xml
+  # MyBatis Mapper 所对应的 XML 文件位置，如果您在 Mapper 中有自定义方法
+  mapper-locations: classpath:mapper/*.xml
+  # MyBaits 别名包扫描路径，通过该属性可以给包中的类注册别名 实体扫描，多个package用逗号或者分号分隔
+  type-aliases-package:  cn.codexing.blog.entity
+  #  # 配置扫描通用枚举 # 支持统配符 * 或者 ; 分割
+  #  type-enums-package: com.abbottliu.sys.enums,com.abbottliu.enums
+  # 启动时是否检查 MyBatis XML 文件的存在，默认不检查
+  check-config-location: false
+  #  ExecutorType.SIMPLE：该执行器类型不做特殊的事情，为每个语句的执行创建一个新的预处理语句（PreparedStatement）
+  #  ExecutorType.REUSE：该执行器类型会复用预处理语句（PreparedStatement）
+  #  ExecutorType.BATCH：该执行器类型会批量执行所有的更新语句
+  executor-type: simple
+  configuration:
+    # 是否开启自动驼峰命名规则（camel case）映射
+    map-underscore-to-camel-case: true
+    # 配置JdbcTypeForNull, oracle数据库必须配置
+    jdbc-type-for-null: null
+  global-config:
+    db-config:
+      # 数据库类型,默认值为未知的数据库类型
+      # db-type: mysql
+      logic-delete-value: 1
+      logic-not-delete-value: 0
+    banner: false
+
+fdfs:
+  so-timeout: 2500
+  connect-timeout: 600
+  thumb-image:
+    width: 100
+    height: 100
+  tracker-list:
+    - 39.97.191.230:22122
+upload:
+  base-url: http://39.97.191.230/
+  allow-types:
+    - image/jpeg
+    - image/png
+    - image/bmp
+    - image/gif
+    - audio/mpeg
+
+# 七牛云配置
+oss:
+  qiniu:
+    #七牛云提供的免费外网地址，不过好像1个月就会过期
+    domain: http://cdn.codexing.cn
+    accessKey: sHzdZ9PPotQXzrC9pG4JdXzoMSlAiyXb8K-QPCvs
+    secretKey: oATyX12vsmNIZGGxXMtDm7_L_QSiyfCjIap-qCc-
+    # 空间名
+    bucketName: javadev
+
+
+github:
+  client:
+    id: c9a3731b26969bdd7d96
+    secret: 15e2f8139a1adcf8206eb0a7a7fe4eb714fb595f
+    accessTokenUri: https://github.com/login/oauth/access_token
+    userAuthorizationUri: https://github.com/login/oauth/authorize
+#    redirectUri: http://linlinqi.xyz/oauth2/github/callback
+    redirectUri: http://localhost:8088/user/oauth2/github/callback
+  resource:
+    userInfoUri: https://api.github.com/user
+
+qq:
+  # appid
+  client_id: 101873713
+  # appkey
+  client_secret: 1bdfcac836891325a67aaf3ad883c346
+  # 获取获取Authorization Code 请求地址
+  userAuthorizationUri: https://graph.qq.com/oauth2.0/authorize
+  # Access Token 请求地址
+  accessTokenUri: https://graph.qq.com/oauth2.0/token
+  # 回调地址
+  redirect_uri: http://linlinqi.xyz/oauth2/qq/callback
+  # client端的状态值 自定义
+  state: 123123
+  # 固定值
+  response_type: code
+  # 固定值
+  grant_type: authorization_code
+  # 获取用户信息
+  userInfoUri: https://graph.qq.com/user/get_user_info
